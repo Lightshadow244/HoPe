@@ -1,25 +1,36 @@
 {% load static %}
 <!DOCTYPE html>
 <html>
- <head>
-  <link rel="stylesheet" href="{% static 'custom.css' %}">
-  <link rel="stylesheet" href="{% static 'pure.css' %}">
- </head>
- <body>
-<div class="header">
-    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-        <a class="pure-menu-heading" href="">Your Site</a>
-
+  <head>
+    <link rel="stylesheet" href="{% static 'custom.css' %}">
+    <link rel="stylesheet" href="{% static 'pure.css' %}">
+  </head>
+  <body class="bg">
+    <div class="header">
+      <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
         <ul class="pure-menu-list">
-            <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Tour</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Sign Up</a></li>
+          <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link">About us</a></li>
         </ul>
+        <div class="dropdown-lang">
+          <span>
+            English
+          </span>
+          <div class="dropdown-content-lang">
+            <ul class="list-lang">
+              <li>
+                German
+              </li>
+              <li>
+                English
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
-  <a> content2</a>
   <div id="content">
-   {% block content %}{% endblock %}
+    {% block content %}{% endblock %}
   </div>
  </body>
 <html>
