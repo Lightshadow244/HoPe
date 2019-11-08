@@ -38,10 +38,9 @@ body, html {
 
 .home-menu-button{
 	display:none;
-	margin:4px;
 	border-radius:4px;
-	border:1px solid #D0D0D0;	
-	width:2em;
+	border-bottom: 2px solid #D0D0D0;
+	text-align:center;
 }
 .home-menu-item {
 	display: list-item;
@@ -49,17 +48,43 @@ body, html {
 }
 
 .home-menu-content:hover {
-	background-color: #fff;
+		background-color: #D0D0D0;
+	}
+
+.home-menu-item a {
+	text-decoration:none;
 }
 
 .home-menu-content {
 		text-decoration: none;
-		padding: 0px 0 15px 20px;
+		padding: 0px 10px 10px 10px;
 		color: black;
 }
 
 .home-menu-link {
 	display: list-item;
+	float: left;
+}
+
+.home-menu-country-icon {
+	height:1em;
+	margin-right:0.5em;
+}
+
+.home-menu-line {
+	border-top: 1px solid black;
+	display: block;
+	margin-top: 10px;
+	width: 30px;	
+	transform: rotate(90deg);
+}
+
+.home-menu-dropdown-line {
+	border-top: 1px solid black;
+	display: none;
+	margin-top: 10px;
+	width: 30px;	
+	transform: rotate(90deg);
 	float: left;
 }
 
@@ -80,26 +105,12 @@ body, html {
 }
 
 .dropdown-content-lang {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-	right: 10px;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	/*z-index: 1;*/
+	right: 0px;
 }
 
 .dropdown-lang:hover .dropdown-content-lang {
@@ -109,6 +120,7 @@ body, html {
 .list-lang {
 	list-style-type:none;
 	padding-right: 1em;
+	padding-left: 1em;
 }
 
 .splash-container {
@@ -237,4 +249,31 @@ body, html {
 	.home-menu:hover .home-menu-list {
 		display: block;
 	}
+	
+	.home-menu-line {
+		transform: rotate(0deg);
+		width:50%;
+		margin: 10px auto 10px auto;
+	}
+	
+	.dropdown-content-lang {
+		position: static;
+		box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+		background-color: white;
+	}
+	
+	.home-menu-dropdown-line {
+		transform: rotate(0deg);
+		width:50%;
+		margin: 10px auto 10px auto;
+		float: none;
+		display:block;
+	}
+	.dropdown-lang {
+			width:100%;
+	}
+	.list-lang {
+		padding:0px;
+	}
+	
 }
