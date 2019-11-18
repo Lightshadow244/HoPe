@@ -1,12 +1,34 @@
 body, html {
+	margin:0;
+	padding:0;
 	width: 100%;
-	height: 100%;
+	height: 90%;
 
 }
 
+.about {
+	width:60%;
+	background-color: #66CC33;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em 0em 3em 0em;
+}
+
+.about-title {
+	margin-left: 1em;
+	font-size:300%;
+}
+
+.about-text {
+	margin-left: 1em;
+	margin-right: 1em;
+	font-size: 150%;
+}
+
 .bg {
-	/*background-image: linear-gradient(to bottom right, white 50%, green);*/
-	background-color: green;
+	/*background-image: linear-gradient(to bottom right, #EAEAEA 50%, green);*/
+	/*background-color: #EAEAEA;*/
+	background-color: white;
 }
 
 .bg-picture {
@@ -16,6 +38,27 @@ body, html {
 	background-attachment: fixed !important;
 	background-size: cover !important;
 	background-position: center !important;
+}
+
+.foot {
+	margin-top: 2em;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	background-color: white;
+	height: 3em;
+	border-top: 2px solid black;
+}
+
+.foot-content {
+	text-align:center;
+}
+
+.foot-line {
+	border-top: 1px solid black;
+	display: block;
+	margin-top: 10px;
+	width: 100%;	
 }
 
 .splash-container {
@@ -181,7 +224,6 @@ body, html {
 
 .logo {
 	display: block;
-	margin-top: 2em;
 	margin-left: auto;
 	margin-right: auto;
 	width: 15%;
@@ -189,6 +231,10 @@ body, html {
 
 .logo-title {
 	text-align: center;
+	margin:0px;
+	padding-top: 0.67em;
+	padding-bottom: 0.67em;
+	font-size:400%;
 }
 
 .logo-line {
@@ -216,27 +262,38 @@ body, html {
         font-size: 4em;
 	}
   
-	.splash {
-		width: 80%;
-		height: 50%;
+	.about{
+		margin: 0;
+		width: 100%
+	}
+  
+	.about-text {
+		font-size: 100%;
 	}
 	
-	.splash-head {
-    font-size: 1.5em;
+	.about-title {
+		font-size:100%;
 	}
-	
-	.splash-subhead {
-		font-size: 0.7em;
+
+	.dropdown-content-lang {
+		position: static;
+		box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+		background-color: white;
 	}
+
+	.dropdown-lang {
+			width:100%;
+	}	
 
 	.home-menu-button {
 		display:block;
 	}
 	
-	.pure-menu-horizontal .pure-menu-item {
-	display: block;
+	.home-menu-content {
+		margin: 5px 10px 5px 10px;
+		font-size: 80%;
+		font-weight: bold;
 	}
-
 	
 	.home-menu-item {
 		float: none;
@@ -256,11 +313,7 @@ body, html {
 		margin: 10px auto 10px auto;
 	}
 	
-	.dropdown-content-lang {
-		position: static;
-		box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
-		background-color: white;
-	}
+	
 	
 	.home-menu-dropdown-line {
 		transform: rotate(0deg);
@@ -269,11 +322,42 @@ body, html {
 		float: none;
 		display:block;
 	}
-	.dropdown-lang {
-			width:100%;
-	}
+	
 	.list-lang {
 		padding:0px;
+	}
+	.logo-line {
+		width: 80%;
+	}
+	
+	.logo-title{
+		font-size:150%;
+	}
+	
+	.logo {
+		width: auto;	
+	}
+	.logo-title{
+		margin: 0px;
+		padding-top: 0.67em;
+		padding-bottom: 0.67em;
+	}	
+	
+	.pure-menu-horizontal .pure-menu-item {
+	display: block;
+	}
+	
+	.splash {
+		width: 80%;
+		height: 50%;
+	}
+	
+	.splash-head {
+    font-size: 1.5em;
+	}
+	
+	.splash-subhead {
+		font-size: 0.7em;
 	}
 	
 }
