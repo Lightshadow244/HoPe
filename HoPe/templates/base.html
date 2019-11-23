@@ -1,4 +1,5 @@
 {% load static %}
+{% load i18n %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -17,14 +18,14 @@
 				<li class="home-menu-item">
 				<a href="main.html">
 					<div class="home-menu-content">
-						Home
+						{% trans "Home" as menu_home %}
 					</div>
 				</a>
 				</li>
 				<li class="home-menu-item">
 					<a href="support_us.html">
 						<div class="home-menu-content">
-							Support us
+							{% trans "Support us" as menu_support_us %}
 						</div>
 					</a>
 				</li>
@@ -55,16 +56,32 @@
 
 					<div class="home-menu-content">
 					  <span>
-						<img src="{% static 'icons/gb.png' %}" class="home-menu-country-icon">English
+
+              {% if request.LANGUAGE_CODE == 'de' %}
+
+              <img src="{% static 'icons/de.png' %}" class="home-menu-country-icon">
+
+             {% else %}
+
+              <img src="{% static 'icons/gb.png' %}" class="home-menu-country-icon">
+
+             {% endif %}
+            English
 					  </span>
 					  <div class="dropdown-content-lang">
 						<ul class="list-lang">
 						  <li>
-							<img src="{% static 'icons/de.png' %}" class="home-menu-country-icon">German
+							 <img src="{% static 'icons/de.png' %}" class="home-menu-country-icon">
+               <a href= "/de/a" >
+                 German
+               </a>
 						  </li>
 						  <li>
-							<img src="{% static 'icons/gb.png' %}" class="home-menu-country-icon">English
-						  </li>
+							 <img src="{% static 'icons/gb.png' %}" class="home-menu-country-icon">
+               <a href= "/en/a" >
+                 English
+               </a>
+              </li>
 						</ul>
 					  </div>
 					</div>

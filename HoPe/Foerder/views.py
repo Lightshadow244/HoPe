@@ -6,4 +6,5 @@ from django.utils.translation import gettext as _
 def index(request):
     #output = _("Welcome to my site.")
     #return HttpResponse(output)
+    print(request.build_absolute_uri)
     return render(request, 'Foerder/index.html')
