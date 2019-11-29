@@ -37,6 +37,11 @@ h4 {
 .content-first {
 	margin-top:100px;
 }
+.content-picture{
+	width: 50%;
+	height: 370px;
+	float: left;
+}
 
 .content-title {
 	margin: 0 0 0 25px;
@@ -44,10 +49,12 @@ h4 {
 }
 
 .content-text {
-	margin: 25px 0 0 25px;
+	margin: 25px 25px 0 25px;
 	font-size: 150%;
 }
-
+.content-triangle{
+	width: 33%
+}
 .content-wrapper {
     position: absolute;
     top: 87%;
@@ -55,7 +62,14 @@ h4 {
     min-height: 12%;
     z-index: 2;
 }
-
+.content-left{
+	float: left;
+	width: 50%
+}
+.content-right{
+	float: left;
+	width: 50%
+}
 .foot {
 	position:fixed;
 	bottom:0;
@@ -79,11 +93,6 @@ h4 {
 	margin-top: 10px;
 	width: 100%;
 }
-
-.splash-container {
-	background: white;
-}
-
 .home-menu {
 	background: white;
     font-weight: 400;
@@ -149,11 +158,6 @@ h4 {
 	transform: rotate(90deg);
 	float: left;
 }
-
-.lang {
-	float: right;
-}
-
 .dropdown {
   position: relative;
   display: inline-block;
@@ -178,11 +182,52 @@ h4 {
 .dropdown-lang:hover .dropdown-content-lang {
   display: block;
 }
+.lang {
+	float: right;
+}
+
 
 .list-lang {
 	list-style-type:none;
 	padding-right: 1em;
 	padding-left: 1em;
+}
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+}
+.logo-wrapper {
+	top: 30%;
+	width:100%;
+	background-color: white;
+}
+.logo-title {
+	text-align: center;
+	margin:0px;
+	padding-top: 0.67em;
+	padding-bottom: 0.67em;
+	font-size:400%;
+}
+
+.logo-line {
+	border-top: 1px solid black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
+.media-horizontal{
+	display: block;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rotate-180 {
+	transform: rotate(180deg);
 }
 
 .splash-container {
@@ -208,7 +253,9 @@ h4 {
     right: 0;
     text-align: center;
 }
-
+.splash-container {
+	background: white;
+}
 .splash-head {
     font-size: 300%;
     font-weight: bold;
@@ -239,34 +286,7 @@ h4 {
 	margin-bottom: 20px;
 }
 
-.logo-wrapper {
-	top: 30%;
-	width:100%;
-	background-color: white;
-}
 
-.logo {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 15%;
-}
-
-.logo-title {
-	text-align: center;
-	margin:0px;
-	padding-top: 0.67em;
-	padding-bottom: 0.67em;
-	font-size:400%;
-}
-
-.logo-line {
-	border-top: 1px solid black;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 30%;
-}
 
 .header-button {
 	display:none;
@@ -279,23 +299,43 @@ h4 {
 .home-menu-button:active ~ .home-menu-child {
 		display:block;
 }
+
+.picture-flow{
+	width: 50%;
+}
+.bold{
+	font-weight: bold;
+}
+.disp-table{
+	display: table;
+}
+.content3-picture{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	border: 1px solid black;
+}
 /*css for smartphones*/
 @media (max-width: 1200px) {
 	body {
         font-size: 4em;
 	}
-
-	.about{
+	.content {
+		width: 100%;
 		margin: 0;
-		width: 100%
 	}
-
-	.about-text {
+	.content-picture{
+		width: 15%;
+	}
+	.content-text {
 		font-size: 100%;
+		margin:0 50px 0 50px;
 	}
 
-	.about-title {
-		font-size:100%;
+	.content-title {
+		font-size: 200%;
+		margin:0 50px 0 50px;
 	}
 
 	.dropdown-content-lang {
