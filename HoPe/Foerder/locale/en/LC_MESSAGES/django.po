@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-30 16:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/Foerder/index.html:6
+msgid "splash-title"
+msgstr "WAYZOLOO"
+
+#: templates/Foerder/index.html:7
+msgid "splash-text"
+msgstr "Translated from Ewe to English means you are warmly welcome as a visitor to our website!"
+
+#: templates/Foerder/index.html:17
+msgid "content1-title"
+msgstr "What do we do?"
+
+#: templates/Foerder/index.html:23
+msgid "content1-text1"
+msgstr "We do not help, we support!"
+
+#: templates/Foerder/index.html:29
+msgid "content1-text2"
+msgstr "Because in our opinion, the best support we can provide is to strengthen self-help. From our office in Tokokoe we organize workshops and lessons from locals for locals. We offer different opportunities for children and adults of all ages."
+
+#: templates/Foerder/index.html:34
+msgid "content2-title"
+msgstr "HoPe what does that mean?"
+
+#: templates/Foerder/index.html:38
+msgid "content2-text1"
+msgstr "Our NGO (non-governmental organisation) 'House of Perspectives' is not only a place where you can learn new things, but also offers an equal future regardless of age, gender and skin colour. Our organization was founded with the aim to improve the low level of education in rural areas of Ghana."
+
+#: templates/Foerder/index.html:42
+msgid "content2-text2"
+msgstr "And this is exactly what we stand up for since our foundation in February 2018 with our NGO HoPe and since 2019 with our association Friends & Donators of HoPe Ghana."
+
+#: templates/Foerder/index.html:55
+msgid "content3-title1"
+msgstr "Adults are present!"
+
+#: templates/Foerder/index.html:60
+msgid "content3-text1"
+msgstr "We live right now. That is why it is so important for adults not to neglected in our organization. So there is the possibility for the adults to refresh their knowledge in mathematics and English and to learn new things. The evening workshops are particularly exciting. Topics such as health, climate change and how to deal with conflicts are explained vividly and discussed together."
+
+#: templates/Foerder/index.html:65
+msgid "content3-title2"
+msgstr "Children are the future!"
+
+#: templates/Foerder/index.html:70
+msgid "content3-text2"
+msgstr "Of course there are schools, but like everywhere there are children who need more support. These, but also all other pupils, can repeat topics in mathematics and English at any time and get individual support in case of difficulties. In addition, the doors of our small library are open to them at all times."

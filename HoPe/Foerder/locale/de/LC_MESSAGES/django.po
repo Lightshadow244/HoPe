@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-30 16:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/Foerder/index.html:6
+msgid "splash-title"
+msgstr "WAYZOLOO"
+
+#: templates/Foerder/index.html:7
+msgid "splash-text"
+msgstr "Übersetzt von Ewe nach Englisch heißt das, dass Sie als Besucher unserer Website herzlich willkommen sind!"
+
+#: templates/Foerder/index.html:17
+msgid "content1-title"
+msgstr "Was machen wir?"
+
+#: templates/Foerder/index.html:23
+msgid "content1-text1"
+msgstr "Wir helfen nicht, wir unterstützen!"
+
+#: templates/Foerder/index.html:29
+msgid "content1-text2"
+msgstr "Denn wir sind der Meinung, die beste Unterstützung, die wir gewährleisten können ist die Stärkung der Selbsthilfe. Aus unserem Büro in Tokokoe heraus organisieren wir Workshops und Unterrichtseinheiten von Einheimischen für Einheimische. Dabei bieten wir unterschiedliche Möglichkeiten für Kinder und Erwachsene aller Altersklassen an."
+
+#: templates/Foerder/index.html:34
+msgid "content2-title"
+msgstr "HoPe, was bedeutet das?"
+
+#: templates/Foerder/index.html:38
+msgid "content2-text1"
+msgstr "Unsere NGO (Nichtregierungsorganisation) 'House of Perspectives' ist nicht nur ein Ort an dem man Neues lernen kann, sondern bietet vielmehr eine gleichberechtigte Zukunft unabhängig von Alter, Geschlecht und Hautfarbe. Unsere Organisation gründete sich mit dem Ziel den niedrigen Bildungsstandart in ländlichen Regionen Ghanas zu verbessern."
+
+#: templates/Foerder/index.html:42
+msgid "content2-text2"
+msgstr "Und genau dafür stehen wir seit unserer Gründung im Februar 2018 mit unserer NGO HoPe und seit 2019 mit unserem Förderverein „Freunde & Förderer HoPe Ghana e.V. ein."
+
+#: templates/Foerder/index.html:55
+msgid "content3-title1"
+msgstr "Erwachsene sind die Gegenwart"
+
+#: templates/Foerder/index.html:60
+msgid "content3-text1"
+msgstr "Wir leben im Hier und Jetzt. Desto wichtiger ist es auch, dass Erwachsene in unserer Organisation nicht vernachlässigt werden. So gibt es für alle Erwachsene unabhängig vom Bildungsstand die Möglichkeit, ihr Wissen in Mathematik und Englisch aufzufrischen und Neues zu lernen. Besonders spannend sind die Workshops am Abend. Hier werden Themen wie Gesundheit, Klimawandel und der richtige Umgang mit Konflikten anschaulich erklärt und gemeinsam diskutiert."
+
+#: templates/Foerder/index.html:65
+msgid "content3-title2"
+msgstr "Kinder sind die Zukunft"
+
+#: templates/Foerder/index.html:70
+msgid "content3-text2"
+msgstr "Natürlich gibt es Schulen, doch wie überall gibt es Kinder, die mehr Förderung brauchen. Diese, aber auch alle anderen Schüler, können jederzeit bei uns Themen in Mathematik und Englisch wiederholen und bekommen bei Schwierigkeiten auch individuelle Unterstützung. Außerdem stehen ihnen zu jederzeit die Türen unserer kleinen Bücherei offen."

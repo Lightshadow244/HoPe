@@ -1,10 +1,11 @@
 {% extends "base.html" %}
+{% load i18n %}
 {% load static %}
 {% block content %}
 <div class="bg-picture splash-container">
 <div class="splash">
-  <h1 class="splash-head">WAYZOLOO</h1>
-  <p class="splash-subhead">Translated from Ewe to English means you are warmly welcome as a visitor to our website!</p>
+  <h1 class="splash-head"><!--WAYZOLOO-->{% trans "splash-title" %}</h1>
+  <p class="splash-subhead"><!--Translated from Ewe to English means you are warmly welcome as a visitor to our website!-->{% trans "splash-text" %}</p>
 </div>
 </div>
 <div class="content-wrapper bg">
@@ -14,30 +15,32 @@
   <h1 class="logo-title">HoPe-Germany</h1>
 </div>
 <div class ="content">
-  <h1 class="content-title">What do we do?</h1>
+  <h1 class="content-title"><!--What do we do?-->{% trans "content1-title" %}</h1>
   <div class="media-horizontal">
     <img src="{% static 'Hope_01.jpeg' %}" class="content-picture">
     <img src="{% static 'Hope_02.jpeg' %}" class="content-picture">
   </div>
   <p class="content-text bold">
-    We do not help, we support!
+   {% trans "content1-text1" %}
+   <!-- We do not help, we support-->!
   </p>
   <p class="content-text">
-    Because in our opinion, the best support we can provide is to strengthen self-help. From our office in Tokokoe we organize workshops
-    and lessons from locals for locals. We offer different opportunities for children and adults of all ages.
+    <!--Because in our opinion, the best support we can provide is to strengthen self-help. From our office in Tokokoe we organize workshops
+    and lessons from locals for locals. We offer different opportunities for children and adults of all ages.-->
+    {% trans "content1-text2" %}
   </p>
 </div>
 
 <div class ="content">
-  <h1 class="content-title">HoPe what does that mean?</h1>
+  <h1 class="content-title"><!--HoPe what does that mean?-->{% trans "content2-title" %}</h1>
   <p class="content-text">
-    Our NGO (non-governmental organisation) "House of Perspectives" is not only a place where you can learn new things,
+    <!--Our NGO (non-governmental organisation) "House of Perspectives" is not only a place where you can learn new things,
     but also offers an equal future regardless of age, gender and skin colour. Our organization was founded with the aim to
-    improve the low level of education in rural areas of Ghana.
+    improve the low level of education in rural areas of Ghana.-->{% trans "content2-text1" %}
   </p>
   <p class="content-text">
-    And this is exactly what we stand up for since our foundation in February 2018 with our NGO HoPe and since 2019 with our association
-    "Friends & Donators of HoPe Ghana”.
+    <!--And this is exactly what we stand up for since our foundation in February 2018 with our NGO HoPe and since 2019 with our association
+    Friends & Donators of HoPe Ghana.”-->{% trans "content2-text2" %}
   </p>
   <div class="media-horizontal">
     <img src="{% static 'HopeTriangle.png' %}" class="content-triangle">
@@ -50,22 +53,22 @@
   <div class="content-left">
     <img src="{% static 'Hope_04.jpeg' %}" class="content3-picture">
     <p class="content-text bold">
-      Adults are present
+      <!--Adults are present-->{% trans "content3-title1" %}
     </p>
     <p class="content-text">
-      We live right now. That is why it is so important for adults not to neglected in our organization. So there is the possibility
+      <!--We live right now. That is why it is so important for adults not to neglected in our organization. So there is the possibility
       for the adults to refresh their knowledge in mathematics and English and to learn new things. The evening workshops are particularly
-      exciting. Topics such as health, climate change and how to deal with conflicts are explained vividly and discussed together.
+      exciting. Topics such as health, climate change and how to deal with conflicts are explained vividly and discussed together.-->{% trans "content3-text1" %}
     </p>
   </div>
   <div class="content-right">
     <p class="content-text bold">
-      Children are the future
+      <!--Children are the future-->{% trans "content3-title2" %}
     </p>
     <p class="content-text">
-      Of course there are schools, but like everywhere there are children who need more support. These, but also all other pupils, can
+      <!--Of course there are schools, but like everywhere there are children who need more support. These, but also all other pupils, can
       repeat topics in mathematics and English at any time and get individual support in case of difficulties. In addition, the doors of our
-      small library are open to them at all times.
+      small library are open to them at all times.-->{% trans "content3-text2" %}
     </p>
     <img src="{% static 'Hope_03.jpeg' %}" class="content3-picture">
   </div>
