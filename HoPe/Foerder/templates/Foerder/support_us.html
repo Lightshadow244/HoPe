@@ -1,17 +1,18 @@
 {% extends "base.html" %}
+{% load i18n %}
 {% block content %}
 <div>
   <div class="content content-first">
-    <h1 class="content-title">Become a supporter</h1>
+    <h1 class="content-title"><!--Become a supporter-->{% trans "Become_a_supporter" %}</h1>
     <p class="content-text">
-      coming soon...
+      <!--coming soon...-->{% trans "coming_soon" %}
     </p>
   </div>
   <div class="content">
-    <h1 class="content-title">Support us with a donation</h1>
+    <h1 class="content-title"><!--Support us with a donation-->{% trans "support_us_with_a_donation" %}</h1>
     <table class="table">
       <tr>
-        <td>Account holder:</td>
+        <td><!--Account holder-->{% trans "account_holder" %}:</td>
         <td>J. Oelsner</td>
       </tr>
       <tr>
@@ -19,12 +20,12 @@
         <td>DE53 1203 0000 1057 1194 38</td>
       </tr>
       <tr>
-        <td>Bank name:</td>
+        <td><!--Bank name-->{% trans "bank_name" %}:</td>
         <td>DKB</td>
       </tr>
       <tr>
-        <td>Usage:</td>
-        <td>Donation F.V. HoPe Ghana, Name of the donater</td>
+        <td><!--Usage-->{% trans "usage" %}:</td>
+        <td><!--Donation F.V. HoPe Ghana, Name of the donater-->{% trans "Donation_text" %}</td>
       </tr>
     </table>
   </div>

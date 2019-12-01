@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-30 16:17+0000\n"
+"POT-Creation-Date: 2019-12-01 13:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,50 +18,121 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: templates/Foerder/index.html:6
+#: Foerder/templates/Foerder/impressum.html:8
+msgid "impressum_reason"
+msgstr "Angaben gemäß § 5 TMG"
+
+#: Foerder/templates/Foerder/impressum.html:20
+#: Foerder/templates/Foerder/impressum.html:37
+#: Foerder/templates/Foerder/impressum.html:57
+msgid "germany"
+msgstr "Deutschland"
+
+#: Foerder/templates/Foerder/impressum.html:25
+msgid "represented_by"
+msgstr "Vertreten durch"
+
+#: Foerder/templates/Foerder/impressum.html:45
+msgid "technicale_contact"
+msgstr "Technischer Ansprechpartner"
+
+#: Foerder/templates/Foerder/index.html:7
 msgid "splash-title"
 msgstr "WAYZOLOO"
 
-#: templates/Foerder/index.html:7
+#: Foerder/templates/Foerder/index.html:8
 msgid "splash-text"
 msgstr "Übersetzt von Ewe nach Englisch heißt das, dass Sie als Besucher unserer Website herzlich willkommen sind!"
 
-#: templates/Foerder/index.html:17
+#: Foerder/templates/Foerder/index.html:18
 msgid "content1-title"
 msgstr "Was machen wir?"
 
-#: templates/Foerder/index.html:23
+#: Foerder/templates/Foerder/index.html:24
 msgid "content1-text1"
 msgstr "Wir helfen nicht, wir unterstützen!"
 
-#: templates/Foerder/index.html:29
+#: Foerder/templates/Foerder/index.html:30
 msgid "content1-text2"
-msgstr "Denn wir sind der Meinung, die beste Unterstützung, die wir gewährleisten können ist die Stärkung der Selbsthilfe. Aus unserem Büro in Tokokoe heraus organisieren wir Workshops und Unterrichtseinheiten von Einheimischen für Einheimische. Dabei bieten wir unterschiedliche Möglichkeiten für Kinder und Erwachsene aller Altersklassen an."
+msgstr ""
+"Denn wir sind der Meinung, die beste Unterstützung, die wir gewährleisten "
+"können ist die Stärkung der Selbsthilfe. Aus unserem Büro in Tokokoe heraus "
+"organisieren wir Workshops und Unterrichtseinheiten von Einheimischen für "
+"Einheimische. Dabei bieten wir unterschiedliche Möglichkeiten für Kinder und "
+"Erwachsene aller Altersklassen an."
 
-#: templates/Foerder/index.html:34
+#: Foerder/templates/Foerder/index.html:35
 msgid "content2-title"
 msgstr "HoPe, was bedeutet das?"
 
-#: templates/Foerder/index.html:38
+#: Foerder/templates/Foerder/index.html:39
 msgid "content2-text1"
-msgstr "Unsere NGO (Nichtregierungsorganisation) 'House of Perspectives' ist nicht nur ein Ort an dem man Neues lernen kann, sondern bietet vielmehr eine gleichberechtigte Zukunft unabhängig von Alter, Geschlecht und Hautfarbe. Unsere Organisation gründete sich mit dem Ziel den niedrigen Bildungsstandart in ländlichen Regionen Ghanas zu verbessern."
+msgstr ""
+"Unsere NGO (Nichtregierungsorganisation) 'House of Perspectives' ist nicht "
+"nur ein Ort an dem man Neues lernen kann, sondern bietet vielmehr eine "
+"gleichberechtigte Zukunft unabhängig von Alter, Geschlecht und Hautfarbe. "
+"Unsere Organisation gründete sich mit dem Ziel den niedrigen "
+"Bildungsstandart in ländlichen Regionen Ghanas zu verbessern."
 
-#: templates/Foerder/index.html:42
+#: Foerder/templates/Foerder/index.html:43
 msgid "content2-text2"
-msgstr "Und genau dafür stehen wir seit unserer Gründung im Februar 2018 mit unserer NGO HoPe und seit 2019 mit unserem Förderverein „Freunde & Förderer HoPe Ghana e.V. ein."
+msgstr ""
+"Und genau dafür stehen wir seit unserer Gründung im Februar 2018 mit unserer "
+"NGO HoPe und seit 2019 mit unserem Förderverein „Freunde & Förderer HoPe "
+"Ghana e.V. ein."
 
-#: templates/Foerder/index.html:55
+#: Foerder/templates/Foerder/index.html:56
 msgid "content3-title1"
 msgstr "Erwachsene sind die Gegenwart"
 
-#: templates/Foerder/index.html:60
+#: Foerder/templates/Foerder/index.html:61
 msgid "content3-text1"
-msgstr "Wir leben im Hier und Jetzt. Desto wichtiger ist es auch, dass Erwachsene in unserer Organisation nicht vernachlässigt werden. So gibt es für alle Erwachsene unabhängig vom Bildungsstand die Möglichkeit, ihr Wissen in Mathematik und Englisch aufzufrischen und Neues zu lernen. Besonders spannend sind die Workshops am Abend. Hier werden Themen wie Gesundheit, Klimawandel und der richtige Umgang mit Konflikten anschaulich erklärt und gemeinsam diskutiert."
+msgstr ""
+"Wir leben im Hier und Jetzt. Desto wichtiger ist es auch, dass Erwachsene in "
+"unserer Organisation nicht vernachlässigt werden. So gibt es für alle "
+"Erwachsene unabhängig vom Bildungsstand die Möglichkeit, ihr Wissen in "
+"Mathematik und Englisch aufzufrischen und Neues zu lernen. Besonders "
+"spannend sind die Workshops am Abend. Hier werden Themen wie Gesundheit, "
+"Klimawandel und der richtige Umgang mit Konflikten anschaulich erklärt und "
+"gemeinsam diskutiert."
 
-#: templates/Foerder/index.html:65
+#: Foerder/templates/Foerder/index.html:66
 msgid "content3-title2"
 msgstr "Kinder sind die Zukunft"
 
-#: templates/Foerder/index.html:70
+#: Foerder/templates/Foerder/index.html:71
 msgid "content3-text2"
-msgstr "Natürlich gibt es Schulen, doch wie überall gibt es Kinder, die mehr Förderung brauchen. Diese, aber auch alle anderen Schüler, können jederzeit bei uns Themen in Mathematik und Englisch wiederholen und bekommen bei Schwierigkeiten auch individuelle Unterstützung. Außerdem stehen ihnen zu jederzeit die Türen unserer kleinen Bücherei offen."
+msgstr ""
+"Natürlich gibt es Schulen, doch wie überall gibt es Kinder, die mehr "
+"Förderung brauchen. Diese, aber auch alle anderen Schüler, können jederzeit "
+"bei uns Themen in Mathematik und Englisch wiederholen und bekommen bei "
+"Schwierigkeiten auch individuelle Unterstützung. Außerdem stehen ihnen zu "
+"jederzeit die Türen unserer kleinen Bücherei offen."
+
+#: Foerder/templates/Foerder/support_us.html:5
+msgid "Become_a_supporter"
+msgstr "Werde Mitglied"
+
+#: Foerder/templates/Foerder/support_us.html:7
+msgid "coming_soon"
+msgstr "kommt bald..."
+
+#: Foerder/templates/Foerder/support_us.html:11
+msgid "support_us_with_a_donation"
+msgstr "Unterstütz uns mit einer Spende"
+
+#: Foerder/templates/Foerder/support_us.html:14
+msgid "account_holder"
+msgstr "Kontobesitzer"
+
+#: Foerder/templates/Foerder/support_us.html:22
+msgid "bank_name"
+msgstr "Institut"
+
+#: Foerder/templates/Foerder/support_us.html:26
+msgid "usage"
+msgstr "Verwendung"
+
+#: Foerder/templates/Foerder/support_us.html:27
+msgid "Donation_text"
+msgstr "Spende, Freunde & Förderer HoPe Ghana e.V, Name des Spender"

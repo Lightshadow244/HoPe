@@ -1,11 +1,12 @@
 {% extends "base.html" %}
+{% load i18n %}
 {% block content %}
 <div>
   <div class="content content-first">
       <h1 class="content-title">Impressum</h1>
       <table class="table">
         <tr>
-          <td><div  class="tmg">Entries referred to § 5 TMG Germany</div></td>
+          <td><div  class="tmg"><!--Entries referred to § 5 TMG Germany-->{% trans "impressum_reason" %}</div></td>
         </tr>
         <tr>
           <td><h4>Freunde & Förderer HoPe Ghana e.V.</h4></td>
@@ -17,12 +18,12 @@
           <td>39128 Magdeburg</td>
         </tr>
         <tr>
-          <td>Germany</td>
+          <td><!--Germany-->{% trans "germany" %}</td>
         </tr>
       </table>
       <table class="table">
         <tr>
-          <td><h4>Represented by</h4></td>
+          <td><h4><!--Represented by-->{% trans "represented_by" %}</h4></td>
         </tr>
         <tr>
           <td>J. Oelsner</td>
@@ -34,7 +35,7 @@
           <td>39128 Magdeburg</td>
         </tr>
         <tr>
-          <td>Germany</td>
+          <td><!--Germany-->{% trans "germany" %}</td>
         </tr>
         <tr>
           <td>jockeyla.jockeyla@gmail.com</td>
@@ -42,7 +43,7 @@
       </table>
       <table class="table">
         <tr>
-          <td><h4>Technical contact</h4></td>
+          <td><h4><!--Technical contact-->{% trans "technicale_contact" %}</h4></td>
         </tr>
         <tr>
           <td>Richard Lüdtke</td>
@@ -54,7 +55,7 @@
           <td>39106 Magdeburg</td>
         </tr>
         <tr>
-          <td>Germany</td>
+          <td><!--Germany-->{% trans "germany" %}</td>
         </tr>
         <tr>
           <td>richard.luedtke@gmx.de</td>
