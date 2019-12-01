@@ -323,16 +323,15 @@ h4 {
 	}
 	.content {
 		width: 100%;
-		margin: 0;
-	}
-	.content-picture{
-		width: 15%;
+		margin: 20 0 0 0 ;
 	}
 	.content-text {
 		font-size: 100%;
 		margin:0 50px 0 50px;
 	}
-
+	.content-triangle{
+		width: 32%
+	}
 	.content-title {
 		font-size: 200%;
 		margin:0 50px 0 50px;
