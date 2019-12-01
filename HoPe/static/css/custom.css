@@ -44,7 +44,7 @@ h4 {
 }
 
 .content-title {
-	margin: 0 0 0 25px;
+	margin: 20px 0 0 25px;
 	font-size:300%;
 }
 
@@ -222,8 +222,7 @@ h4 {
 .media-horizontal{
 	display: block;
 	width: 95%;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 20px auto 0 auto;
 }
 
 .rotate-180 {
@@ -334,7 +333,7 @@ h4 {
 	}
 	.content-title {
 		font-size: 200%;
-		margin:0 50px 0 50px;
+		margin:20px 50px 0 50px;
 	}
 
 	.dropdown-content-lang {
