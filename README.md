@@ -14,6 +14,8 @@ A website
 Manage localization  
 `sudo apt-get install msguniq`  
 `sudo apt-get install gettext`  
+uswgi setup  
+https://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html
 ## Useful comments
 Start Server  
 `python manage.py runserver 0:8080`  
