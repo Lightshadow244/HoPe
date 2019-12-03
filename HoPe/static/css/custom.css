@@ -71,6 +71,7 @@ h4 {
 	width: 50%
 }
 .foot {
+	display: none;
 	position:fixed;
 	bottom:0;
 	width:100%;
