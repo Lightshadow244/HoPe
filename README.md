@@ -24,3 +24,5 @@ Manage localization
 `django-admin makemessages -l en`  
 `django-admin makemessages -a`  
 `django-admin compilemessages`  
+Collect static files  
+`python manage.py collectstatic`
