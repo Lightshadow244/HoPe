@@ -3,7 +3,7 @@ body, html {
 	padding:0;
 	width: 100%;
 	height: 90%;
-
+  	font-family: abel;
 }
 
 h4 {
@@ -52,6 +52,7 @@ h4 {
 .content-text {
 	margin: 25px 25px 0 25px;
 	font-size: 150%;
+	text-align: justify;
 }
 .content-triangle{
 	width: 33%
