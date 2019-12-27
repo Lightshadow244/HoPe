@@ -438,4 +438,10 @@ h4 {
 	.table .tr{
 		margin-top:20px
 	}
+	.content-left{
+		width: 100%;
+	}
+	.content-right{
+		width: 100%;
+	}
 }
