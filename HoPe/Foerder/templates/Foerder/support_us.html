@@ -1,12 +1,29 @@
 {% extends "base.html" %}
 {% load i18n %}
+{% load static %}
 {% block content %}
 <div>
   <div class="content content-first">
     <h1 class="content-title"><!--Become a supporter-->{% trans "Become_a_supporter" %}</h1>
-    <p class="content-text">
-      <!--coming soon...-->{% trans "coming_soon" %}
-    </p>
+    <div class="content-text">
+      <!--coming soon...{% trans "coming_soon" %}-->
+      <a class="document-member" href="{% static 'Beitrittserklärung_Freunde _ Förderer_HoPe_Ghana_eV.pdf' %}">
+        <div>
+          <div>
+          <img src="{% static 'icons/pdf.png' %}" class="home-menu-country-icon">
+          {% trans "Membership application DE" %}
+          </div>
+        </div>
+      </a>
+      <a class="document-donation" href="{% static 'Spendenformular_für_Freunde_Förderer_HoPe_Ghana_eV.pdf' %}">
+        <div>
+          <div>
+          <img src="{% static 'icons/pdf.png' %}" class="home-menu-country-icon">
+          {% trans "Donation DE" %}
+          </div>
+        </div>
+      </a>
+    </div>
   </div>
   <div class="content">
     <h1 class="content-title"><!--Support us with a donation-->{% trans "support_us_with_a_donation" %}</h1>

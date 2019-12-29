@@ -136,5 +136,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static_prod/")
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static/css"),
     os.path.join(BASE_DIR, "static/media"),
+    os.path.join(BASE_DIR, "static/documents"),
 ]
-

@@ -327,6 +327,22 @@ h4 {
 	position: absolute;
 	-webkit-transform: scale(-1, 1);
 }
+.document-member, .document-donation {
+	text-decoration: none;
+	color: black;
+}
+.document-member > div, .document-donation > div{
+	border: 1px solid black;
+	width: 300px;
+	padding: 10px;
+	border-radius: 25px;
+	margin-top: 20px;
+}
+
+.document-donation div div{
+	width: 165px;
+	margin:auto;
+}
 /*css for smartphones*/
 @media (max-width: 1200px) {
 	body {
