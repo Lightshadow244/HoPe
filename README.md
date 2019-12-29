@@ -15,7 +15,9 @@ Manage localization
 `sudo apt-get install msguniq`  
 `sudo apt-get install gettext`  
 uswgi setup  
-https://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html
+https://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html  
+Start uwsgi server  
+`uwsgi --socket HoPe.sock --module HoPe.wsgi --chmod-socket=666 &`
 ## Useful comments
 Start Server  
 `python manage.py runserver 0:8080`  
