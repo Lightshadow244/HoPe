@@ -339,10 +339,6 @@ h4 {
 	margin-top: 20px;
 }
 
-.document-donation div div{
-	width: 165px;
-	margin:auto;
-}
 /*css for smartphones*/
 @media (max-width: 1200px) {
 	body {
@@ -459,5 +455,8 @@ h4 {
 	}
 	.content-right{
 		width: 100%;
+	}
+	.document-member div, .document-donation div {
+		width:100%
 	}
 }
