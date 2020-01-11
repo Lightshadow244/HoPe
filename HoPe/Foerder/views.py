@@ -29,14 +29,20 @@ def redirect(request):
     return response
 
 def event_list(request):
-	template = loader.get_template('Foerder/event_list.html')
-	events = Event.objects.order_by('-pub_date')[:5]
-	images = []
-	for e in events:
-		i = Image.objects.filter(whichEvent_id=e.id)
-		images.append(i)
-	context = {
-		'events': events,
-		'images': images,
-	}
-	return HttpResponse(template.render(context, request))
+    template = loader.get_template('Foerder/event_list.html')
+    events = Event.objects.order_by('-pub_date')[:5]
+    images = []
+    context = {}
+    print(events)
+    if events:
+        for e in events:
+            i = Image.objects.filter(whichEvent_id=e.id)
+            images.append(i)
+    context = {
+        'events': events,
+        'images': images,
+        }
+    return HttpResponse(template.render(context, request))
+
+def event(request, event_id):
+    return HttpResponse(event_id)
