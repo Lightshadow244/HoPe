@@ -103,5 +103,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# pictures
-*_ignore.*
+# event pictures
+HoPe/static/media/EventImages/*
+HoPe/static_prod/EventImages/*
