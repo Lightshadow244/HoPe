@@ -5,35 +5,21 @@
 
 <div class="content content-first">
 	{% if events %}
-		Deutscher Titel: {{ events.first.title_german }}
+		{% for event in events %}
+			<a class="event-link" href="events/{{ event.event_object.id }}">
+				<div class="event-list-box" style="background-image: url('{{ event.image_object.image }}');">
+					<!--<img src="{% static 'EventImages/Hope.jpeg' %}" class="event-list-logo">-->
+					<div class="event-list-headline">
+						{{ event.event_object.title_english}}
+					</div>
+				</div>
+			</a>
+		{% endfor %}
+	{% else %}
+		<p>No events available</p>
 	{% endif %}
 
-	<a class="event-link" href="events/1">
-		<div class="event-list-box" style="background-image: url('../../static/EventImages/Hope.jpeg');">
-			<!--<img src="{% static 'EventImages/Hope.jpeg' %}" class="event-list-logo">-->
-			<div class="event-list-headline">
-				Das ist eine Überschrift
-			</div>
-		</div>
-	</a>
-	<a>
-		<div class="event-list-box" style="background-image: url('../../static/EventImages/Download.jpg');">
-			<!--<img src="{% static 'EventImages/Hope.jpeg' %}" class="event-list-logo">-->
-			<div class="event-list-headline">
-				Das ist eine Überschrift
-			</div>
-		</div>
-	</a>
-	<a>
-		<div class="event-list-box" style="background-image: url('../../static/EventImages/Hope.jpeg');">
-			<!--<img src="{% static 'EventImages/Hope.jpeg' %}" class="event-list-logo">-->
-			<div class="event-list-headline">
-				Das ist eine Überschrift
-			</div>
-		</div>
-	</a>
-<!--{ if events %}
-	{ for event in events-->
+<!--Deutscher Titel: { events.first.title_german }}-->
 
 <!--
 </div>

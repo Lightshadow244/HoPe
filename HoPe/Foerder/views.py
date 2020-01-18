@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from django.utils.translation import gettext as _
 from .models import Event, Image
 from django.template import loader
+import os
 
 # Create your views here.
 def home(request):
@@ -31,17 +32,28 @@ def redirect(request):
 def event_list(request):
     template = loader.get_template('Foerder/event_list.html')
     events = Event.objects.order_by('-pub_date')[:5]
-    images = []
+    images = {}
     context = {}
-    print(events)
+    full_event_list = []
     if events:
         for e in events:
-            i = Image.objects.filter(whichEvent_id=e.id)
-            images.append(i)
+            full_event = {}
+
+            i = Image.objects.filter(whichEvent_id=e.id, main=True).first()
+            i.image = '../../static/' + i.image.url[12:]
+            images[e.id] = i
+
+            full_event['event_object'] = e
+            full_event['image_object'] = i
+            full_event_list.append(full_event)
     context = {
-        'events': events,
-        'images': images,
+        #'events': events,
+        #'images': images,
+        'events': full_event_list,
         }
+    #for e in events:
+    #    print('########')
+    #    print(images[e.id])
     return HttpResponse(template.render(context, request))
 
 def event(request, event_id):
