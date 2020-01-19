@@ -47,14 +47,16 @@ def event_list(request):
             full_event['image_object'] = i
             full_event_list.append(full_event)
     context = {
-        #'events': events,
-        #'images': images,
         'events': full_event_list,
         }
-    #for e in events:
-    #    print('########')
-    #    print(images[e.id])
     return HttpResponse(template.render(context, request))
 
 def event(request, event_id):
-    return HttpResponse(event_id)
+    template = loader.get_template('Foerder/event.html')
+    event = {}
+    event['main_image_object'] = Image.objects.filter(whichEvent_id=event_id, main=True).first()
+    event['images_object'] = Image.objects.filter(whichEvent_id=event_id, main=False).all()
+    event['event_object'] = Event.objects.get(pk=event_id)
+    print(event)
+    context = { 'event': event, }
+    return HttpResponse(template.render(context, request))

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+{% block content %}
+
+<div class="content content-first">
+	{% if event %}
+		{{event.event_object.title_english}}
+	{% endif %}
+
+<!--Deutscher Titel: { events.first.title_german }}-->
+
+<!--
+</div>
+-->
+{% endblock %}
