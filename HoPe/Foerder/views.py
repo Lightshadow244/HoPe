@@ -41,7 +41,7 @@ def event_list(request):
 
             i = Image.objects.filter(whichEvent_id=e.id, main=True).first()
             i.image = '../../static/' + i.image.url[12:]
-            images[e.id] = i
+            #images[e.id] = i
 
             full_event['event_object'] = e
             full_event['image_object'] = i
