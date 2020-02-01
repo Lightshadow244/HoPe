@@ -4,9 +4,20 @@
 {% block content %}
 
 <div class="content content-first">
-	{% if event %}
-		{{event.event_object.title_english}}
-	{% endif %}
+	<div class="event-content">
+		{% if event %}
+			{% if request.LANGUAGE_CODE == 'de' %}
+				<h1 class="event-headline">{{event.event_object.title_german}}</h1>
+				<img src="{% static event.main_image_object|safe %}" class="event-main-image">
+				<div class="event-text">{{event.event_object.text_german}}</div>
+			{% else %}
+				<h1 class="event-headline">{{event.event_object.title_english}}</h1>
+				<img src="{% static event.main_image_object|safe %}" class="event-main-image">
+				<div class="event-text">{{event.event_object.text_english}}</div>
+				{{request.LANGUAGE_CODE}}
+			{% endif %}
+		{% endif %}
+	</div>
 
 <!--Deutscher Titel: { events.first.title_german }}-->
 

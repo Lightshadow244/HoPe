@@ -53,7 +53,9 @@ def event_list(request):
 def event(request, event_id):
     template = loader.get_template('Foerder/event.html')
     event = {}
-    event['main_image_object'] = Image.objects.filter(whichEvent_id=event_id, main=True).first()
+
+    event['main_image_object'] = Image.objects.filter(whichEvent_id=event_id, main=True).first().image.url[12:]
+    #print(Image.objects.filter(whichEvent_id=event_id, main=True).first().image.url[12:])
     event['images_object'] = Image.objects.filter(whichEvent_id=event_id, main=False).all()
     event['event_object'] = Event.objects.get(pk=event_id)
     print(event)

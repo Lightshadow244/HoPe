@@ -356,6 +356,14 @@ h4 {
 .event-link{
 	text-decoration:none;
 }
+
+.event-main-image{
+	width: 100%;
+}
+
+.event-content{
+	padding:20px;
+}
 /*css for smartphones*/
 @media (max-width: 1200px) {
 	body {

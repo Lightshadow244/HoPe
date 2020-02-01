@@ -5,7 +5,7 @@
   <head>
     <link rel="stylesheet" type="text/css" href="{% static 'pure.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'custom.css' %}">
-    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
  </head>
   <body>
     <ul class="nav home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
@@ -17,14 +17,21 @@
 			</div>
 			<ul class="home-menu-list">
 				<li class="home-menu-item">
-				<a href="home">
+				  <a href="/{{request.LANGUAGE_CODE}}/a/home">
 					<div class="home-menu-content">
 						{% trans "Home" %}
 					</div>
 				</a>
 				</li>
+        <li class="home-menu-item">
+				  <a href="/{{request.LANGUAGE_CODE}}/a/events">
+					<div class="home-menu-content">
+						{% trans "Events" %}
+					</div>
+				</a>
+				</li>
 				<li class="home-menu-item">
-					<a href="support_us">
+					<a href="/{{request.LANGUAGE_CODE}}/a/support_us">
 						<div class="home-menu-content">
 							{% trans "Support us" %}
 						</div>
@@ -32,7 +39,7 @@
 				</li>
 				</li>
 				<li class="home-menu-item">
-					<a href="impressum">
+					<a href="/{{request.LANGUAGE_CODE}}/a/impressum">
 						<div class="home-menu-content">
 							Impressum
 						</div>
