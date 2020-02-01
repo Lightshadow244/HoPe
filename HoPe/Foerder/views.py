@@ -35,13 +35,16 @@ def event_list(request):
     images = {}
     context = {}
     full_event_list = []
+    print(events)
     if events:
         for e in events:
             full_event = {}
 
-            i = Image.objects.filter(whichEvent_id=e.id, main=True).first()
-            i.image = '../../static/' + i.image.url[12:]
-
+            if(Image.objects.filter(whichEvent_id=e.id, main=True).first()):
+            	i = Image.objects.filter(whichEvent_id=e.id, main=True).first()
+            	i.image = '../../static/' + i.image.url[12:]
+            else:
+                i = ''
             full_event['event_object'] = e
             full_event['image_object'] = i
             full_event_list.append(full_event)
