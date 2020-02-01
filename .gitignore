@@ -106,3 +106,6 @@ venv.bak/
 # event pictures
 HoPe/static/media/EventImages/*
 HoPe/static_prod/EventImages/*
+
+# migrations
+Migrations/*
