@@ -14,7 +14,7 @@
 				<h1 class="event-headline">{{event.event_object.title_english}}</h1>
 				<img src="{% static event.main_image_object|safe %}" class="event-main-image">
 				<div class="event-text">{{event.event_object.text_english}}</div>
-				{{request.LANGUAGE_CODE}}
+
 			{% endif %}
 		{% endif %}
 	</div>
