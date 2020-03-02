@@ -10,7 +10,7 @@ def home(request):
     #output = _("Welcome to my site.")
     #return HttpResponse(output)
     #print(request.build_absolute_uri)
-    return render(request, 'Foerder/index.html')
+    return render(request, 'Foerder/index_02.html')
 
 def support_us(request):
     #output = _("Welcome to my site.")
