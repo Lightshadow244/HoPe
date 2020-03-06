@@ -10,7 +10,7 @@ class Event(models.Model):
 	title_english = models.CharField(max_length=200)
 	text_german = models.TextField()
 	text_english = models.TextField()
-	pub_date = models.DateTimeField('date published')
+	pub_date = models.DateTimeField()
 
 class Image(models.Model):
 	def __str__(self):

@@ -35,23 +35,17 @@
 
 <div class ="content-wrapper bg-white">
   <div class="menu-container ">
-    <div>
-      <img src="{% static 'Hope_trans.jpeg' %}" class="logo">
-      <div class="pure-menu custom-restricted-width menu">
-        <ul class="pure-menu-list menu">
-          <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">{% trans "Home" %}</a></li>
-          <li class="pure-menu-item"><a href="#" class="pure-menu-link">{% trans "About_us" %}</a></li>
-          <li class="pure-menu-item"><a href="#" class="pure-menu-link">{% trans "Projects" %}</a></li>
-          <li class="pure-menu-item"><a href="#" class="pure-menu-link">{% trans "Support_us" %}</a></li>
-          <li class="pure-menu-item"><a href="#" class="pure-menu-link">{% trans "Partner " %}</a></li>
-        </ul>
-      </div>
+    <img src="{% static 'Hope_trans.jpeg' %}" class="logo">
+    <div class="pure-menu custom-restricted-width menu">
+      <ul class="pure-menu-list menu">
+        <li class="pure-menu-item pure-menu-selected"><a href="/{{request.LANGUAGE_CODE}}/a/home" class="pure-menu-link">{% trans "Home" %}</a></li>
+        <li class="pure-menu-item"><a href="#" class="pure-menu-link">{% trans "About_us" %}</a></li>
+        <li class="pure-menu-item"><a href="/{{request.LANGUAGE_CODE}}/a/events" class="pure-menu-link">{% trans "Projects" %}</a></li>
+        <li class="pure-menu-item"><a href="/{{request.LANGUAGE_CODE}}/a/support_us" class="pure-menu-link">{% trans "Support_us" %}</a></li>
+        <li class="pure-menu-item"><a href="#" class="pure-menu-link">{% trans "Partner " %}</a></li>
+      </ul>
     </div>
   </div>
-  <div class="impressum">
-    <hr>
-    <a href="#">{% trans "Impressum" %}</a>
-  </div>
-</div>
+
 
 {% endblock %}

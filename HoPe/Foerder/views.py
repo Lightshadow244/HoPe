@@ -4,6 +4,8 @@ from django.utils.translation import gettext as _
 from .models import Event, Image
 from django.template import loader
 import os
+from datetime import timedelta
+from django.utils import timezone
 
 # Create your views here.
 def home(request):
@@ -30,14 +32,18 @@ def redirect(request):
     return response
 
 def event_list(request):
-    template = loader.get_template('Foerder/event_list.html')
-    events = Event.objects.order_by('-pub_date')[:5]
+    #template = loader.get_template('Foerder/event_list.html')
+    template = loader.get_template('Foerder/events_02.html')
+    #events_querry_old = Event.objects.order_by('-pub_date')[:5]
+    events_querry_new = Event.objects.filter(pub_date__gt=timezone.now() - timedelta(days=1)).order_by('pub_date')[:3]
+    events_querry_old = Event.objects.filter(pub_date__lte=timezone.now() - timedelta(days=1)).order_by('-pub_date')[:6]
     images = {}
     context = {}
-    full_event_list = []
-    print(events)
-    if events:
-        for e in events:
+    events_old = []
+    events_new = []
+    #print(events)
+    if events_querry_old:
+        for e in events_querry_old:
             full_event = {}
 
             if(Image.objects.filter(whichEvent_id=e.id, main=True).first()):
@@ -47,20 +53,37 @@ def event_list(request):
                 i = ''
             full_event['event_object'] = e
             full_event['image_object'] = i
-            full_event_list.append(full_event)
+            events_old.append(full_event)
+    if events_querry_new:
+        for e in events_querry_new:
+            full_event = {}
+
+            if(Image.objects.filter(whichEvent_id=e.id, main=True).first()):
+            	i = Image.objects.filter(whichEvent_id=e.id, main=True).first()
+            	i.image = '../../static/' + i.image.url[12:]
+            else:
+                i = ''
+            full_event['event_object'] = e
+            full_event['image_object'] = i
+            events_new.append(full_event)
     context = {
-        'events': full_event_list,
+        'events_old': events_old,
+        'events_new': events_new,
         }
     return HttpResponse(template.render(context, request))
 
 def event(request, event_id):
-    template = loader.get_template('Foerder/event.html')
+    template = loader.get_template('Foerder/event_03.html')
     event = {}
 
-    event['main_image_object'] = Image.objects.filter(whichEvent_id=event_id, main=True).first().image.url[12:]
-    #print(Image.objects.filter(whichEvent_id=event_id, main=True).first().image.url[12:])
-    event['images_object'] = Image.objects.filter(whichEvent_id=event_id, main=False).all()
+    if(Image.objects.filter(whichEvent_id=event_id, main=True).first()):
+        event['main_image_object'] = Image.objects.filter(whichEvent_id=event_id, main=True).first().image.url[12:]
+    eventImages = Image.objects.filter(whichEvent_id=event_id, main=False).all()
+    event['images_object'] = []
+    for x in range(eventImages.count()):
+        event['images_object'].append(eventImages[x].image.url[12:])
+    print(event['images_object'])
     event['event_object'] = Event.objects.get(pk=event_id)
-    print(event)
+    #print(event)
     context = { 'event': event, }
     return HttpResponse(template.render(context, request))

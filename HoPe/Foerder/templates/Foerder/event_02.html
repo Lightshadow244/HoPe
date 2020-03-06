@@ -1,0 +1,71 @@
+{% extends "base_02.html" %}
+{% load i18n %}
+{% load static %}
+{% block content %}
+<div class="menu-wrapper">
+  <div class="dropdown-menu-lang">
+    <span>
+      {% if request.LANGUAGE_CODE == 'de' %}
+      <img src="{% static 'icons/de.png' %}" class="home-menu-country-icon">
+     {% else %}
+      <img src="{% static 'icons/gb.png' %}" class="home-menu-country-icon">
+     {% endif %}
+    </span>
+    <div class="dropdown-content-lang">
+      <ul class="list-lang">
+        <li>
+          <a href= "/de/a" >
+            <img src="{% static 'icons/de.png' %}" class="home-menu-country-icon">
+         </a>
+        </li>
+        <li>
+          <a href= "/en/a" >
+            <img src="{% static 'icons/gb.png' %}" class="home-menu-country-icon">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="menu-button">
+      menu
+    </div>
+    <div class="menu-container-hidden ">
+      <img src="{% static 'Hope_trans.jpeg' %}" class="logo">
+      <div class="pure-menu custom-restricted-width menu">
+        <ul class="pure-menu-list menu">
+          <li class="pure-menu-item"><a href="/{{request.LANGUAGE_CODE}}/a/home" class="pure-menu-link">{% trans "Home" %}</a></li>
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link">{% trans "About_us" %}</a></li>
+          <li class="pure-menu-item pure-menu-selected"><a href="/{{request.LANGUAGE_CODE}}/a/events" class="pure-menu-link">{% trans "Projects" %}</a></li>
+          <li class="pure-menu-item"><a href="/{{request.LANGUAGE_CODE}}/a/support_us" class="pure-menu-link">{% trans "Support_us" %}</a></li>
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link">{% trans "Partner " %}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="content">
+  {% if event %}
+    {% if request.LANGUAGE_CODE == 'de' %}
+      <img src="{% static event.main_image_object|safe %}" class="event-main-image">
+      <div class="event-headline">
+        <h1 class="event-headline-text">{{event.event_object.title_german}}</h1>
+        <div class="event-date">{{ event.event_object.pub_date}}</div>
+      </div>
+
+      <div class="event-text">{{event.event_object.text_german}}Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+    {% else %}
+      <img src="{% static event.main_image_object|safe %}" class="event-main-image">
+      <div class="event-headline">
+        <h1 class="event-headline">{{event.event_object.title_english}}</h1>
+        <div class="event-date">{{ event.event_object.pub_date}}</div>
+      </div>
+
+      <div class="event-text">{{event.event_object.text_english}}</div>
+
+    {% endif %}
+  {% endif %}
+</div>
+
+{% endblock %}

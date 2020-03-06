@@ -1,0 +1,100 @@
+{% extends "base_02.html" %}
+{% load i18n %}
+{% load static %}
+{% block content %}
+
+<div class="menu-wrapper">
+  <div class="dropdown-menu-lang">
+    <span>
+      {% if request.LANGUAGE_CODE == 'de' %}
+      <img src="{% static 'icons/de.png' %}" class="home-menu-country-icon">
+     {% else %}
+      <img src="{% static 'icons/gb.png' %}" class="home-menu-country-icon">
+     {% endif %}
+    </span>
+    <div class="dropdown-content-lang">
+      <ul class="list-lang">
+        <li>
+          <a href= "/de/a" >
+            <img src="{% static 'icons/de.png' %}" class="home-menu-country-icon">
+         </a>
+        </li>
+        <li>
+          <a href= "/en/a" >
+            <img src="{% static 'icons/gb.png' %}" class="home-menu-country-icon">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="menu-button">
+      menu
+    </div>
+    <div class="menu-container-hidden ">
+      <img src="{% static 'Hope_trans.jpeg' %}" class="logo">
+      <div class="pure-menu custom-restricted-width menu">
+        <ul class="pure-menu-list menu">
+          <li class="pure-menu-item"><a href="/{{request.LANGUAGE_CODE}}/a/home" class="pure-menu-link">{% trans "Home" %}</a></li>
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link">{% trans "About_us" %}</a></li>
+          <li class="pure-menu-item pure-menu-selected"><a href="/{{request.LANGUAGE_CODE}}/a/events" class="pure-menu-link">{% trans "Projects" %}</a></li>
+          <li class="pure-menu-item"><a href="/{{request.LANGUAGE_CODE}}/a/support_us" class="pure-menu-link">{% trans "Support_us" %}</a></li>
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link">{% trans "Partner " %}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="content">
+    <div>
+      <h1>Geplant</h1>
+      <div class="pure-g">
+        {% if events_new %}
+          {% for event in events_new %}
+            <div class="pure-u-1-3">
+              <a class="event-link" href="events/{{ event.event_object.id }}">
+                <div class="event-list-box" style="background-image: url('{{ event.image_object.image }}');">
+                  <!--<img src="{% static 'EventImages/Hope.jpeg' %}" class="event-list-logo">-->
+                  <div class="event-list-headline-wrapper">
+                    <div class="event-list-headline">{{ event.event_object.title_english}}</div>
+                    <div class="events-date">{{ event.event_object.pub_date|date:"d.m.Y"}} </div>
+                  </div>
+
+                </div>
+              </a>
+            </div>
+          {% endfor %}
+        {% else %}
+          <p>No events available</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div>
+      <h1>Abgeschlossen</h1>
+      <div class="pure-g">
+        {% if events_old %}
+          {% for event in events_old %}
+            <div class="pure-u-1-3">
+              <a class="event-link" href="events/{{ event.event_object.id }}">
+                <div class="event-list-box" style="background-image: url('{{ event.image_object.image }}');">
+                  <!--<img src="{% static 'EventImages/Hope.jpeg' %}" class="event-list-logo">-->
+                  <div class="event-list-headline-wrapper">
+                    <div class="event-list-headline">{{ event.event_object.title_english}}</div>
+                    <div class="events-date">{{ event.event_object.pub_date|date:"d.m.Y"}} </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          {% endfor %}
+        {% else %}
+          <p>No events available</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+
+{% endblock %}
