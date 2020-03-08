@@ -18,13 +18,19 @@ def support_us(request):
     #output = _("Welcome to my site.")
     #return HttpResponse(output)
     #print(request.build_absolute_uri)
-    return render(request, 'Foerder/support_us.html')
+    return render(request, 'Foerder/support_us_02.html')
 
 def impressum(request):
     #output = _("Welcome to my site.")
     #return HttpResponse(output)
     #print(request.build_absolute_uri)
-    return render(request, 'Foerder/impressum.html')
+    return render(request, 'Foerder/impressum_02.html')
+
+def about_us(request):
+    return render(request, 'Foerder/about_us.html')
+
+def partner(request):
+    return render(request, 'Foerder/partner.html')
 
 def redirect(request):
     response = HttpResponse(status=302)

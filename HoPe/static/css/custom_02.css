@@ -8,8 +8,7 @@ body, html {
 	background-color: ghostwhite
 }
 
-h1 {
-	margin:0;
+h1, h2 {	margin:0;
 }
 
 hr{
@@ -249,4 +248,27 @@ hr{
 
 .gallery .pure-u-1-4 div img{
 	width:100%
+}
+
+.about-us-main-image {
+	width: 50%;
+	float:right;
+	margin:10px;
+}
+
+.document-member {
+	text-decoration: none;
+}
+
+.document-member div div {
+	margin:10px;
+	color:black;
+	padding: 10px;
+	border: solid 1px;
+	height:1em;
+	display: inline-block;
+}
+
+.support_us_icon {
+	height:100%;
 }

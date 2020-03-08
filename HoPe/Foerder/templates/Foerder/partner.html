@@ -45,47 +45,4 @@
   </div>
 </div>
 
-  <div class="content">
-    {% if event %}
-      {% if request.LANGUAGE_CODE == 'de' %}
-        {% if event.main_image_object %}
-          <img src="{% static event.main_image_object|safe %}" class="event-main-image">
-        {% endif %}
-        <div class="event-headline">
-          <h1 class="event-headline-text">{{event.event_object.title_german}}</h1>
-          <div class="event-date">{{ event.event_object.pub_date|date:"d.m.Y"}}</div>
-        </div>
-
-        <div class="event-text">{{event.event_object.text_german}}</div>
-      {% else %}
-        {% if event.main_image_object %}
-          <img src="{% static event.main_image_object|safe %}" class="event-main-image">
-        {% endif %}
-        <div class="event-headline">
-          <h1 class="event-headline">{{event.event_object.title_english}}</h1>
-          <div class="event-date">{{ event.event_object.pub_date|date:"d.m.Y"}}</div>
-        </div>
-
-        <div class="event-text">{{event.event_object.text_english}}</div>
-
-      {% endif %}
-    {% endif %}
-  </div>
-
-  {% if event.images_object %}
-    <div class="content">
-      <div class="pure-g gallery ">
-        {% for img in event.images_object %}
-        <div class="pure-u-1-4">
-          <div>
-            <img src="{% static img|safe %}" alt="Amsel" />
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-  {% endif %}
-
-
-
 {% endblock %}

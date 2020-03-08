@@ -2,6 +2,7 @@
 {% load i18n %}
 {% load static %}
 {% block content %}
+
 <div class="menu-wrapper">
   <div class="dropdown-menu-lang">
     <span>
@@ -36,7 +37,7 @@
         <ul class="pure-menu-list menu">
           <li class="pure-menu-item"><a href="/{{request.LANGUAGE_CODE}}/a/home" class="pure-menu-link">{% trans "Home" %}</a></li>
           <li class="pure-menu-item"><a href="/{{request.LANGUAGE_CODE}}/a/about_us" class="pure-menu-link">{% trans "About_us" %}</a></li>
-          <li class="pure-menu-item pure-menu-selected"><a href="/{{request.LANGUAGE_CODE}}/a/events" class="pure-menu-link">{% trans "Projects" %}</a></li>
+          <li class="pure-menu-item"><a href="/{{request.LANGUAGE_CODE}}/a/events" class="pure-menu-link">{% trans "Projects" %}</a></li>
           <li class="pure-menu-item"><a href="/{{request.LANGUAGE_CODE}}/a/support_us" class="pure-menu-link">{% trans "Support_us" %}</a></li>
           <li class="pure-menu-item"><a href="/{{request.LANGUAGE_CODE}}/a/partner" class="pure-menu-link">{% trans "Partner " %}</a></li>
         </ul>
@@ -45,47 +46,65 @@
   </div>
 </div>
 
-  <div class="content">
-    {% if event %}
-      {% if request.LANGUAGE_CODE == 'de' %}
-        {% if event.main_image_object %}
-          <img src="{% static event.main_image_object|safe %}" class="event-main-image">
-        {% endif %}
-        <div class="event-headline">
-          <h1 class="event-headline-text">{{event.event_object.title_german}}</h1>
-          <div class="event-date">{{ event.event_object.pub_date|date:"d.m.Y"}}</div>
-        </div>
-
-        <div class="event-text">{{event.event_object.text_german}}</div>
-      {% else %}
-        {% if event.main_image_object %}
-          <img src="{% static event.main_image_object|safe %}" class="event-main-image">
-        {% endif %}
-        <div class="event-headline">
-          <h1 class="event-headline">{{event.event_object.title_english}}</h1>
-          <div class="event-date">{{ event.event_object.pub_date|date:"d.m.Y"}}</div>
-        </div>
-
-        <div class="event-text">{{event.event_object.text_english}}</div>
-
-      {% endif %}
-    {% endif %}
-  </div>
-
-  {% if event.images_object %}
-    <div class="content">
-      <div class="pure-g gallery ">
-        {% for img in event.images_object %}
-        <div class="pure-u-1-4">
-          <div>
-            <img src="{% static img|safe %}" alt="Amsel" />
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-  {% endif %}
-
-
+<div class="content content-first">
+    <h1 class="content-title">Impressum</h1>
+    <table class="table">
+      <tr>
+        <td><div  class="tmg"><!--Entries referred to § 5 TMG Germany-->{% trans "impressum_reason" %}</div></td>
+      </tr>
+      <tr>
+        <td><h4>Freunde & Förderer HoPe Ghana e.V.</h4></td>
+      </tr>
+      <tr>
+        <td>Loitscher Weg 2a</td>
+      </tr>
+      <tr>
+        <td>39128 Magdeburg</td>
+      </tr>
+      <tr>
+        <td><!--Germany-->{% trans "germany" %}</td>
+      </tr>
+    </table>
+    <table class="table">
+      <tr>
+        <td><h4><!--Represented by-->{% trans "represented_by" %}</h4></td>
+      </tr>
+      <tr>
+        <td>J. Oelsner</td>
+      </tr>
+      <tr>
+        <td>Loitscher Weg 2a</td>
+      </tr>
+      <tr>
+        <td>39128 Magdeburg</td>
+      </tr>
+      <tr>
+        <td><!--Germany-->{% trans "germany" %}</td>
+      </tr>
+      <tr>
+        <td>jolina.oelsner@gmail.com</td>
+      </tr>
+    </table>
+    <table class="table">
+      <tr>
+        <td><h4><!--Technical contact-->{% trans "technicale_contact" %}</h4></td>
+      </tr>
+      <tr>
+        <td>Richard Lüdtke</td>
+      </tr>
+      <tr>
+        <td>Lüneburger Straße 26a</td>
+      </tr>
+      <tr>
+        <td>39106 Magdeburg</td>
+      </tr>
+      <tr>
+        <td><!--Germany-->{% trans "germany" %}</td>
+      </tr>
+      <tr>
+        <td>richard.luedtke@gmx.de</td>
+      </tr>
+    </table>
+</div>
 
 {% endblock %}
