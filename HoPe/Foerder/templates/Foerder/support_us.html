@@ -1,56 +1,77 @@
-{% extends "base.html" %}
+{% extends "base_02.html" %}
 {% load i18n %}
 {% load static %}
 {% block content %}
-<div>
-  <div class="content content-first">
-    <h1 class="content-title"><!--Become a supporter-->{% trans "Become_a_supporter" %}</h1>
-    <div class="content-text">
-      <!--coming soon...{% trans "coming_soon" %}-->
-      <a class="document-member" href="{% static 'Beitrittserklärung_Freunde _ Förderer_HoPe_Ghana_eV.pdf' %}">
-        <div>
-          <div>
-          <img src="{% static 'icons/pdf.png' %}" class="home-menu-country-icon">
-          {% trans "Membership application DE" %}
-          </div>
-        </div>
-      </a>
-      <a class="document-donation" href="{% static 'Spendenformular_für_Freunde_Förderer_HoPe_Ghana_eV.pdf' %}">
-        <div>
-          <div>
-          <img src="{% static 'icons/pdf.png' %}" class="home-menu-country-icon">
-          {% trans "Donation DE" %}
-          </div>
-        </div>
-      </a>
+<div class="menu-wrapper">
+  <div class="dropdown-menu-lang">
+    <span>
+      {% if request.LANGUAGE_CODE == 'de' %}
+      <img src="{% static 'icons/de.png' %}" class="home-menu-country-icon">
+     {% else %}
+      <img src="{% static 'icons/gb.png' %}" class="home-menu-country-icon">
+     {% endif %}
+    </span>
+    <div class="dropdown-content-lang">
+      <ul class="list-lang">
+        <li>
+          <a href= "/de/a" >
+            <img src="{% static 'icons/de.png' %}" class="home-menu-country-icon">
+         </a>
+        </li>
+        <li>
+          <a href= "/en/a" >
+            <img src="{% static 'icons/gb.png' %}" class="home-menu-country-icon">
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
+  <div class="menu">
+    <div class="menu-button">
+      menu
+    </div>
+    <div class="menu-container-hidden ">
+      <img src="{% static 'Hope_trans.jpeg' %}" class="logo">
+      <div class="pure-menu custom-restricted-width menu">
+        <ul class="pure-menu-list menu">
+          <li class="pure-menu-item"><a href="/{{request.LANGUAGE_CODE}}/a/home" class="pure-menu-link">{% trans "Home" %}</a></li>
+          <li class="pure-menu-item"><a href="/{{request.LANGUAGE_CODE}}/a/about_us" class="pure-menu-link">{% trans "About_us" %}</a></li>
+          <li class="pure-menu-item"><a href="/{{request.LANGUAGE_CODE}}/a/events" class="pure-menu-link">{% trans "Projects" %}</a></li>
+          <li class="pure-menu-item pure-menu-selected"><a href="/{{request.LANGUAGE_CODE}}/a/support_us" class="pure-menu-link">{% trans "Support_us" %}</a></li>
+          <li class="pure-menu-item"><a href="/{{request.LANGUAGE_CODE}}/a/partner" class="pure-menu-link">{% trans "Partner " %}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-picture bg">
+</div>
+<div class="content-wrapper">
+
   <div class="content">
-    <h1 class="content-title"><!--Support us with a donation-->{% trans "support_us_with_a_donation" %}</h1>
-    <table class="table">
-      <tr>
-        <td><!--Account holder-->{% trans "account_holder" %}:</td>
-        <td>J. Oelsner</td>
-      </tr>
-      <tr>
-        <td>IBAN:</td>
-        <td>DE53 1203 0000 1057 1194 38</td>
-      </tr>
-      <tr>
-        <td><!--Bank name-->{% trans "bank_name" %}:</td>
-        <td>DKB</td>
-      </tr>
-      <tr>
-        <td><!--Usage-->{% trans "usage" %}:</td>
-        <td><!--Donation F.V. HoPe Ghana, Name of the donater-->{% trans "Donation_text" %}</td>
-      </tr>
-    </table>
+    <h2>  {% trans "support_us_headline_01" %}</h2>
+    <div>
+      {% trans "support_us_content_01" %}
+    </div>
+
+    <a class="document-member" href="{% static 'Beitrittserklärung_Freunde _ Förderer_HoPe_Ghana_eV.pdf' %}">
+      <div>
+        <div>
+        <img src="{% static 'icons/pdf.png' %}" class="support_us_icon">
+        {% trans "Membership application DE" %}
+        </div>
+      </div>
+    </a>
   </div>
 
+  <div class="content">
+    <h2>{% trans "support_us_headline_02" %}</h2>
+  </div>
 
-<!--
+  <div class="content">
+    <h2>{% trans "support_us_donate" %}</h2>
+  </div>
 </div>
--->
-
 
 {% endblock %}

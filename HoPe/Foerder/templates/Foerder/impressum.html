@@ -1,7 +1,54 @@
-{% extends "base.html" %}
+{% extends "base_02.html" %}
 {% load i18n %}
+{% load static %}
 {% block content %}
-<div>
+
+<div class="menu-wrapper">
+  <div class="dropdown-menu-lang">
+    <span>
+      {% if request.LANGUAGE_CODE == 'de' %}
+      <img src="{% static 'icons/de.png' %}" class="home-menu-country-icon">
+     {% else %}
+      <img src="{% static 'icons/gb.png' %}" class="home-menu-country-icon">
+     {% endif %}
+    </span>
+    <div class="dropdown-content-lang">
+      <ul class="list-lang">
+        <li>
+          <a href= "/de/a" >
+            <img src="{% static 'icons/de.png' %}" class="home-menu-country-icon">
+         </a>
+        </li>
+        <li>
+          <a href= "/en/a" >
+            <img src="{% static 'icons/gb.png' %}" class="home-menu-country-icon">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="menu-button">
+      menu
+    </div>
+    <div class="menu-container-hidden ">
+      <img src="{% static 'Hope_trans.jpeg' %}" class="logo">
+      <div class="pure-menu custom-restricted-width menu">
+        <ul class="pure-menu-list menu">
+          <li class="pure-menu-item"><a href="/{{request.LANGUAGE_CODE}}/a/home" class="pure-menu-link">{% trans "Home" %}</a></li>
+          <li class="pure-menu-item"><a href="/{{request.LANGUAGE_CODE}}/a/about_us" class="pure-menu-link">{% trans "About_us" %}</a></li>
+          <li class="pure-menu-item"><a href="/{{request.LANGUAGE_CODE}}/a/events" class="pure-menu-link">{% trans "Projects" %}</a></li>
+          <li class="pure-menu-item"><a href="/{{request.LANGUAGE_CODE}}/a/support_us" class="pure-menu-link">{% trans "Support_us" %}</a></li>
+          <li class="pure-menu-item"><a href="/{{request.LANGUAGE_CODE}}/a/partner" class="pure-menu-link">{% trans "Partner " %}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-picture bg">
+</div>
+<div class="content-wrapper">
   <div class="content content-first">
       <h1 class="content-title">Impressum</h1>
       <table class="table">
@@ -62,8 +109,6 @@
         </tr>
       </table>
   </div>
-
-<!--
 </div>
--->
+
 {% endblock %}

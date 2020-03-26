@@ -12,19 +12,19 @@ def home(request):
     #output = _("Welcome to my site.")
     #return HttpResponse(output)
     #print(request.build_absolute_uri)
-    return render(request, 'Foerder/index_02.html')
+    return render(request, 'Foerder/index.html')
 
 def support_us(request):
     #output = _("Welcome to my site.")
     #return HttpResponse(output)
     #print(request.build_absolute_uri)
-    return render(request, 'Foerder/support_us_02.html')
+    return render(request, 'Foerder/support_us.html')
 
 def impressum(request):
     #output = _("Welcome to my site.")
     #return HttpResponse(output)
     #print(request.build_absolute_uri)
-    return render(request, 'Foerder/impressum_02.html')
+    return render(request, 'Foerder/impressum.html')
 
 def about_us(request):
     return render(request, 'Foerder/about_us.html')
@@ -39,7 +39,7 @@ def redirect(request):
 
 def event_list(request):
     #template = loader.get_template('Foerder/event_list.html')
-    template = loader.get_template('Foerder/events_02.html')
+    template = loader.get_template('Foerder/events.html')
     #events_querry_old = Event.objects.order_by('-pub_date')[:5]
     events_querry_new = Event.objects.filter(pub_date__gt=timezone.now() - timedelta(days=1)).order_by('pub_date')[:3]
     events_querry_old = Event.objects.filter(pub_date__lte=timezone.now() - timedelta(days=1)).order_by('-pub_date')[:6]
@@ -79,7 +79,7 @@ def event_list(request):
     return HttpResponse(template.render(context, request))
 
 def event(request, event_id):
-    template = loader.get_template('Foerder/event_03.html')
+    template = loader.get_template('Foerder/event.html')
     event = {}
 
     if(Image.objects.filter(whichEvent_id=event_id, main=True).first()):

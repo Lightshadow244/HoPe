@@ -46,9 +46,12 @@
   </div>
 </div>
 
+<div class="bg-picture bg">
+</div>
+<div class="content-wrapper">
   <div class="content">
     <div>
-      <h1>Geplant</h1>
+      <h1>{% trans "events_plant" %}</h1>
       <div class="pure-g">
         {% if events_new %}
           {% for event in events_new %}
@@ -66,14 +69,14 @@
             </div>
           {% endfor %}
         {% else %}
-          <p>No events available</p>
+          <p>{% trans "events_Not_avaiable" %}</p>
         {% endif %}
       </div>
     </div>
   </div>
   <div class="content">
     <div>
-      <h1>Abgeschlossen</h1>
+      <h1>{% trans "events_finished" %}</h1>
       <div class="pure-g">
         {% if events_old %}
           {% for event in events_old %}
@@ -90,11 +93,12 @@
             </div>
           {% endfor %}
         {% else %}
-          <p>No events available</p>
+          <p>{% trans "events_Not_avaiable" %}</p>
         {% endif %}
       </div>
     </div>
   </div>
+</div>
 
 
 {% endblock %}
