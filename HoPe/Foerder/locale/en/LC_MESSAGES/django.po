@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-01 13:07+0000\n"
+"POT-Creation-Date: 2020-03-27 08:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,120 +18,191 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: Foerder/templates/Foerder/impressum.html:8
+#: templates/Foerder/about_us.html:37 templates/Foerder/event.html:37
+#: templates/Foerder/events.html:38 templates/Foerder/impressum.html:38
+#: templates/Foerder/index.html:41 templates/Foerder/partner.html:37
+#: templates/Foerder/support_us.html:37
+msgid "Home"
+msgstr ""
+
+#: templates/Foerder/about_us.html:38 templates/Foerder/event.html:38
+#: templates/Foerder/events.html:39 templates/Foerder/impressum.html:39
+#: templates/Foerder/index.html:42 templates/Foerder/partner.html:38
+#: templates/Foerder/support_us.html:38
+msgid "About_us"
+msgstr ""
+
+#: templates/Foerder/about_us.html:39 templates/Foerder/event.html:39
+#: templates/Foerder/events.html:40 templates/Foerder/impressum.html:40
+#: templates/Foerder/index.html:43 templates/Foerder/partner.html:39
+#: templates/Foerder/support_us.html:39
+msgid "Projects"
+msgstr ""
+
+#: templates/Foerder/about_us.html:40 templates/Foerder/event.html:40
+#: templates/Foerder/events.html:41 templates/Foerder/impressum.html:41
+#: templates/Foerder/index.html:44 templates/Foerder/partner.html:40
+#: templates/Foerder/support_us.html:40
+msgid "Support_us"
+msgstr ""
+
+#: templates/Foerder/about_us.html:41 templates/Foerder/event.html:41
+#: templates/Foerder/events.html:42 templates/Foerder/impressum.html:42
+#: templates/Foerder/index.html:45 templates/Foerder/partner.html:41
+#: templates/Foerder/support_us.html:41
+msgid "Partner "
+msgstr ""
+
+#: templates/Foerder/about_us.html:54
+msgid "about_us_headline_01"
+msgstr ""
+
+#: templates/Foerder/about_us.html:60
+msgid "about_us_content_01"
+msgstr ""
+
+#: templates/Foerder/about_us.html:64
+msgid "about_us_content_02"
+msgstr ""
+
+#: templates/Foerder/about_us.html:69
+msgid "about_us_headline_02"
+msgstr ""
+
+#: templates/Foerder/events.html:54
+msgid "events_plant"
+msgstr ""
+
+#: templates/Foerder/events.html:72 templates/Foerder/events.html:96
+msgid "events_Not_avaiable"
+msgstr ""
+
+#: templates/Foerder/events.html:79
+msgid "events_finished"
+msgstr ""
+
+#: templates/Foerder/impressum.html:56
 msgid "impressum_reason"
 msgstr "Entries referred to § 5 TMG Germany"
 
-#: Foerder/templates/Foerder/impressum.html:20
-#: Foerder/templates/Foerder/impressum.html:37
-#: Foerder/templates/Foerder/impressum.html:57
+#: templates/Foerder/impressum.html:68 templates/Foerder/impressum.html:85
+#: templates/Foerder/impressum.html:105
 msgid "germany"
 msgstr "Germany"
 
-#: Foerder/templates/Foerder/impressum.html:25
+#: templates/Foerder/impressum.html:73
 msgid "represented_by"
 msgstr "Represented by"
 
-#: Foerder/templates/Foerder/impressum.html:45
+#: templates/Foerder/impressum.html:93
 msgid "technicale_contact"
 msgstr "Technical contact"
 
-#: Foerder/templates/Foerder/index.html:7
+#: templates/Foerder/index.html:31
 msgid "splash-title"
 msgstr "WAYZOLOO"
 
-#: Foerder/templates/Foerder/index.html:8
+#: templates/Foerder/index.html:32
 msgid "splash-text"
 msgstr ""
 "Translated from Ewe to English means you are warmly welcome as a visitor to "
 "our website!"
 
-#: Foerder/templates/Foerder/index.html:18
-msgid "content1-title"
-msgstr "What do we do?"
-
-#: Foerder/templates/Foerder/index.html:24
-msgid "content1-text1"
-msgstr "We do not help, we support!"
-
-#: Foerder/templates/Foerder/index.html:30
-msgid "content1-text2"
-msgstr ""
-"Because in our opinion, the best support we can provide is to strengthen "
-"self-help. From our office in Tokokoe we organize workshops and lessons from "
-"locals for locals. We offer different opportunities for children and adults "
-"of all ages."
-
-#: Foerder/templates/Foerder/index.html:35
-msgid "content2-title"
-msgstr "HoPe what does that mean?"
-
-#: Foerder/templates/Foerder/index.html:39
-msgid "content2-text1"
-msgstr ""
-"Our NGO (non-governmental organisation) 'House of Perspectives' is not only "
-"a place where you can learn new things, but also offers an equal future "
-"regardless of age, gender and skin colour. Our organization was founded with "
-"the aim to improve the low level of education in rural areas of Ghana."
-
-#: Foerder/templates/Foerder/index.html:43
-msgid "content2-text2"
-msgstr ""
-"And this is exactly what we stand up for since our foundation in February "
-"2018 with our NGO HoPe and since 2019 with our association Friends & "
-"Donators of HoPe Ghana."
-
-#: Foerder/templates/Foerder/index.html:56
-msgid "content3-title1"
-msgstr "Adults are present!"
-
-#: Foerder/templates/Foerder/index.html:61
-msgid "content3-text1"
-msgstr ""
-"We live right now. That is why it is so important for adults not to "
-"neglected in our organization. So there is the possibility for the adults to "
-"refresh their knowledge in mathematics and English and to learn new things. "
-"The evening workshops are particularly exciting. Topics such as health, "
-"climate change and how to deal with conflicts are explained vividly and "
-"discussed together."
-
-#: Foerder/templates/Foerder/index.html:66
-msgid "content3-title2"
-msgstr "Children are the future!"
-
-#: Foerder/templates/Foerder/index.html:71
-msgid "content3-text2"
-msgstr ""
-"Of course there are schools, but like everywhere there are children who need "
-"more support. These, but also all other pupils, can repeat topics in "
-"mathematics and English at any time and get individual support in case of "
-"difficulties. In addition, the doors of our small library are open to them "
-"at all times."
-
-#: Foerder/templates/Foerder/support_us.html:5
-msgid "Become_a_supporter"
-msgstr "Become a supporter"
-
-#: Foerder/templates/Foerder/support_us.html:7
-msgid "coming_soon"
-msgstr "Coming sonn..."
-
-#: Foerder/templates/Foerder/support_us.html:11
-msgid "support_us_with_a_donation"
+#: templates/Foerder/support_us.html:53
+#, fuzzy
+#| msgid "support_us_with_a_donation"
+msgid "support_us_headline_01"
 msgstr "Support us with a donation"
 
-#: Foerder/templates/Foerder/support_us.html:14
-msgid "account_holder"
-msgstr "Account holder"
+#: templates/Foerder/support_us.html:55
+#, fuzzy
+#| msgid "support_us_with_a_donation"
+msgid "support_us_content_01"
+msgstr "Support us with a donation"
 
-#: Foerder/templates/Foerder/support_us.html:22
-msgid "bank_name"
-msgstr "Bank name"
+#: templates/Foerder/support_us.html:62
+msgid "Membership application DE"
+msgstr ""
 
-#: Foerder/templates/Foerder/support_us.html:26
-msgid "usage"
-msgstr "Usage"
+#: templates/Foerder/support_us.html:69
+#, fuzzy
+#| msgid "support_us_with_a_donation"
+msgid "support_us_headline_02"
+msgstr "Support us with a donation"
 
-#: Foerder/templates/Foerder/support_us.html:27
-msgid "Donation_text"
-msgstr "Donation, Freunde & Foerderer HoPe Ghanae.V, Name of the donator"
+#: templates/Foerder/support_us.html:73
+#, fuzzy
+#| msgid "support_us_with_a_donation"
+msgid "support_us_donate"
+msgstr "Support us with a donation"
+
+#~ msgid "content1-title"
+#~ msgstr "What do we do?"
+
+#~ msgid "content1-text1"
+#~ msgstr "We do not help, we support!"
+
+#~ msgid "content1-text2"
+#~ msgstr ""
+#~ "Because in our opinion, the best support we can provide is to strengthen "
+#~ "self-help. From our office in Tokokoe we organize workshops and lessons "
+#~ "from locals for locals. We offer different opportunities for children and "
+#~ "adults of all ages."
+
+#~ msgid "content2-title"
+#~ msgstr "HoPe what does that mean?"
+
+#~ msgid "content2-text1"
+#~ msgstr ""
+#~ "Our NGO (non-governmental organisation) 'House of Perspectives' is not "
+#~ "only a place where you can learn new things, but also offers an equal "
+#~ "future regardless of age, gender and skin colour. Our organization was "
+#~ "founded with the aim to improve the low level of education in rural areas "
+#~ "of Ghana."
+
+#~ msgid "content2-text2"
+#~ msgstr ""
+#~ "And this is exactly what we stand up for since our foundation in February "
+#~ "2018 with our NGO HoPe and since 2019 with our association Friends & "
+#~ "Donators of HoPe Ghana."
+
+#~ msgid "content3-title1"
+#~ msgstr "Adults are present!"
+
+#~ msgid "content3-text1"
+#~ msgstr ""
+#~ "We live right now. That is why it is so important for adults not to "
+#~ "neglected in our organization. So there is the possibility for the adults "
+#~ "to refresh their knowledge in mathematics and English and to learn new "
+#~ "things. The evening workshops are particularly exciting. Topics such as "
+#~ "health, climate change and how to deal with conflicts are explained "
+#~ "vividly and discussed together."
+
+#~ msgid "content3-title2"
+#~ msgstr "Children are the future!"
+
+#~ msgid "content3-text2"
+#~ msgstr ""
+#~ "Of course there are schools, but like everywhere there are children who "
+#~ "need more support. These, but also all other pupils, can repeat topics in "
+#~ "mathematics and English at any time and get individual support in case of "
+#~ "difficulties. In addition, the doors of our small library are open to "
+#~ "them at all times."
+
+#~ msgid "Become_a_supporter"
+#~ msgstr "Become a supporter"
+
+#~ msgid "coming_soon"
+#~ msgstr "Coming sonn..."
+
+#~ msgid "account_holder"
+#~ msgstr "Account holder"
+
+#~ msgid "bank_name"
+#~ msgstr "Bank name"
+
+#~ msgid "usage"
+#~ msgstr "Usage"
+
+#~ msgid "Donation_text"
+#~ msgstr "Donation, Freunde & Foerderer HoPe Ghanae.V, Name of the donator"
