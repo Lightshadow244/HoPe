@@ -53,13 +53,18 @@
     <h1 class="about-us-headline">
       {% trans "about_us_headline_01" %}
     </h1>
-    <div class="about-us-special">
-      <img src="{% static 'Hope_02.jpeg' %}" class="about-us-main-image">
 
-      <div class="about-us-text cursiv">
-        {% trans "about_us_content_01" %}
-      </div>
+
+
+    <div class="about-us-text cursiv">
+      {% trans "about_us_content_01" %}
     </div>
+  </div>
+
+  <div class="about-us-main-image">
+    <img src="{% static 'Hope_02.jpeg' %}">
+  </div>
+  <div class="content">
     <div class="about-us-text">
     {% trans "about_us_content_02" %}
     </div>
