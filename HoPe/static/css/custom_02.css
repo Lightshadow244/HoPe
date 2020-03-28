@@ -225,6 +225,11 @@ hr{
 	padding:20px;
 }
 
+.content_02 .about-us-text {
+	float:left;
+	width:45%;
+}
+
 .content-wrapper{
 	min-height: 87vh;
 }
@@ -300,9 +305,6 @@ hr{
 
 .about-us-text {
 	margin-top:10px;
-	float:left;
-	width:45%;
-
 }
 
 .cursiv {
