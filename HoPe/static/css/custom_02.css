@@ -225,9 +225,10 @@ hr{
 	padding:20px;
 }
 
-.content_02 .about-us-text {
+.content_02 .about-us-p {
 	float:left;
 	width:45%;
+	margin:10px;
 }
 
 .content-wrapper{
@@ -285,6 +286,13 @@ hr{
 	width:100%;
 }
 
+.about-us-headline {
+	margin: 10px;
+}
+
+.about-us-p {
+
+}
 
 .document-member {
 	text-decoration: none;
@@ -304,7 +312,7 @@ hr{
 }
 
 .about-us-text {
-	margin-top:10px;
+	margin:10px;
 }
 
 .cursiv {
