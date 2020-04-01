@@ -54,7 +54,18 @@
     <div>
       {% trans "support_us_content_01" %}
     </div>
-
+  </div>
+  <div class="content">
+    <h3>  {% trans "support_us_headline_02" %}</h3>
+    <p> {% trans "support_us_content_01" %} </p>
+    <a class="document-member" href="{% static 'Beitrittserklärung_Freunde _ Förderer_HoPe_Ghana_eV.pdf' %}">
+      <div>
+        <div>
+        <img src="{% static 'icons/pdf.png' %}" class="support_us_icon">
+        {% trans "Membership application DE" %}
+        </div>
+      </div>
+    </a>
     <a class="document-member" href="{% static 'Beitrittserklärung_Freunde _ Förderer_HoPe_Ghana_eV.pdf' %}">
       <div>
         <div>
@@ -65,12 +76,25 @@
     </a>
   </div>
 
-  <div class="content">
-    <h2>{% trans "support_us_headline_02" %}</h2>
-  </div>
+  <!--<div class="content">
+    <h3>{% trans "support_us_headline_02" %}</h3>
+    <a href="">Link LKJ</a>
+    <p> {% trans "support_us_content_02" %} </p>
+  </div>-->
 
   <div class="content">
-    <h2>{% trans "support_us_donate" %}</h2>
+    <h3>{% trans "support_us_headline_03" %}</h3>
+    <p> {% trans "support_us_content_02" %} </p>
+    <a class="document-member" href="{% static 'Beitrittserklärung_Freunde _ Förderer_HoPe_Ghana_eV.pdf' %}">
+      <div>
+        <div>
+        <img src="{% static 'icons/pdf.png' %}" class="support_us_icon">
+        {% trans "Spendenformular" %}
+        </div>
+      </div>
+    </a>
+    <div class="bold">Paypal</div>
+    
   </div>
 </div>
 
