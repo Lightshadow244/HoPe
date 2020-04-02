@@ -103,9 +103,14 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+#static files for production
+HoPe/static_prod/*
+
+#uwsgi params
+HoPe/uwsgi_param
+
 # event pictures
 HoPe/static/media/EventImages/*
-HoPe/static_prod/EventImages/*
 
 # migrations
 HoPe/Foerder/migrations/*
