@@ -107,7 +107,7 @@ venv.bak/
 HoPe/static_prod/*
 
 #uwsgi params
-HoPe/uwsgi_param
+HoPe/uwsgi_params
 
 # event pictures
 HoPe/static/media/EventImages/*
