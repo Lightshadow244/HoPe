@@ -12,7 +12,6 @@ A website
 `source ENV/bin/activate`  
 `pip install django`  
 Manage localization  
-`sudo apt-get install msguniq`  
 `sudo apt-get install gettext`  
 uswgi setup  
 https://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html  
