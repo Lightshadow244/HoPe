@@ -327,3 +327,10 @@ hr{
 .cursiv {
 	font-style:italic;
 }
+.index-lang{
+	right:0;
+	position:fixed;
+}
+.index-splash{
+	z-index: -1;
+}
