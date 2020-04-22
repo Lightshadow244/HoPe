@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-27 08:54+0000\n"
+"POT-Creation-Date: 2020-04-22 08:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,32 +54,53 @@ msgid "Partner "
 msgstr ""
 
 #: templates/Foerder/about_us.html:54
-msgid "about_us_headline_01"
-msgstr ""
-
-#: templates/Foerder/about_us.html:60
 msgid "about_us_content_01"
 msgstr ""
+
+#: templates/Foerder/about_us.html:61
+msgid "about_us_headline_01"
+msgstr "About Us"
 
 #: templates/Foerder/about_us.html:64
 msgid "about_us_content_02"
 msgstr ""
+"Freunde und Förderer HoPe Ghana e.V. is a support association founded in "
+"December 2019. At our foundation we consisted of a team of 7 people. When we "
+"were founded, we consisted of a team of 7 volunteers, now we consist of 11 "
+"volunteers, who all take care of the organization of this association "
+"besides their job and studies."
+
+#: templates/Foerder/about_us.html:65
+msgid "Unser Vorstand besteht aus vier Personen."
+msgstr "Our executives consists of four people. "
+
+#: templates/Foerder/about_us.html:67
+msgid "Vorstandsvorsitzende: Jolina Oelsner"
+msgstr "Jolina Oelsner, the executive chairman"
+
+#: templates/Foerder/about_us.html:68
+msgid "stellvertretender Vorsitzender: Florian Oelsner"
+msgstr "Florian Oelsner, chairman"
 
 #: templates/Foerder/about_us.html:69
-msgid "about_us_headline_02"
-msgstr ""
+msgid "Öffentlichkeitsarbeit: Richard Lüdtke"
+msgstr "Richard Lüdtke, public relations"
+
+#: templates/Foerder/about_us.html:70
+msgid "Schatzmeisterin: Ines Oelsner"
+msgstr "Ines Oelsner, treasurer"
 
 #: templates/Foerder/events.html:54
 msgid "events_plant"
-msgstr ""
+msgstr "Future events"
 
-#: templates/Foerder/events.html:72 templates/Foerder/events.html:96
+#: templates/Foerder/events.html:73 templates/Foerder/events.html:99
 msgid "events_Not_avaiable"
-msgstr ""
+msgstr "No events were found."
 
-#: templates/Foerder/events.html:79
+#: templates/Foerder/events.html:81
 msgid "events_finished"
-msgstr ""
+msgstr "Past events"
 
 #: templates/Foerder/impressum.html:56
 msgid "impressum_reason"
@@ -98,10 +119,6 @@ msgstr "Represented by"
 msgid "technicale_contact"
 msgstr "Technical contact"
 
-#: templates/Foerder/index.html:31
-msgid "splash-title"
-msgstr "WAYZOLOO"
-
 #: templates/Foerder/index.html:32
 msgid "splash-text"
 msgstr ""
@@ -109,32 +126,49 @@ msgstr ""
 "our website!"
 
 #: templates/Foerder/support_us.html:53
-#, fuzzy
-#| msgid "support_us_with_a_donation"
 msgid "support_us_headline_01"
-msgstr "Support us with a donation"
+msgstr "Please support us!"
 
 #: templates/Foerder/support_us.html:55
-#, fuzzy
-#| msgid "support_us_with_a_donation"
 msgid "support_us_content_01"
-msgstr "Support us with a donation"
+msgstr "Support does not always mean to donate money, of course we are mostly dependent on donations, but there are also many other ways to get involved, whether through membership, project participation or cooperation. Join our support association and support us actively with projects, ideas and voluntary activities around our association."
 
-#: templates/Foerder/support_us.html:62
-msgid "Membership application DE"
-msgstr ""
-
-#: templates/Foerder/support_us.html:69
-#, fuzzy
-#| msgid "support_us_with_a_donation"
+#: templates/Foerder/support_us.html:59
 msgid "support_us_headline_02"
-msgstr "Support us with a donation"
+msgstr "Member registration"
 
-#: templates/Foerder/support_us.html:73
+#: templates/Foerder/support_us.html:60
+msgid "support_us_content_02"
+msgstr "Is it no longer enough for you to be a passive donor? You want to get involved yourself and actively participate in our projects? And you believe that we are the right community with the right goals and ideas? Then please read our statutes and register yourself in the membership form. And we will welcome you very warmly!"
+
+#: templates/Foerder/support_us.html:65 templates/Foerder/support_us.html:73
+msgid "Membership application DE"
+msgstr "Membership application DE"
+
+#: templates/Foerder/support_us.html:80
+msgid "support_us_headline_03"
+msgstr "Donations"
+
+#: templates/Foerder/support_us.html:81
+msgid "support_us_content_03"
+msgstr "If, however, membership or active participation in projects is too much for you, too stressful, or you don't want to commit yourself to anything, then there is of course nothing wrong with a conventional donation and is of course more than welcome!"
+"We are of the opinion that the people in Ghana themselves know best what is needed and what is not. For this reason we only send money to Ghana and do not send donations in kind which would have to be sent from Germany to Ghana. This way we not only save a"
+"lot of transport costs which could be better used elsewhere, but we also make sure that things arrive which are needed and not left unused. Your donation will always be used where it is needed most. This depends on upcoming projects. But that is too vague"
+"for you? We have the right solution for you here as well. You can easily and actively determine for yourself what your money is to be used for. Whether in teaching materials, such as pens, notebooks or chairs, or rather in current or already existing projects,"
+"such as tree seedlings, cotton bags or even in the financing of our upcoming expansion to Motte? This choice is left to you, within a certain predefined range. The reason why you do not have complete freedom of choice is that we do not want to finance in things"
+"that are not needed. This way the money is used optimally and exactly where it is needed. Because the local people simply know best what is needed and what is not."
+
+#: templates/Foerder/support_us.html:86
+msgid "Spendenformular"
+msgstr "Donation Form"
+
+#~ msgid "splash-title"
+#~ msgstr "WAYZOLOO"
+
 #, fuzzy
-#| msgid "support_us_with_a_donation"
-msgid "support_us_donate"
-msgstr "Support us with a donation"
+#~| msgid "support_us_with_a_donation"
+#~ msgid "support_us_donate"
+#~ msgstr "Support us with a donation"
 
 #~ msgid "content1-title"
 #~ msgstr "What do we do?"
