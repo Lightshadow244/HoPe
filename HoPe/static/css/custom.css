@@ -364,6 +364,13 @@ h4 {
 .event-content{
 	padding:20px;
 }
+.index-lang{
+	right:0;
+	position:fixed;
+}
+.index-splash{
+	z-index: -1;
+}
 /*css for smartphones*/
 @media (max-width: 1200px) {
 	body {

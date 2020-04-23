@@ -2,7 +2,7 @@
 {% load i18n %}
 {% load static %}
 {% block content %}
-<div class="dropdown-menu-lang bg-white">
+<div class="dropdown-menu-lang bg-white index-lang">
   <span>
     {% if request.LANGUAGE_CODE == 'de' %}
     <img src="{% static 'icons/de.png' %}" class="home-menu-country-icon">
@@ -26,7 +26,7 @@
   </div>
 </div>
 
-<div class="bg-picture splash-container">
+<div class="bg-picture splash-container index-splash">
   <div class="splash">
     <h1 class="splash-head"><span>WOEZ</span><span class="rotate-c">C</span><!--{% trans "splash-title" %}--></h1>
     <p class="splash-subhead"><!--Translated from Ewe to English means you are warmly welcome as a visitor to our website!-->{% trans "splash-text" %}</p>

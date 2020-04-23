@@ -12,13 +12,15 @@ A website
 `source ENV/bin/activate`  
 `pip install django`  
 Manage localization  
-`sudo apt-get install msguniq`  
 `sudo apt-get install gettext`  
 uswgi setup  
 https://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html  
 Start uwsgi server  
 `uwsgi --socket HoPe.sock --module HoPe.wsgi --chmod-socket=666 --logto ~/logs/HoPe.log &`
 ## Useful comments
+inital DB  
+`python manage.py makemigrations Foerder`  
+`python manage.py migrate`  
 Start Server  
 `python manage.py runserver 0:8080`  
 Manage localization  
