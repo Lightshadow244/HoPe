@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-22 08:48+0000\n"
+"POT-Creation-Date: 2020-04-23 14:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,42 +18,57 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: templates/Foerder/about_us.html:37 templates/Foerder/event.html:37
-#: templates/Foerder/events.html:38 templates/Foerder/impressum.html:38
-#: templates/Foerder/index.html:41 templates/Foerder/partner.html:37
-#: templates/Foerder/support_us.html:37
+#: Foerder/templates/Foerder/about_us.html:37
+#: Foerder/templates/Foerder/event.html:37
+#: Foerder/templates/Foerder/events.html:38
+#: Foerder/templates/Foerder/impressum.html:38
+#: Foerder/templates/Foerder/index.html:41
+#: Foerder/templates/Foerder/partner.html:37
+#: Foerder/templates/Foerder/support_us.html:37
 msgid "Home"
 msgstr "Start"
 
-#: templates/Foerder/about_us.html:38 templates/Foerder/event.html:38
-#: templates/Foerder/events.html:39 templates/Foerder/impressum.html:39
-#: templates/Foerder/index.html:42 templates/Foerder/partner.html:38
-#: templates/Foerder/support_us.html:38
+#: Foerder/templates/Foerder/about_us.html:38
+#: Foerder/templates/Foerder/event.html:38
+#: Foerder/templates/Foerder/events.html:39
+#: Foerder/templates/Foerder/impressum.html:39
+#: Foerder/templates/Foerder/index.html:42
+#: Foerder/templates/Foerder/partner.html:38
+#: Foerder/templates/Foerder/support_us.html:38
 msgid "About_us"
 msgstr "Über uns"
 
-#: templates/Foerder/about_us.html:39 templates/Foerder/event.html:39
-#: templates/Foerder/events.html:40 templates/Foerder/impressum.html:40
-#: templates/Foerder/index.html:43 templates/Foerder/partner.html:39
-#: templates/Foerder/support_us.html:39
+#: Foerder/templates/Foerder/about_us.html:39
+#: Foerder/templates/Foerder/event.html:39
+#: Foerder/templates/Foerder/events.html:40
+#: Foerder/templates/Foerder/impressum.html:40
+#: Foerder/templates/Foerder/index.html:43
+#: Foerder/templates/Foerder/partner.html:39
+#: Foerder/templates/Foerder/support_us.html:39
 msgid "Projects"
 msgstr "Projekte"
 
-#: templates/Foerder/about_us.html:40 templates/Foerder/event.html:40
-#: templates/Foerder/events.html:41 templates/Foerder/impressum.html:41
-#: templates/Foerder/index.html:44 templates/Foerder/partner.html:40
-#: templates/Foerder/support_us.html:40
+#: Foerder/templates/Foerder/about_us.html:40
+#: Foerder/templates/Foerder/event.html:40
+#: Foerder/templates/Foerder/events.html:41
+#: Foerder/templates/Foerder/impressum.html:41
+#: Foerder/templates/Foerder/index.html:44
+#: Foerder/templates/Foerder/partner.html:40
+#: Foerder/templates/Foerder/support_us.html:40
 msgid "Support_us"
 msgstr "Unterstützt uns"
 
-#: templates/Foerder/about_us.html:41 templates/Foerder/event.html:41
-#: templates/Foerder/events.html:42 templates/Foerder/impressum.html:42
-#: templates/Foerder/index.html:45 templates/Foerder/partner.html:41
-#: templates/Foerder/support_us.html:41
+#: Foerder/templates/Foerder/about_us.html:41
+#: Foerder/templates/Foerder/event.html:41
+#: Foerder/templates/Foerder/events.html:42
+#: Foerder/templates/Foerder/impressum.html:42
+#: Foerder/templates/Foerder/index.html:45
+#: Foerder/templates/Foerder/partner.html:41
+#: Foerder/templates/Foerder/support_us.html:41
 msgid "Partner "
 msgstr " Partner & Förderer"
 
-#: templates/Foerder/about_us.html:54
+#: Foerder/templates/Foerder/about_us.html:54
 msgid "about_us_content_01"
 msgstr ""
 "Umdenken: Warum also nicht den Menschen in ihren Heimatländern Vorort "
@@ -67,11 +82,11 @@ msgstr ""
 "hin zu einem Wir Gefühl ohne Ausgrenzungen und Hass. Wandel der Gesellschaft "
 "beginnt in den Köpfen einzelner."
 
-#: templates/Foerder/about_us.html:61
+#: Foerder/templates/Foerder/about_us.html:61
 msgid "about_us_headline_01"
 msgstr "Über uns"
 
-#: templates/Foerder/about_us.html:64
+#: Foerder/templates/Foerder/about_us.html:64
 msgid "about_us_content_02"
 msgstr ""
 "Freunde und Förderer HoPe Ghana e.V. ist ein im Dezember 2019 gegründeter "
@@ -80,95 +95,144 @@ msgstr ""
 "alle neben ihrem Job, Studium und Ausbildung sich um die Organisation dieses "
 "Vereins kümmern."
 
-#: templates/Foerder/about_us.html:65
+#: Foerder/templates/Foerder/about_us.html:65
 msgid "Unser Vorstand besteht aus vier Personen."
 msgstr "Unser Vorstand besteht aus vier Personen."
 
-#: templates/Foerder/about_us.html:67
+#: Foerder/templates/Foerder/about_us.html:67
 msgid "Vorstandsvorsitzende: Jolina Oelsner"
 msgstr "Vorstandsvorsitzende: Jolina Oelsner"
 
-#: templates/Foerder/about_us.html:68
+#: Foerder/templates/Foerder/about_us.html:68
 msgid "stellvertretender Vorsitzender: Florian Oelsner"
 msgstr "stellvertretender Vorsitzender: Florian Oelsner"
 
-#: templates/Foerder/about_us.html:69
+#: Foerder/templates/Foerder/about_us.html:69
 msgid "Öffentlichkeitsarbeit: Richard Lüdtke"
 msgstr "Öffentlichkeitsarbeit: Richard Lüdtke"
 
-#: templates/Foerder/about_us.html:70
+#: Foerder/templates/Foerder/about_us.html:70
 msgid "Schatzmeisterin: Ines Oelsner"
 msgstr "Schatzmeisterin: Ines Oelsner"
 
-#: templates/Foerder/events.html:54
+#: Foerder/templates/Foerder/events.html:54
 msgid "events_plant"
 msgstr "geplante Events"
 
-#: templates/Foerder/events.html:73 templates/Foerder/events.html:99
+#: Foerder/templates/Foerder/events.html:73
+#: Foerder/templates/Foerder/events.html:99
 msgid "events_Not_avaiable"
 msgstr "Keine Events verfügbar"
 
-#: templates/Foerder/events.html:81
+#: Foerder/templates/Foerder/events.html:81
 msgid "events_finished"
 msgstr "abgeschlossene Events"
 
-#: templates/Foerder/impressum.html:56
+#: Foerder/templates/Foerder/impressum.html:56
 msgid "impressum_reason"
 msgstr "Angaben gemäß § 5 TMG"
 
-#: templates/Foerder/impressum.html:68 templates/Foerder/impressum.html:85
-#: templates/Foerder/impressum.html:105
+#: Foerder/templates/Foerder/impressum.html:68
+#: Foerder/templates/Foerder/impressum.html:85
+#: Foerder/templates/Foerder/impressum.html:105
 msgid "germany"
 msgstr "Deutschland"
 
-#: templates/Foerder/impressum.html:73
+#: Foerder/templates/Foerder/impressum.html:73
 msgid "represented_by"
 msgstr "Vertreten durch"
 
-#: templates/Foerder/impressum.html:93
+#: Foerder/templates/Foerder/impressum.html:93
 msgid "technicale_contact"
 msgstr "Technischer Ansprechpartner"
 
-#: templates/Foerder/index.html:32
+#: Foerder/templates/Foerder/index.html:32
 msgid "splash-text"
 msgstr ""
 "Übersetzt von Ewe nach Deutsch heißt das, dass Sie als Besucher unserer "
 "Website herzlich willkommen sind!"
 
-#: templates/Foerder/support_us.html:53
-#| msgid "support_us_with_a_donation"
+#: Foerder/templates/Foerder/partner.html:52
+#| msgid "Partner "
+msgid "Unsere Partner"
+msgstr "Unsere Partner"
+
+#: Foerder/templates/Foerder/partner.html:69
+msgid "Unsere Foerderer"
+msgstr "Unsere Foerderer"
+
+#: Foerder/templates/Foerder/partner.html:81
+msgid "Kooperationen"
+msgstr "Kooperationen"
+
+#: Foerder/templates/Foerder/partner.html:84
+msgid "Sie sind Chef oder Angestelltes einer Firma,"
+msgstr "Sie sind Chef oder Angestelltes einer Firma, Unternehmens, Gemeinschaft oder auch eines Vereins von klein bis groß? Und Sie sind der Meinung, dass mehr Engagement von Nöten sei (???). Oder haben Sie Ideen und Pläne für zukünftige Events, Projekte oder auch Aktionsprogramme, die Wir gemeinsam anpacken könnten? Dann melden Sie sich bei uns und wir nehmen gerne Kontakt auf!"
+
+#: Foerder/templates/Foerder/support_us.html:53
 msgid "support_us_headline_01"
 msgstr "Unterstützen Sie uns!"
 
-#: templates/Foerder/support_us.html:55
-#| msgid "support_us_with_a_donation"
+#: Foerder/templates/Foerder/support_us.html:55
 msgid "support_us_content_01"
-msgstr "Unterstützung bedeutet nicht immer gleich Geld zu spenden, natürlich sind wir zum Größtenteils auf Spendengelder angewiesen, jedoch gibt es auch viele andere Möglichkeiten sich zu engagieren, ob durch eine Mitgliedschaft, Projektbeteiligungen oder Kooperationen. Tritt unserem Förderverein bei und unterstütz uns aktiv mit Projekten, Ideen und ehrenamtlichen Tätigkeiten rund um unseren Verein. "
+msgstr ""
+"Unterstützung bedeutet nicht immer gleich Geld zu spenden, natürlich sind "
+"wir zum Größtenteils auf Spendengelder angewiesen, jedoch gibt es auch viele "
+"andere Möglichkeiten sich zu engagieren, ob durch eine Mitgliedschaft, "
+"Projektbeteiligungen oder Kooperationen. Tritt unserem Förderverein bei und "
+"unterstütz uns aktiv mit Projekten, Ideen und ehrenamtlichen Tätigkeiten "
+"rund um unseren Verein. "
 
-#: templates/Foerder/support_us.html:59 templates/Foerder/support_us.html:80
-#| msgid "support_us_with_a_donation"
+#: Foerder/templates/Foerder/support_us.html:59
 msgid "support_us_headline_02"
 msgstr "Mitgliederanmeldung"
 
-#: templates/Foerder/support_us.html:60 templates/Foerder/support_us.html:82
-#| msgid "support_us_with_a_donation"
+#: Foerder/templates/Foerder/support_us.html:60
 msgid "support_us_content_02"
-msgstr "Reicht es dir nicht mehr aus nur ein passiver Spender zu sein? Du hast Lust dich selber zu engagieren und aktiv an unseren Projekten teilzunehmen? Und du glaubst, dass wir die richtige Gemeinschaft mit den passenden Zielen und Vorstellungen dafür sind? Dann ließ dir doch gerne unsere Satzung durch und trage dich in das Mitgliederformular ein. Und wir werden dich ganz herzlich bei uns begrüßen!"
+msgstr ""
+"Reicht es dir nicht mehr aus nur ein passiver Spender zu sein? Du hast Lust "
+"dich selber zu engagieren und aktiv an unseren Projekten teilzunehmen? Und "
+"du glaubst, dass wir die richtige Gemeinschaft mit den passenden Zielen und "
+"Vorstellungen dafür sind? Dann ließ dir doch gerne unsere Satzung durch und "
+"trage dich in das Mitgliederformular ein. Und wir werden dich ganz herzlich "
+"bei uns begrüßen!"
 
-#: templates/Foerder/support_us.html:65 templates/Foerder/support_us.html:73
+#: Foerder/templates/Foerder/support_us.html:65
+#: Foerder/templates/Foerder/support_us.html:73
 msgid "Membership application DE"
 msgstr "Mitgliedsantrag"
 
-#: templates/Foerder/support_us.html:86
-#| msgid "support_us_with_a_donation"
+#: Foerder/templates/Foerder/support_us.html:80
 msgid "support_us_headline_03"
 msgstr "Spenden"
 
-#: templates/Foerder/support_us.html:87
-#| msgid "support_us_with_a_donation"
+#: Foerder/templates/Foerder/support_us.html:81
 msgid "support_us_content_03"
-msgstr "Finanzierung unserer bevorstehenden Expansion nach Motte? Dir ist diese Wahl, in einem bestimmten vorgegebenen Bereich selbst überlassen. Das du nicht komplett die freie Wahl hast, liegt daran, dass wir nicht in Dinge finanzieren wollen, die nicht gebraucht werden. So wird das Geld optimal und genau da eingesetzt wo auch welches benötigt wird. Denn die Leute vor Ort wissen einfach am besten, was auch gebraucht wird und was nicht."
+msgstr ""
+"Ist dir jedoch eine Mitgliedschaft oder aktive Beteiligung an Projekten zu "
+"viel aufwand, zu stressig, oder du willst dich zu nichts verpflichten, dann "
+"ist natürlich nichts gegen eine herkömmliche Geldspende einzuwenden und ist "
+"natürlich mehr als nur gerne gesehen! Wir sind der Meinung, dass die "
+"Menschen in Ghana selber am besten Wissen, was gebraucht wird und was nicht. "
+"Aus diesem Grund senden wir alleine Geld nach Ghana und verzichten auf "
+"Sachspenden die aus Deutschland nach Ghana versendet werden müssten, dadurch "
+"sparen wir nicht nur eine Menge an Transportkosten, die an andere Stelle "
+"besser eingesetzt werden könnten, sondern wir sorgen damit auch dafür, dass "
+"dinge ankommen, die auch gebraucht werden und nicht unbenutzt bleibt. Deine "
+"Spende wird immer dort eingesetzt wo es am meisten benötigt wird. Dies ist "
+"sich jeweils abhängig von bevorstehenden Projekten. Das ist dir jedoch zu "
+"ungenau? Da haben wir auch hier das passende. Du kannst ganz einfach selber "
+"aktiv bestimmen, wofür dein Geld verwendet werden soll. Ob in "
+"Unterrichtsmaterialien, wie Stifte, Hefte oder Stühle, oder doch lieber in "
+"aktuelle oder bereits bestehende Projekte, wie Baumsätzlinge, Cottonbeutel "
+"oder aber auch in die Finanzierung unserer bevorstehenden Expansion nach "
+"Motte? Dir ist diese Wahl, in einem bestimmten vorgegebenen Bereich selbst "
+"überlassen. Das du nicht komplett die freie Wahl hast, liegt daran, dass wir "
+"nicht in Dinge finanzieren wollen, die nicht gebraucht werden. So wird das "
+"Geld optimal und genau da eingesetzt wo auch welches benötigt wird. Denn die "
+"Leute vor Ort wissen einfach am besten, was auch gebraucht wird und was "
+"nicht."
 
-#: templates/Foerder/support_us.html:92
+#: Foerder/templates/Foerder/support_us.html:86
 msgid "Spendenformular"
 msgstr "Spendenformular"

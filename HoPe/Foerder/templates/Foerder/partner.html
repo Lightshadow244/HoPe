@@ -47,5 +47,43 @@
 <div class="bg-picture bg">
 </div>
 <div class="content-wrapper">
+  <div class="content">
+    <h1>
+      {% trans "Unsere Partner" %}
+    </h1>
+    <div class="pure-g gallery ">
+      <div class="pure-u-1-4 partner-logo-container">
+        <a href= "https://www.houseofperspectives.org/">
+          <img src="{% static 'Hope_trans-h180.jpeg' %}" alt='HoPe' title='House of Perspectives Ghana'/>
+        </a>
+      </div>
+      <div class="pure-u-1-4 partner-logo-container">
+        <a href= "http://oekozentrum.eu/">
+          <img src="{% static 'lkj-h180.jpg' %}" alt='Oekozentrum Magdeburg' title='Oekozentrum Magdeburg'/>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <h1>
+      {% trans "Unsere Foerderer" %}
+    </h1>
+    <div class="pure-g gallery ">
+      <div class="pure-u-1-4 partner-logo-container">
+        <a href= "https://www.norbertus.de/">
+          <img src="{% static 'norbertus-logo-icon-h180.png' %}" alt="Norbertusgymnasium Magdeburg"  title="Norbertusgymnasium Magdeburg"/>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <h1>
+      {% trans "Kooperationen" %}
+    </h1>
+    <p>
+      {% trans "Sie sind Chef oder Angestelltes einer Firma," %}
+    </p>
+  </div>
+
 </div>
 {% endblock %}

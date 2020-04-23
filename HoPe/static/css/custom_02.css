@@ -334,3 +334,16 @@ hr{
 .index-splash{
 	z-index: -1;
 }
+
+.partner-logo-container{
+	display:flex;
+}
+
+.partner-logo-container a {
+	margin:auto;
+}
+
+.partner-logo-container a img{
+height:100%;
+width:100%;
+}
