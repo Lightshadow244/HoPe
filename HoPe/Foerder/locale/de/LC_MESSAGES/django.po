@@ -82,23 +82,23 @@ msgstr ""
 
 #: templates/Foerder/about_us.html:65
 msgid "Unser Vorstand besteht aus vier Personen."
-msgstr ""
+msgstr "Unser Vorstand besteht aus vier Personen."
 
 #: templates/Foerder/about_us.html:67
 msgid "Vorstandsvorsitzende: Jolina Oelsner"
-msgstr ""
+msgstr "Vorstandsvorsitzende: Jolina Oelsner"
 
 #: templates/Foerder/about_us.html:68
 msgid "stellvertretender Vorsitzender: Florian Oelsner"
-msgstr ""
+msgstr "stellvertretender Vorsitzender: Florian Oelsner"
 
 #: templates/Foerder/about_us.html:69
 msgid "Öffentlichkeitsarbeit: Richard Lüdtke"
-msgstr ""
+msgstr "Öffentlichkeitsarbeit: Richard Lüdtke"
 
 #: templates/Foerder/about_us.html:70
 msgid "Schatzmeisterin: Ines Oelsner"
-msgstr ""
+msgstr "Schatzmeisterin: Ines Oelsner"
 
 #: templates/Foerder/events.html:54
 msgid "events_plant"
@@ -136,44 +136,47 @@ msgstr ""
 "Website herzlich willkommen sind!"
 
 #: templates/Foerder/support_us.html:53
-#, fuzzy
 #| msgid "support_us_with_a_donation"
 msgid "support_us_headline_01"
-msgstr "Unterstütz uns mit einer Spende"
+msgstr "Unterstützen Sie uns!"
 
 #: templates/Foerder/support_us.html:55
-#, fuzzy
 #| msgid "support_us_with_a_donation"
 msgid "support_us_content_01"
-msgstr "Unterstütz uns mit einer Spende"
+msgstr "Unterstützung bedeutet nicht immer gleich Geld zu spenden, natürlich sind wir zum Größtenteils auf Spendengelder angewiesen, jedoch gibt es auch viele andere Möglichkeiten sich zu engagieren, ob durch eine Mitgliedschaft, Projektbeteiligungen oder Kooperationen. Tritt unserem Förderverein bei und unterstütz uns aktiv mit Projekten, Ideen und ehrenamtlichen Tätigkeiten rund um unseren Verein. "
 
-#: templates/Foerder/support_us.html:59
-#, fuzzy
+#: templates/Foerder/support_us.html:59 templates/Foerder/support_us.html:80
 #| msgid "support_us_with_a_donation"
 msgid "support_us_headline_02"
-msgstr "Unterstütz uns mit einer Spende"
+msgstr "Mitgliederanmeldung"
 
-#: templates/Foerder/support_us.html:60
-#, fuzzy
+#: templates/Foerder/support_us.html:60 templates/Foerder/support_us.html:82
 #| msgid "support_us_with_a_donation"
 msgid "support_us_content_02"
-msgstr "Unterstütz uns mit einer Spende"
+msgstr "Reicht es dir nicht mehr aus nur ein passiver Spender zu sein? Du hast Lust dich selber zu engagieren und aktiv an unseren Projekten teilzunehmen? Und du glaubst, dass wir die richtige Gemeinschaft mit den passenden Zielen und Vorstellungen dafür sind? Dann ließ dir doch gerne unsere Satzung durch und trage dich in das Mitgliederformular ein. Und wir werden dich ganz herzlich bei uns begrüßen!"
 
 #: templates/Foerder/support_us.html:65 templates/Foerder/support_us.html:73
 msgid "Membership application DE"
-msgstr ""
+msgstr "Mitgliedsantrag"
 
-#: templates/Foerder/support_us.html:80
-#, fuzzy
+#: templates/Foerder/support_us.html:86
 #| msgid "support_us_with_a_donation"
 msgid "support_us_headline_03"
-msgstr "Unterstütz uns mit einer Spende"
+msgstr "Spenden"
 
-#: templates/Foerder/support_us.html:81
-#, fuzzy
+#: templates/Foerder/support_us.html:87
 #| msgid "support_us_with_a_donation"
 msgid "support_us_content_03"
-msgstr "Unterstütz uns mit einer Spende"
+msgstr "Finanzierung unserer bevorstehenden Expansion nach Motte? Dir ist diese Wahl, in einem bestimmten vorgegebenen Bereich selbst überlassen. Das du nicht komplett die freie Wahl hast, liegt daran, dass wir nicht in Dinge finanzieren wollen, die nicht gebraucht werden. So wird das Geld optimal und genau da eingesetzt wo auch welches benötigt wird. Denn die Leute vor Ort wissen einfach am besten, was auch gebraucht wird und was nicht."
+
+#: templates/Foerder/support_us.html:92
+msgid "Spendenformular"
+msgstr "Spendenformular"
+
+#, fuzzy
+#~| msgid "support_us_with_a_donation"
+#~ msgid "support_us_donate"
+#~ msgstr "Unterstütz uns mit einer Spende"
 
 #: templates/Foerder/support_us.html:86
 msgid "Spendenformular"

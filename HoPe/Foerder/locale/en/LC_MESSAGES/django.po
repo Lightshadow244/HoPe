@@ -59,6 +59,10 @@ msgstr ""
 
 #: templates/Foerder/about_us.html:61
 msgid "about_us_headline_01"
+msgstr ""
+
+#: templates/Foerder/about_us.html:61
+msgid "about_us_headline_01"
 msgstr "About Us"
 
 #: templates/Foerder/about_us.html:64
@@ -81,6 +85,18 @@ msgstr "Jolina Oelsner, the executive chairman"
 #: templates/Foerder/about_us.html:68
 msgid "stellvertretender Vorsitzender: Florian Oelsner"
 msgstr "Florian Oelsner, chairman"
+
+#: templates/Foerder/about_us.html:65
+msgid "Unser Vorstand besteht aus vier Personen."
+msgstr ""
+
+#: templates/Foerder/about_us.html:67
+msgid "Vorstandsvorsitzende: Jolina Oelsner"
+msgstr ""
+
+#: templates/Foerder/about_us.html:68
+msgid "stellvertretender Vorsitzender: Florian Oelsner"
+msgstr ""
 
 #: templates/Foerder/about_us.html:69
 msgid "Öffentlichkeitsarbeit: Richard Lüdtke"
@@ -164,6 +180,15 @@ msgstr "Donation Form"
 
 #~ msgid "splash-title"
 #~ msgstr "WAYZOLOO"
+
+#, fuzzy
+#~| msgid "support_us_with_a_donation"
+#~ msgid "support_us_donate"
+#~ msgstr "Support us with a donation"
+
+#: templates/Foerder/support_us.html:92
+msgid "Spendenformular"
+msgstr ""
 
 #, fuzzy
 #~| msgid "support_us_with_a_donation"
