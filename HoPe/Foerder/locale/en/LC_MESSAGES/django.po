@@ -59,10 +59,6 @@ msgstr ""
 
 #: templates/Foerder/about_us.html:61
 msgid "about_us_headline_01"
-msgstr ""
-
-#: templates/Foerder/about_us.html:61
-msgid "about_us_headline_01"
 msgstr "About Us"
 
 #: templates/Foerder/about_us.html:64
@@ -85,18 +81,6 @@ msgstr "Jolina Oelsner, the executive chairman"
 #: templates/Foerder/about_us.html:68
 msgid "stellvertretender Vorsitzender: Florian Oelsner"
 msgstr "Florian Oelsner, chairman"
-
-#: templates/Foerder/about_us.html:65
-msgid "Unser Vorstand besteht aus vier Personen."
-msgstr ""
-
-#: templates/Foerder/about_us.html:67
-msgid "Vorstandsvorsitzende: Jolina Oelsner"
-msgstr ""
-
-#: templates/Foerder/about_us.html:68
-msgid "stellvertretender Vorsitzender: Florian Oelsner"
-msgstr ""
 
 #: templates/Foerder/about_us.html:69
 msgid "Öffentlichkeitsarbeit: Richard Lüdtke"
@@ -177,91 +161,3 @@ msgstr "If, however, membership or active participation in projects is too much 
 #: templates/Foerder/support_us.html:86
 msgid "Spendenformular"
 msgstr "Donation Form"
-
-#~ msgid "splash-title"
-#~ msgstr "WAYZOLOO"
-
-#, fuzzy
-#~| msgid "support_us_with_a_donation"
-#~ msgid "support_us_donate"
-#~ msgstr "Support us with a donation"
-
-#: templates/Foerder/support_us.html:92
-msgid "Spendenformular"
-msgstr ""
-
-#, fuzzy
-#~| msgid "support_us_with_a_donation"
-#~ msgid "support_us_donate"
-#~ msgstr "Support us with a donation"
-
-#~ msgid "content1-title"
-#~ msgstr "What do we do?"
-
-#~ msgid "content1-text1"
-#~ msgstr "We do not help, we support!"
-
-#~ msgid "content1-text2"
-#~ msgstr ""
-#~ "Because in our opinion, the best support we can provide is to strengthen "
-#~ "self-help. From our office in Tokokoe we organize workshops and lessons "
-#~ "from locals for locals. We offer different opportunities for children and "
-#~ "adults of all ages."
-
-#~ msgid "content2-title"
-#~ msgstr "HoPe what does that mean?"
-
-#~ msgid "content2-text1"
-#~ msgstr ""
-#~ "Our NGO (non-governmental organisation) 'House of Perspectives' is not "
-#~ "only a place where you can learn new things, but also offers an equal "
-#~ "future regardless of age, gender and skin colour. Our organization was "
-#~ "founded with the aim to improve the low level of education in rural areas "
-#~ "of Ghana."
-
-#~ msgid "content2-text2"
-#~ msgstr ""
-#~ "And this is exactly what we stand up for since our foundation in February "
-#~ "2018 with our NGO HoPe and since 2019 with our association Friends & "
-#~ "Donators of HoPe Ghana."
-
-#~ msgid "content3-title1"
-#~ msgstr "Adults are present!"
-
-#~ msgid "content3-text1"
-#~ msgstr ""
-#~ "We live right now. That is why it is so important for adults not to "
-#~ "neglected in our organization. So there is the possibility for the adults "
-#~ "to refresh their knowledge in mathematics and English and to learn new "
-#~ "things. The evening workshops are particularly exciting. Topics such as "
-#~ "health, climate change and how to deal with conflicts are explained "
-#~ "vividly and discussed together."
-
-#~ msgid "content3-title2"
-#~ msgstr "Children are the future!"
-
-#~ msgid "content3-text2"
-#~ msgstr ""
-#~ "Of course there are schools, but like everywhere there are children who "
-#~ "need more support. These, but also all other pupils, can repeat topics in "
-#~ "mathematics and English at any time and get individual support in case of "
-#~ "difficulties. In addition, the doors of our small library are open to "
-#~ "them at all times."
-
-#~ msgid "Become_a_supporter"
-#~ msgstr "Become a supporter"
-
-#~ msgid "coming_soon"
-#~ msgstr "Coming sonn..."
-
-#~ msgid "account_holder"
-#~ msgstr "Account holder"
-
-#~ msgid "bank_name"
-#~ msgstr "Bank name"
-
-#~ msgid "usage"
-#~ msgstr "Usage"
-
-#~ msgid "Donation_text"
-#~ msgstr "Donation, Freunde & Foerderer HoPe Ghanae.V, Name of the donator"
