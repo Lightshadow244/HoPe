@@ -14,12 +14,12 @@
     <div class="dropdown-content-lang">
       <ul class="list-lang">
         <li>
-          <a href= "/de/a" >
+          <a href= "/de/a/support_us" >
             <img src="{% static 'icons/de.png' %}" class="home-menu-country-icon">
          </a>
         </li>
         <li>
-          <a href= "/en/a" >
+          <a href= "/en/a/support_us" >
             <img src="{% static 'icons/gb.png' %}" class="home-menu-country-icon">
           </a>
         </li>
@@ -79,6 +79,7 @@
   <div class="content">
     <h3>{% trans "support_us_headline_03" %}</h3>
     <p> {% trans "support_us_content_03" %} </p>
+    <p> {% trans "support_us_content_04" %} </p>
     <a class="document-member" href="{% static 'Beitrittserklärung_Freunde _ Förderer_HoPe_Ghana_eV.pdf' %}">
       <div>
         <div>
@@ -87,8 +88,25 @@
         </div>
       </div>
     </a>
-    <div class="bold">Paypal</div>
+    <p class="bold">Paypal</p>
 
+    {% if request.LANGUAGE_CODE == 'de' %}
+      <form class="paypal-form"action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_donations" />
+        <input type="hidden" name="business" value="hope.ghana.ev@gmail.com" />
+        <input type="hidden" name="currency_code" value="EUR" />
+        <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Spenden mit dem PayPal-Button" />
+        <img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1" />
+      </form>
+    {% else %}
+    <form class="paypal-form"action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_donations" />
+      <input type="hidden" name="business" value="hope.ghana.ev@gmail.com" />
+      <input type="hidden" name="currency_code" value="EUR" />
+      <input type="image" src="https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+      <img alt="" border="0" src="https://www.paypal.com/en_DE/i/scr/pixel.gif" width="1" height="1" />
+    </form>
+    {% endif %}
   </div>
 </div>
 

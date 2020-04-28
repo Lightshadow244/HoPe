@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-23 14:22+0000\n"
+"POT-Creation-Date: 2020-04-28 13:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -152,7 +152,6 @@ msgstr ""
 "our website!"
 
 #: Foerder/templates/Foerder/partner.html:52
-#| msgid "Partner "
 msgid "Unsere Partner"
 msgstr "Our partners"
 
@@ -166,7 +165,12 @@ msgstr "Cooperations"
 
 #: Foerder/templates/Foerder/partner.html:84
 msgid "Sie sind Chef oder Angestelltes einer Firma,"
-msgstr "Are you the boss or employee of a company, enterprise, community or even an association from small to large? And you are of the opinion that more commitment is needed (????). Or do you have ideas and plans for future events, projects or even action programs that we could tackle together? Then get in touch with us and we will be happy to get in touch with you!"
+msgstr ""
+"Are you the boss or employee of a company, enterprise, community or even an "
+"association from small to large? And you are of the opinion that more "
+"commitment is needed (????). Or do you have ideas and plans for future "
+"events, projects or even action programs that we could tackle together? Then "
+"get in touch with us and we will be happy to get in touch with you!"
 
 #: Foerder/templates/Foerder/support_us.html:53
 msgid "support_us_headline_01"
@@ -209,7 +213,11 @@ msgstr ""
 "If, however, membership or active participation in projects is too much for "
 "you, too stressful, or you don't want to commit yourself to anything, then "
 "there is of course nothing wrong with a conventional donation and is of "
-"course more than welcome!We are of the opinion that the people in Ghana "
+"course more than welcome!"
+
+#: Foerder/templates/Foerder/support_us.html:82
+msgid "support_us_content_04"
+msgstr "We are of the opinion that the people in Ghana "
 "themselves know best what is needed and what is not. For this reason we only "
 "send money to Ghana and do not send donations in kind which would have to be "
 "sent from Germany to Ghana. This way we not only save alot of transport "
@@ -227,6 +235,6 @@ msgstr ""
 "optimally and exactly where it is needed. Because the local people simply "
 "know best what is needed and what is not."
 
-#: Foerder/templates/Foerder/support_us.html:86
+#: Foerder/templates/Foerder/support_us.html:87
 msgid "Spendenformular"
 msgstr "Donation Form"

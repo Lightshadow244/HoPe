@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-23 14:22+0000\n"
+"POT-Creation-Date: 2020-04-28 13:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -153,7 +153,6 @@ msgstr ""
 "Website herzlich willkommen sind!"
 
 #: Foerder/templates/Foerder/partner.html:52
-#| msgid "Partner "
 msgid "Unsere Partner"
 msgstr "Unsere Partner"
 
@@ -167,7 +166,13 @@ msgstr "Kooperationen"
 
 #: Foerder/templates/Foerder/partner.html:84
 msgid "Sie sind Chef oder Angestelltes einer Firma,"
-msgstr "Sie sind Chef oder Angestelltes einer Firma, Unternehmens, Gemeinschaft oder auch eines Vereins von klein bis groß? Und Sie sind der Meinung, dass mehr Engagement von Nöten sei (???). Oder haben Sie Ideen und Pläne für zukünftige Events, Projekte oder auch Aktionsprogramme, die Wir gemeinsam anpacken könnten? Dann melden Sie sich bei uns und wir nehmen gerne Kontakt auf!"
+msgstr ""
+"Sie sind Chef oder Angestelltes einer Firma, Unternehmens, Gemeinschaft oder "
+"auch eines Vereins von klein bis groß? Und Sie sind der Meinung, dass mehr "
+"Engagement von Nöten sei (???). Oder haben Sie Ideen und Pläne für "
+"zukünftige Events, Projekte oder auch Aktionsprogramme, die Wir gemeinsam "
+"anpacken könnten? Dann melden Sie sich bei uns und wir nehmen gerne Kontakt "
+"auf!"
 
 #: Foerder/templates/Foerder/support_us.html:53
 msgid "support_us_headline_01"
@@ -212,7 +217,11 @@ msgstr ""
 "Ist dir jedoch eine Mitgliedschaft oder aktive Beteiligung an Projekten zu "
 "viel aufwand, zu stressig, oder du willst dich zu nichts verpflichten, dann "
 "ist natürlich nichts gegen eine herkömmliche Geldspende einzuwenden und ist "
-"natürlich mehr als nur gerne gesehen! Wir sind der Meinung, dass die "
+"natürlich mehr als nur gerne gesehen!"
+
+#: Foerder/templates/Foerder/support_us.html:82
+msgid "support_us_content_04"
+msgstr "Wir sind der Meinung, dass die "
 "Menschen in Ghana selber am besten Wissen, was gebraucht wird und was nicht. "
 "Aus diesem Grund senden wir alleine Geld nach Ghana und verzichten auf "
 "Sachspenden die aus Deutschland nach Ghana versendet werden müssten, dadurch "
@@ -233,6 +242,6 @@ msgstr ""
 "Leute vor Ort wissen einfach am besten, was auch gebraucht wird und was "
 "nicht."
 
-#: Foerder/templates/Foerder/support_us.html:86
+#: Foerder/templates/Foerder/support_us.html:87
 msgid "Spendenformular"
 msgstr "Spendenformular"

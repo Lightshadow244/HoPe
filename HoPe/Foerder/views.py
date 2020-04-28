@@ -90,6 +90,7 @@ def event(request, event_id):
         event['images_object'].append(eventImages[x].image.url[12:])
     print(event['images_object'])
     event['event_object'] = Event.objects.get(pk=event_id)
+    event['event_id'] = event_id
     #print(event)
     context = { 'event': event, }
     return HttpResponse(template.render(context, request))
