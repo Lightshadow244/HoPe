@@ -64,7 +64,7 @@
           <img src="{% static event.main_image_object|safe %}" class="event-main-image">
         {% endif %}
         <div class="event-headline">
-          <h1 class="event-headline">{{event.event_object.title_english}}</h1>
+          <h1 class="event-headline-text">{{event.event_object.title_english}}</h1>
           <div class="event-date">{{ event.event_object.pub_date|date:"d.m.Y"}}</div>
         </div>
 
