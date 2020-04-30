@@ -168,7 +168,7 @@ msgid "Sie sind Chef oder Angestelltes einer Firma,"
 msgstr ""
 "Are you the boss or employee of a company, enterprise, community or even an "
 "association from small to large? And you are of the opinion that more "
-"commitment is needed (????). Or do you have ideas and plans for future "
+"commitment is needed. Or do you have ideas and plans for future "
 "events, projects or even action programs that we could tackle together? Then "
 "get in touch with us and we will be happy to get in touch with you!"
 
