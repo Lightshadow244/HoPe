@@ -200,7 +200,7 @@ msgstr ""
 
 #: Foerder/templates/Foerder/support_us.html:65
 msgid "Satzung DE"
-msgstr ""
+msgstr "Constitution DE"
 
 #: Foerder/templates/Foerder/support_us.html:73
 msgid "Membership application DE"
