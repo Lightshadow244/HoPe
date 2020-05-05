@@ -354,20 +354,23 @@ width:100%;
 	margin-top:70px;
 }
 
-@media only screen and (max-width: 799px) {
-	body {
-		font-size: 180%;
-	}
-	.content_02 {
-		width: 100%;
-	}
-}
-
 @media only screen and (max-width: 1300px) {
 	.content_02 {
 		width: 90%;
 	}
 	.content {
 		width: 90%;
+	}
+	.splash {
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 899px) {
+	body {
+		font-size: 180%;
+	}
+	.content_02 {
+		width: 100%;
 	}
 }
