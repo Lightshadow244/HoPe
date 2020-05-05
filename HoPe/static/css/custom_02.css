@@ -355,6 +355,9 @@ width:100%;
 }
 
 @media (max-width: 800px) {
+	body {
+		font-size: 180%;
+	}
 	.content_02 {
 		width: 100%;
 	}
