@@ -363,7 +363,7 @@ width:100%;
 	}
 }
 
-@media only screen and (min-width: 800px) (max-width: 1300px) {
+@media only screen and (max-width: 1300px) {
 	.content_02 {
 		width: 90%;
 	}
