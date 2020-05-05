@@ -233,7 +233,7 @@ hr{
 	float:left;
 	width:45%;
 	/*margin:10px;*/
-	padding:20px;
+	/*padding:20px;*/
 }
 
 .content-wrapper{
@@ -354,6 +354,16 @@ width:100%;
 	margin-top:70px;
 }
 
-@media (max-width: 1200px) {
-
+@media (max-width: 1300px) {
+	.content_02 {
+		width: 90%;
+	}
+	.content {
+		width: 90%;
+	}
+}
+@media (max-width: 800px) {
+	.content_02 {
+		width: 100%;
+	}
 }
