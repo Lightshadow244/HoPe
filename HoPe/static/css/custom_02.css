@@ -372,5 +372,17 @@ width:100%;
 	}
 	.content_02 {
 		width: 100%;
+		padding: 0;
+	}
+	.about-us-main-image {
+		float:none;
+		width: auto;
+		margin:10px;
+	}
+
+	.content_02 .about-us-p {
+		width:auto;
+		float:none;
+		margin:10px;
 	}
 }
