@@ -368,7 +368,7 @@ width:100%;
 
 @media only screen and (max-width: 899px) {
 	body {
-		font-size: 180%;
+		font-size: 140%;
 	}
 	.content {
 		width: auto;
@@ -390,3 +390,8 @@ width:100%;
 		margin:10px;
 	}
 }
+/*@media only screen and (max-width: 699px) {
+	body {
+		font-size: 140%;
+	}
+}*/
