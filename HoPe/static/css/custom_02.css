@@ -360,7 +360,7 @@ width:100%;
 	}
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1300px) (min-width: 801px) {
 	.content_02 {
 		width: 90%;
 	}
