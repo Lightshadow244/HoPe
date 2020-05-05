@@ -389,6 +389,9 @@ width:100%;
 	.splash {
 		width: 95%;
 	}
+	.splash-head {
+		padding:0.5em;
+	}
 }
 /*@media only screen and (max-width: 699px) {
 	body {
