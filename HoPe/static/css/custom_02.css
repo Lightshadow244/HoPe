@@ -354,7 +354,7 @@ width:100%;
 	margin-top:70px;
 }
 
-@media (max-width: 800px) {
+@media only screen and (max-width: 799px) {
 	body {
 		font-size: 180%;
 	}
@@ -363,7 +363,7 @@ width:100%;
 	}
 }
 
-@media (max-width: 1300px) (min-width: 801px) {
+@media only screen and (min-width: 800px) (max-width: 1300px) {
 	.content_02 {
 		width: 90%;
 	}
