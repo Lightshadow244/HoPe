@@ -101,7 +101,7 @@ hr{
 
 .menu-container {
   padding:20px;
-	height:320px;
+	/*height:320px;*/
 }
 
 .menu-container-hidden {
@@ -369,6 +369,10 @@ width:100%;
 @media only screen and (max-width: 899px) {
 	body {
 		font-size: 180%;
+	}
+	.content {
+		width: auto;
+		margin:10px;
 	}
 	.content_02 {
 		width: 100%;
