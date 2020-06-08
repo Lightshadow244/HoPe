@@ -392,6 +392,15 @@ width:100%;
 	.splash-head {
 		padding:0.5em;
 	}
+	.event-headline h1{
+		font-size:1.5em;
+	}
+	.event-main-image {
+		float:none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 /*@media only screen and (max-width: 699px) {
 	body {
