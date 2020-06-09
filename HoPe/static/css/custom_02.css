@@ -401,6 +401,10 @@ width:100%;
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+	.gallery .pure-u-1-4 {
+		    width: 100%;
+	}
 }
 /*@media only screen and (max-width: 699px) {
 	body {
