@@ -16,7 +16,7 @@ Manage localization
 uswgi setup  
 https://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html  
 Start uwsgi server  
-`uwsgi --socket HoPe.sock --module HoPe.wsgi --chmod-socket=666 --logto ~/logs/HoPe.log &`
+`uwsgi --socket HoPe.sock --module HoPe.wsgi --chmod-socket=666 --logto ~/logs/HoPe_`date +\%m-\%y` & &`
 ## Useful comments
 inital DB  
 `python manage.py makemigrations Foerder`  
