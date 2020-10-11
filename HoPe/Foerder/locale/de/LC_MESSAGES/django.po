@@ -167,7 +167,7 @@ msgstr "Kooperationen"
 #: Foerder/templates/Foerder/partner.html:84
 msgid "Sie sind Chef oder Angestelltes einer Firma,"
 msgstr ""
-"Sie sind Chef oder Angestelltes einer Firma, Unternehmens, Gemeinschaft oder "
+"Sie sind Chef oder Angestellter einer Firma, Unternehmens, Gemeinschaft oder "
 "auch eines Vereins von klein bis groß? Und Sie sind der Meinung, dass mehr "
 "Engagement von Nöten sei. Oder haben Sie Ideen und Pläne für "
 "zukünftige Events, Projekte oder auch Aktionsprogramme, die Wir gemeinsam "
