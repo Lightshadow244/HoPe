@@ -94,3 +94,6 @@ def event(request, event_id):
     #print(event)
     context = { 'event': event, }
     return HttpResponse(template.render(context, request))
+
+def spenden_fv_ghana(request)
+    return render(request, 'Foerder/spenden_fv_ghana.html')

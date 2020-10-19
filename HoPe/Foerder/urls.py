@@ -11,4 +11,5 @@ urlpatterns = [
     path('about_us', views.about_us, name='about_us'),
     path('partner', views.partner, name='partner'),
     path('events/<int:event_id>', views.event, name='event'),
+    path('spenden_fv_ghana', views.spenden_fv_ghana, name='spenden_fv_ghana'),
 ]
