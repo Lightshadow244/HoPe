@@ -1,5 +1,5 @@
 # HoPe
-A website  
+A website for the support association Freunde und Förderer HoPe Ghana e.V. - http://hope-ev.de
 ## Requirements
 - virtualenv with python 3
 - django
