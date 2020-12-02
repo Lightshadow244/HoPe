@@ -95,5 +95,5 @@ def event(request, event_id):
     context = { 'event': event, }
     return HttpResponse(template.render(context, request))
 
-def spenden_fv_ghana(request):
-    return render(request, 'Foerder/spenden_fv_ghana.html')
+def donate_fv_ghana(request):
+    return render(request, 'Foerder/donate_fv_ghana.html')
