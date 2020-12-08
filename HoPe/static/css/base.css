@@ -22,8 +22,74 @@ hr{
 	margin-right: 20px;
 }
 
-.bold {
+.hope-float-right {
+  float: right;
+}
+
+.hope-float-left {
+  float: left;
+}
+
+.hope-margin-10 {
+  margin: 10px;
+}
+
+.hope-display-inline-block {
+	display: inline-block;
+}
+
+.hope-display-block {
+	display: block;
+}
+
+.hope-bold {
 	font-weight: bold;
+}
+
+.hope-slideshow-container {
+	max-width: 500px;
+  position: relative;
+}
+
+.hope-slideshow-slide {
+  display: none;
+}
+
+.hope-slideshow-fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.hope-width-100 {
+	width:100%;
+}
+
+.hope-width-33 {
+	width:33%;
+}
+
+.hope-margin-auto {
+	margin:auto;
+}
+
+.hope-text-align-center {
+	text-align: center;
+}
+
+.hope-font-size-160 {
+	font-size: 160%;
 }
 
 .bg {
@@ -351,7 +417,7 @@ width:100%;
 	margin-top:10px;
 }
 
-.empty {
+.hope-empty {
 	width:100%;
 	margin-top:70px;
 }
