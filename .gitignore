@@ -114,3 +114,6 @@ HoPe/static/media/EventImages/*
 
 # migrations
 HoPe/Foerder/migrations/*
+
+HoPe/HoPe/HoPe/settings.py
+
