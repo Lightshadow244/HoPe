@@ -115,5 +115,4 @@ HoPe/static/media/EventImages/*
 # migrations
 HoPe/Foerder/migrations/*
 
-HoPe/HoPe/settings.py
 
