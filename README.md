@@ -1,5 +1,5 @@
 # HoPe
-A website  
+A website for the support association Freunde und Förderer HoPe Ghana e.V. - http://hope-ev.de
 ## Requirements
 - virtualenv with python 3
 - django
@@ -16,7 +16,8 @@ Manage localization
 uswgi setup  
 https://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html  
 Start uwsgi server  
-`uwsgi --socket HoPe.sock --module HoPe.wsgi --chmod-socket=666 --logto ~/logs/HoPe_`date +\%m-\%y` & &`
+`cd directory/to/HoPe`
+`uwsgi --socket HoPe.sock --module HoPe.wsgi --chmod-socket=666 --logto ~/logs/HoPe_$(date +%m-%y).log &`
 ## Useful comments
 inital DB  
 `python manage.py makemigrations Foerder`  

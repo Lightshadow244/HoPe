@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-11 10:11+0200\n"
+"POT-Creation-Date: 2020-12-08 09:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: Foerder/templates/Foerder/about_us.html:37
+#: Foerder/templates/Foerder/donate_fv_ghana.html:37
 #: Foerder/templates/Foerder/event.html:37
 #: Foerder/templates/Foerder/events.html:38
 #: Foerder/templates/Foerder/impressum.html:38
@@ -29,6 +30,7 @@ msgid "Home"
 msgstr "Start"
 
 #: Foerder/templates/Foerder/about_us.html:38
+#: Foerder/templates/Foerder/donate_fv_ghana.html:38
 #: Foerder/templates/Foerder/event.html:38
 #: Foerder/templates/Foerder/events.html:39
 #: Foerder/templates/Foerder/impressum.html:39
@@ -39,6 +41,7 @@ msgid "About_us"
 msgstr "Über uns"
 
 #: Foerder/templates/Foerder/about_us.html:39
+#: Foerder/templates/Foerder/donate_fv_ghana.html:39
 #: Foerder/templates/Foerder/event.html:39
 #: Foerder/templates/Foerder/events.html:40
 #: Foerder/templates/Foerder/impressum.html:40
@@ -49,6 +52,7 @@ msgid "Projects"
 msgstr "Projekte"
 
 #: Foerder/templates/Foerder/about_us.html:40
+#: Foerder/templates/Foerder/donate_fv_ghana.html:40
 #: Foerder/templates/Foerder/event.html:40
 #: Foerder/templates/Foerder/events.html:41
 #: Foerder/templates/Foerder/impressum.html:41
@@ -59,6 +63,7 @@ msgid "Support_us"
 msgstr "Unterstützt uns"
 
 #: Foerder/templates/Foerder/about_us.html:41
+#: Foerder/templates/Foerder/donate_fv_ghana.html:41
 #: Foerder/templates/Foerder/event.html:41
 #: Foerder/templates/Foerder/events.html:42
 #: Foerder/templates/Foerder/impressum.html:42
@@ -116,25 +121,289 @@ msgid "Schatzmeisterin: Ines Oelsner"
 msgstr "Schatzmeisterin: Ines Oelsner"
 
 #: Foerder/templates/Foerder/about_us.html:85
+#: Foerder/templates/Foerder/donate_fv_ghana.html:183
 #: Foerder/templates/Foerder/event.html:99
-#: Foerder/templates/Foerder/events.html:111
+#: Foerder/templates/Foerder/events.html:129
 #: Foerder/templates/Foerder/partner.html:99
 #: Foerder/templates/Foerder/support_us.html:117
-#, fuzzy
-#| msgid "impressum_reason"
 msgid "Impressum"
 msgstr "Angaben gemäß § 5 TMG"
 
+#: Foerder/templates/Foerder/donate_fv_ghana.html:53
+msgid "donate_fv_ghana_headline_01"
+msgstr "Unsere Partnerorganisation in Ghana: House of Perspektives"
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:56
+msgid "donate_fv_ghana_content_01_01"
+msgstr ""
+"„House of Perspectives“ (HoPe), es ist eine noch sehr junge Organisation in "
+"Tokokoe, einem kleinen Dorf in Ghana. Das Ziel von HoPe ist es, jedem "
+"Einzelnen den bestmöglichen Bildungsgrad zu ermöglichen. Egal ob Kinder, "
+"Jugendliche oder Erwachsene, für jeden haben wir das passende Angebot. Für "
+"die Schüler und Schülerinnen gibt es nach der Schule die Möglichkeit, das "
+"gewonnene Wissen aus der Schule noch zu festigen und zu erweitern und für "
+"die Erwachsenen werden verschiedene Projekte und Workshops angeboten, die "
+"zur Allgemeinbildung beitragen."
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:58
+msgid "donate_fv_ghana_content_01_02"
+msgstr ""
+"Am besten können wir uns bei allen Spendern und Spenderinnen für die "
+"Unterstützung bedanken, indem wir konkret aufzählen, was wir bereits mit all "
+"euren/Ihren Spenden erreichen konnten:"
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:62
+msgid "donate_fv_ghana_headline_02"
+msgstr "Der Beginn"
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:65
+msgid "donate_fv_ghana_content_02_01"
+msgstr ""
+"Im Dezember 2018 wurde die NGO gegründet und bereits zu Beginn konnten wir "
+"auf Spenden sowohl aus Ghana als auch aus Deutschland zu greifen um die "
+"erste große Herausforderung zu meistern: der Bau eines Büros, der später "
+"auch als Unterrichtsraum dienen würde. Eine Menge der anfangs gesammelten "
+"Spenden floss in den Bau und auch in Werbung, um besonders in Tokokoe die "
+"Aufmerksamkeit der Leute vor Ort zu bekommen"
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:69
+msgid "donate_fv_ghana_content_02_02"
+msgstr ""
+"So wurde nach und nach mit weiteren Spenden das Büro eingerichtet. Von "
+"Außenwerbung durch Plakate, Flyer und Visitenkarten über Computer, die unter "
+"anderem dabei halfen, Zählungen der Bevölkerung in den Dörfern zu "
+"dokumentieren und zu archivieren als auch unsere Webseite zu verwalten, bis "
+"hin zu Büromaterialien und erste Sport- und Freizeitausrüstungen wurden "
+"durch Spenden finanziert."
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:84
+msgid "donate_fv_ghana_content_02_03"
+msgstr ""
+"HoPe wuchs im Laufe des Jahres 2019 immer weiter und benötigte so auch nun "
+"mehr Mitarbeiter. Die NGO, die bisher von Raymond Kporvu hauptsächlich "
+"geleitet und koordiniert wurde und auch die Unterstützung von anderen "
+"Freiwilligen hatten, brauchte nun noch mehr helfende Hände. Denn die "
+"Nachfrage aus der Umgebung stieg und auch andere Dörfer fragten bereits an, "
+"ob HoPe nicht auch bei ihnen Projekte starten und Unterstützung leisten "
+"könnte. Der Nachhilfeunterricht für die Kinder nach der eigentlichen Schule "
+"startete nun und so mussten Materialien wie Bücher, Schreibhefte, Stifte und "
+"vieles mehr besorgt werden. Mit der Zeit und der 2 steigenden Nachfrage der "
+"Einwohner nach Programmen wurde der Platz in dem Office immer weniger. Es "
+"mussten nun mehr Materialien finanziert werden und die Betreuer und Lehrer "
+"bezahlt werden. Die Spenden, die wir zu dem Zeitpunkt hauptsächlich von "
+"Privatleuten empfingen, halfen dabei, das Personal zu bezahlen die "
+"unabdingbar gebraucht wurden. Als wir dann großzügige Spenden auch von "
+"Schulen in Deutschland bekamen, konnte wir mit deren Hilfe einen zweiten "
+"Raum in unserem Office entstehen lassen. Von dem Geld konnte u.a. konkret "
+"ein großer Tisch (siehe Foto)gebaut werden und ein Arbeitstisch für die "
+"Aufsichtsperson hergestellt werden. Der zweite Raum wurde notwendig, da am "
+"Nachmittag so viele Kinder kamen, dass es in den ursprünglichen "
+"Räumlichkeiten zu eng wurde. Nun wird es ein Englischraum und ein Matheraum "
+"geben, wo mithilfe konkreter Materialien das Schulwissen aufgefrischt und "
+"verbessert werden kann. Zudem bietet er nun die Möglichkeit, dass die "
+"Schüler direkt nach der Schule vorbeikommen können, um Hausaufgaben zu "
+"machen oder um zu lesen."
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:95
+msgid "donate_fv_ghana_headline_03"
+msgstr "Kooperationen mit Schulen"
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:98
+msgid "donate_fv_ghana_content_03_01"
+msgstr ""
+"HoPe möchte aber nicht nur nach der Schule die Kinder unterstützen und "
+"motivieren, sondern auch in den Schulen direkt ansetzen. Und so veranstaltet "
+"HoPe zu jedem erfolgreich vergangenen Schuljahr ein Fest, um die besten "
+"Schüler und Schülerinnen der Klassen der Grundschulen und High-Schools in "
+"den umliegenden Dörfern für ihre hervorragenden Leistungen auszuzeichnen. "
+"Als Motivation bekommen diese Schüler Hefte und Unterrichtsmaterialien "
+"geschenkt. Und an dieser Stelle kommen nun auch hier wieder die Spenden ins "
+"Spiel, denn ohne die finanzielle Unterstützung wäre dies nicht möglich."
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:103
+msgid "donate_fv_ghana_headline_04"
+msgstr "Erwachsenen Bildung"
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:114
+msgid "donate_fv_ghana_content_04_01"
+msgstr ""
+"Anfang 2020 startete HoPe mit der Erwachsenen Implementierung der "
+"Erwachsenen Bildung in das Programm der NGO. Der Fokus lag vor allem darauf, "
+"Erwachsenen ebenfalls die Möglichkeit zugeben sich weiter zu bilden und "
+"durch Vorlesungen und Seminaren zu den unterschiedlichsten Themen (z.B. "
+"Umweltverschmutzung, Erziehung, Politik uvm.) immer weiter zu lernen. Da die "
+"Analphabetenrate bei Erwachsenen besonders in den Dörfern sehr hoch liegt, "
+"bieten HoPe zudem auch die Möglichkeit für Erwachsene Lesen und Schreiben zu "
+"erlernen 3 oder aufzufrischen bzw. zu verbessern. Auch hier kommen wieder "
+"eure/ Ihre Spenden zum Einsatz, denn für die Abendkurse wurden zahlreiche "
+"Stühle, sowie auch Beamer und vor allem Lehrer und Dozierende benötigt. Mit "
+"der Zeit wurden diese Abendveranstaltungen immer aktiver besucht und fanden "
+"nun drei Mal die Woche statt. Es fehlte nun an weiterer Ausrüstung, denn "
+"mitunter versammelten sich bis zu 50 Personen pro Abend und umso länger die "
+"Reihen wurden, desto weniger wurde in der letzten Reihe verstanden. Mit "
+"weiteren Spenden kaufte HoPe unterandere Mikrofone und Lautsprecher, um so "
+"auch für die Letzten verständlich zu bleiben."
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:122
+msgid "donate_fv_ghana_headline_05"
+msgstr " Aktivitäten während Corona"
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:125
+msgid "donate_fv_ghana_content_05_01"
+msgstr ""
+"Covid-19 hat leider auch in Ghana zunächst konkrete Veränderungen erfordert. "
+"Es konnte von März bis September leider kein Unterricht in den regulären "
+"Schulen stattfinden, da sich in Ghana nicht mehr als 20 Personen auf einem "
+"Platz versammeln durften. Und so musste auch HoPe die Abendveranstaltungen "
+"vorerst auf Eis legen. Allerdings legt House of Perspectives viel Wert auf "
+"die Schulbildung, die unter diesen Ausfällen sehr gelitten hat. Die Schüler "
+"der 6.-10. Klassen haben sich in dieser Zeit regelmäßig im Office in Klein-"
+"gruppen mit den nötigen Vorkehrungen getroffen und versucht den verpassten "
+"Schulstoff aufzuholen. Die Kinder der Grundschule werden auch im Laufe des "
+"nächsten Monats wieder regelmäßig kommen dürfen. Hierbei muss man erwähnen, "
+"dass die ghanaische Regierung beschlossen hat, dass die Grundschüler und "
+"Grundschülerinnen erst wieder im Januar 2021 zur Schule gehen werden. So ist "
+"HoPes Ziel, alles daran setzten, dass diese Kinder in dieser Übergangszeit "
+"trotzdem sich selbst weiterbilden können, und da kommen eure/Ihre Spenden "
+"wieder ins Spiel."
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:129
+msgid "donate_fv_ghana_headline_06"
+msgstr "Unterrichtsmaterialien"
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:131
+msgid "donate_fv_ghana_content_06_01"
+msgstr ""
+"HoPe konnte mit eurer/Ihrer Hilfe einen Farbdrucker besorgen, der das "
+"„spielerische Lernen“, worauf sehr viel Wert gelegt wird, erleichtert. "
+"Außerdem wurde eine kleine Bibliothek eingerichtet, in der ebenfalls mit "
+"eurer/Ihrer Unterstützung neue Fachbücher besorgt werden konnten, in denen "
+"die Kinder so selbstständig lesen und recherchieren können."
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:135
+msgid "donate_fv_ghana_headline_07"
+msgstr "Aufklärung und Prävention vom Coronavirus"
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:136
+msgid "donate_fv_ghana_content_07_01"
+msgstr ""
+"Als auch in Ghana das soziale Leben auf null gefahren wurde und auf dem Dorf "
+"extreme Angst und Unwissenheit herrschte, hat sich House of Perspectives "
+"überlegt, wie man ohne das Gruppieren von Personen trotzdem über den Virus "
+"und die damit verbundenen Maßnahmen informieren kann. 4 Deswegen haben wir "
+"uns dazu entschieden, an jeder öffentlichen Stelle in insgesamt drei "
+"Dörfern, Informationsplakate zum Thema Covid-19 zu verteilen. Diese Plakate "
+"sind auf Ewe, der regionalen Sprache in der Volta Region, und Englisch "
+"verfasst worden, damit auch jede/-r unabhängig vom Bildungsgrad, diese "
+"Informationen verstehen kann. Auf diesen insgesamt knapp 30 Plakaten gab es "
+"viele positive Rückmeldungen aus den Dörfern."
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:137
+msgid "donate_fv_ghana_content_07_02"
+msgstr ""
+"Ein Punkt, den wir vor Covid-19 noch nicht auf dem Plan hatten, ist auch "
+"dazu gekommen: Mund-Nasenmasken nähen. Wir haben uns mit den Schneider und "
+"Schneiderinnen des Dorfes zusammengetan und mehrere Masken genäht. Um "
+"gleichzeitig Arbeitsplätze zu sichern, haben wir uns dazu entschieden eine "
+"eigene Nähmaschine zu kaufen. So können auch Jugendliche und Erwachsene, die "
+"gerade keine Arbeit finden, gegen eine Entlohnung neue Masken nähen."
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:138
+msgid "donate_fv_ghana_content_07_03"
+msgstr ""
+"Mit den Nähmaschinen war es HoPe jedoch nicht nur möglich Masken zu nähen, "
+"sondern auch wieder verwendbare Einkaufstaschen und Müllsäcke aus Pure Water "
+"Tüten. Die wiederverwendbaren Einkaufstaschen wurden im Zuge der "
+"Abendveranstaltungen zum Thema Umweltschutz an die sowohl anwesenden "
+"Teilnehmer als auch in den Dörfern verteilt. Diese Aktion soll dabei "
+"Aufklärung und mehr Verständnis bei den Bewohnern entwickeln, um die eigene "
+"Stadt / das eigene Dorf sauber und reinzuhalten."
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:145
+msgid "donate_fv_ghana_content_07_04"
+msgstr ""
+"Ebenfalls im Zuge der Aktion Umweltschutz, wurden Müllsäcke aus den bereits "
+"benutzten Pure Water Tüten genäht. Dadurch verhindert HoPe nicht nur die "
+"unnötige Verschwendung von Rohstoffen, sondern sorgt auch dafür, dass der "
+"entstandene Müll fachgerecht entsorgt werden kann. Mit Hilfe der Spenden "
+"konnten so die Mülleimergerüste gebaut werden und sowohl in Tokokoe als auch "
+"in den umliegenden Dörfern verteilt werden."
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:155
+msgid "donate_fv_ghana_headline_08"
+msgstr "Bau von neuen Brunnen:"
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:157
+msgid "donate_fv_ghana_content_08_01"
+msgstr ""
+"Ein vorerst einmaliges Projekt, welches HoPe Dank eurer/Ihrer Spenden "
+"ermöglichen konnte, lief in Kooperation mit einer weiteren ghanaischen "
+"Organisation. So konnten mehrere Brunnen in den umliegenden Dörfern Tokokoes "
+"errichtet werden."
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:162
+msgid "donate_fv_ghana_headline_09"
+msgstr "Die Farm:"
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:163
+msgid "donate_fv_ghana_content_09_01"
+msgstr ""
+"Parallel zu all den bereits genannten Projekten läuft seit Ende 2019 eine "
+"ganz andere Aktion: Die Farm."
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:164
+msgid "donate_fv_ghana_content_09_02"
+msgstr ""
+"HoPe hat mit finanzieller Unterstützung einen Hektar Land zur Verfügung "
+"bekommen, auf dem nun in traditioneller Weise 500 Kakaobäume, 500 "
+"Kochbananenbäume und ca. 1000 Maispflanzen angepflanzt wurden. Auch dies war "
+"harte Arbeit und verlangte eine Menge an sowohl physischer Unterstützung vor "
+"Ort als auch eine Menge an finanzieller Mittel, die ohne euch/Ihnen gar "
+"nicht zur Verfügung gestanden hätten. Bis der Kakao jedoch Ertrag bringen "
+"wird, wird es allerdings zwei bis drei Jahre dauern. In der Wartezeit bringt "
+"der Mais und die Kochbananen aber immerhin kleine Erträge, die dann zum "
+"weiteren Ausbau von „House of Perspectives“ genutzt werden."
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:167
+msgid "donate_fv_ghana_content_09_03"
+msgstr "Dabei werden Teile der Erträge an besonders ältere Bewohner der Dörfer kostenlos verteilt und die Resterträge werden dann verkauft und gehen in weitere Projekte oder zurück in den Anbau von neuen 6 Pflanzen. Denn das Ziel von House Of Perspectives ist es in ein paar Jahren, eine finanziell unabhängige NGO zu werden und somit nicht mehr auf Spenden oder finanzieller Unterstützung anderer angewiesen zu sein."
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:169
+msgid "donate_fv_ghana_content_09_04"
+msgstr "In den nächsten Jahren wollen wir die angefangen Aktionen und Projekte weiterführen und noch weiter ausbauen. Wir hoffen, dass wir in einigen Wochen wieder jeden Tag Bildungsangebote für die Kinder anbieten können und für die Erwachsenen Themenabende mit Referenten regelmäßig stattfinden können."
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:170
+msgid "donate_fv_ghana_content_09_05"
+msgstr "Die Menschen in Tokokoe, haben jetzt schon so viel durch die Aktionen von House of Perspectives gelernt und werden in Zukunft hoffentlich noch viel mehr von dieser NGO profitieren können."
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:171
+msgid "donate_fv_ghana_content_09_06"
+msgstr "Nun könnt ihr/Sie vielleicht ein bisschen besser nachvollziehen, was alles schon mit euren/Ihren großartigen Spenden unterstützt wurde. Wir versichern euch/Ihnen, dass wir an allen Projekten dranbleiben und es mit bestem Wissen und Gewissen weiterführen werden."
+
+#: Foerder/templates/Foerder/donate_fv_ghana.html:177
+msgid "donate_fv_ghana_content_10_01"
+msgstr "An dieser Stelle wollen wir uns noch einmal bei allen Spendern und Spenderinnen ganz herzlich bedanken – Ihr macht den Unterschied!"
+
 #: Foerder/templates/Foerder/events.html:54
+#, fuzzy
+#| msgid "Projects"
+msgid "projects"
+msgstr "Projekte"
+
+#: Foerder/templates/Foerder/events.html:61
+msgid "Partnerorganisation_HouseOfPerspective"
+msgstr ""
+
+#: Foerder/templates/Foerder/events.html:72
 msgid "events_plant"
 msgstr "geplante Events"
 
-#: Foerder/templates/Foerder/events.html:73
-#: Foerder/templates/Foerder/events.html:99
+#: Foerder/templates/Foerder/events.html:91
+#: Foerder/templates/Foerder/events.html:117
 msgid "events_Not_avaiable"
 msgstr "Keine Events verfügbar"
 
-#: Foerder/templates/Foerder/events.html:81
+#: Foerder/templates/Foerder/events.html:99
 msgid "events_finished"
 msgstr "abgeschlossene Events"
 
