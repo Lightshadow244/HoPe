@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-30 06:33+0000\n"
+"POT-Creation-Date: 2020-10-11 10:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,11 +82,11 @@ msgstr ""
 "hin zu einem Wir Gefühl ohne Ausgrenzungen und Hass. Wandel der Gesellschaft "
 "beginnt in den Köpfen einzelner."
 
-#: Foerder/templates/Foerder/about_us.html:61
+#: Foerder/templates/Foerder/about_us.html:65
 msgid "about_us_headline_01"
 msgstr "Über uns"
 
-#: Foerder/templates/Foerder/about_us.html:64
+#: Foerder/templates/Foerder/about_us.html:68
 msgid "about_us_content_02"
 msgstr ""
 "Freunde und Förderer HoPe Ghana e.V. ist ein im Dezember 2019 gegründeter "
@@ -95,25 +95,35 @@ msgstr ""
 "alle neben ihrem Job, Studium und Ausbildung sich um die Organisation dieses "
 "Vereins kümmern."
 
-#: Foerder/templates/Foerder/about_us.html:65
+#: Foerder/templates/Foerder/about_us.html:69
 msgid "Unser Vorstand besteht aus vier Personen."
 msgstr "Unser Vorstand besteht aus vier Personen."
 
-#: Foerder/templates/Foerder/about_us.html:67
+#: Foerder/templates/Foerder/about_us.html:71
 msgid "Vorstandsvorsitzende: Jolina Oelsner"
 msgstr "Vorstandsvorsitzende: Jolina Oelsner"
 
-#: Foerder/templates/Foerder/about_us.html:68
+#: Foerder/templates/Foerder/about_us.html:72
 msgid "stellvertretender Vorsitzender: Florian Oelsner"
 msgstr "stellvertretender Vorsitzender: Florian Oelsner"
 
-#: Foerder/templates/Foerder/about_us.html:69
+#: Foerder/templates/Foerder/about_us.html:73
 msgid "Öffentlichkeitsarbeit: Richard Lüdtke"
 msgstr "Öffentlichkeitsarbeit: Richard Lüdtke"
 
-#: Foerder/templates/Foerder/about_us.html:70
+#: Foerder/templates/Foerder/about_us.html:74
 msgid "Schatzmeisterin: Ines Oelsner"
 msgstr "Schatzmeisterin: Ines Oelsner"
+
+#: Foerder/templates/Foerder/about_us.html:85
+#: Foerder/templates/Foerder/event.html:99
+#: Foerder/templates/Foerder/events.html:111
+#: Foerder/templates/Foerder/partner.html:99
+#: Foerder/templates/Foerder/support_us.html:117
+#, fuzzy
+#| msgid "impressum_reason"
+msgid "Impressum"
+msgstr "Angaben gemäß § 5 TMG"
 
 #: Foerder/templates/Foerder/events.html:54
 msgid "events_plant"
@@ -160,19 +170,18 @@ msgstr "Unsere Partner"
 msgid "Unsere Foerderer"
 msgstr "Unsere Foerderer"
 
-#: Foerder/templates/Foerder/partner.html:81
+#: Foerder/templates/Foerder/partner.html:86
 msgid "Kooperationen"
 msgstr "Kooperationen"
 
-#: Foerder/templates/Foerder/partner.html:84
+#: Foerder/templates/Foerder/partner.html:89
 msgid "Sie sind Chef oder Angestelltes einer Firma,"
 msgstr ""
 "Sie sind Chef oder Angestellter einer Firma, Unternehmens, Gemeinschaft oder "
 "auch eines Vereins von klein bis groß? Und Sie sind der Meinung, dass mehr "
-"Engagement von Nöten sei. Oder haben Sie Ideen und Pläne für "
-"zukünftige Events, Projekte oder auch Aktionsprogramme, die Wir gemeinsam "
-"anpacken könnten? Dann melden Sie sich bei uns und wir nehmen gerne Kontakt "
-"auf!"
+"Engagement von Nöten sei. Oder haben Sie Ideen und Pläne für zukünftige "
+"Events, Projekte oder auch Aktionsprogramme, die Wir gemeinsam anpacken "
+"könnten? Dann melden Sie sich bei uns und wir nehmen gerne Kontakt auf!"
 
 #: Foerder/templates/Foerder/support_us.html:53
 msgid "support_us_headline_01"
