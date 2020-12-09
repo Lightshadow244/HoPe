@@ -127,7 +127,7 @@ msgstr "Schatzmeisterin: Ines Oelsner"
 #: Foerder/templates/Foerder/partner.html:99
 #: Foerder/templates/Foerder/support_us.html:117
 msgid "Impressum"
-msgstr "Angaben gemäß § 5 TMG"
+msgstr "Impressum"
 
 #: Foerder/templates/Foerder/donate_fv_ghana.html:53
 msgid "donate_fv_ghana_headline_01"
