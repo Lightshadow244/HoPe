@@ -109,7 +109,7 @@ msgstr "Impressum"
 
 #: templates/Foerder/donate_fv_ghana.html:53
 msgid "donate_fv_ghana_headline_01"
-msgstr "Unsere Partnerorganisation in Ghana: House of Perspektives"
+msgstr "Unsere Partnerorganisation in Ghana: House of Perspectives"
 
 #: templates/Foerder/donate_fv_ghana.html:56
 msgid "donate_fv_ghana_content_01_01"
@@ -132,7 +132,7 @@ msgstr ""
 
 #: templates/Foerder/donate_fv_ghana.html:62
 msgid "donate_fv_ghana_headline_02"
-msgstr "Der Beginn"
+msgstr "Der Beginn:"
 
 #: templates/Foerder/donate_fv_ghana.html:65
 msgid "donate_fv_ghana_content_02_01"
@@ -142,7 +142,7 @@ msgstr ""
 "erste große Herausforderung zu meistern: der Bau eines Büros, der später "
 "auch als Unterrichtsraum dienen würde. Eine Menge der anfangs gesammelten "
 "Spenden floss in den Bau und auch in Werbung, um besonders in Tokokoe die "
-"Aufmerksamkeit der Leute vor Ort zu bekommen"
+"Aufmerksamkeit der Leute vor Ort zu bekommen."
 
 #: templates/Foerder/donate_fv_ghana.html:69
 msgid "donate_fv_ghana_content_02_02"
@@ -184,7 +184,7 @@ msgstr ""
 
 #: templates/Foerder/donate_fv_ghana.html:95
 msgid "donate_fv_ghana_headline_03"
-msgstr "Kooperationen mit Schulen"
+msgstr "Kooperationen mit Schulen:"
 
 #: templates/Foerder/donate_fv_ghana.html:98
 msgid "donate_fv_ghana_content_03_01"
@@ -200,7 +200,7 @@ msgstr ""
 
 #: templates/Foerder/donate_fv_ghana.html:103
 msgid "donate_fv_ghana_headline_04"
-msgstr "Erwachsenen Bildung"
+msgstr "Erwachsenen Bildung:"
 
 #: templates/Foerder/donate_fv_ghana.html:114
 msgid "donate_fv_ghana_content_04_01"
@@ -224,7 +224,7 @@ msgstr ""
 
 #: templates/Foerder/donate_fv_ghana.html:122
 msgid "donate_fv_ghana_headline_05"
-msgstr " Aktivitäten während Corona"
+msgstr "Aktivitäten während Corona:"
 
 #: templates/Foerder/donate_fv_ghana.html:125
 msgid "donate_fv_ghana_content_05_01"
@@ -247,7 +247,7 @@ msgstr ""
 
 #: templates/Foerder/donate_fv_ghana.html:129
 msgid "donate_fv_ghana_headline_06"
-msgstr "Unterrichtsmaterialien"
+msgstr "Unterrichtsmaterialien:"
 
 #: templates/Foerder/donate_fv_ghana.html:131
 msgid "donate_fv_ghana_content_06_01"

@@ -57,7 +57,7 @@ width:200px;
 }
 
 .donate-fv-ghana-pic-04-04 {
-width:500px;
+width:400px;
 }
 
 .donate-fv-ghana-pic-05-01 {
@@ -73,11 +73,17 @@ width:500px;
 }
 
 .donate-fv-ghana-pic-07-01 {
-width:calc((100% - 40px) * (2/3));
+width:calc((100% - 40px) * (300/1133));
+/*height: 300px;*/
 }
 
 .donate-fv-ghana-pic-07-02 {
-width:calc((100% - 40px) * (1/3))
+width:calc((100% - 60px) * (533/1133))
+/*height: 300px;*/
+}
+.donate-fv-ghana-pic-07-06 {
+width:calc((100% - 60px) * (300/1133))
+/*height: 300px;*/
 }
 
 .donate-fv-ghana-pic-07-03 {
