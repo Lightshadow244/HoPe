@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-08 09:47+0000\n"
+"POT-Creation-Date: 2020-12-11 07:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,62 +18,42 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: Foerder/templates/Foerder/about_us.html:37
-#: Foerder/templates/Foerder/donate_fv_ghana.html:37
-#: Foerder/templates/Foerder/event.html:37
-#: Foerder/templates/Foerder/events.html:38
-#: Foerder/templates/Foerder/impressum.html:38
-#: Foerder/templates/Foerder/index.html:41
-#: Foerder/templates/Foerder/partner.html:37
-#: Foerder/templates/Foerder/support_us.html:37
+#: templates/Foerder/about_us.html:37 templates/Foerder/donate_fv_ghana.html:37
+#: templates/Foerder/event.html:37 templates/Foerder/events.html:38
+#: templates/Foerder/impressum.html:38 templates/Foerder/index.html:41
+#: templates/Foerder/partner.html:37 templates/Foerder/support_us.html:37
 msgid "Home"
 msgstr "Start"
 
-#: Foerder/templates/Foerder/about_us.html:38
-#: Foerder/templates/Foerder/donate_fv_ghana.html:38
-#: Foerder/templates/Foerder/event.html:38
-#: Foerder/templates/Foerder/events.html:39
-#: Foerder/templates/Foerder/impressum.html:39
-#: Foerder/templates/Foerder/index.html:42
-#: Foerder/templates/Foerder/partner.html:38
-#: Foerder/templates/Foerder/support_us.html:38
+#: templates/Foerder/about_us.html:38 templates/Foerder/donate_fv_ghana.html:38
+#: templates/Foerder/event.html:38 templates/Foerder/events.html:39
+#: templates/Foerder/impressum.html:39 templates/Foerder/index.html:42
+#: templates/Foerder/partner.html:38 templates/Foerder/support_us.html:38
 msgid "About_us"
 msgstr "Über uns"
 
-#: Foerder/templates/Foerder/about_us.html:39
-#: Foerder/templates/Foerder/donate_fv_ghana.html:39
-#: Foerder/templates/Foerder/event.html:39
-#: Foerder/templates/Foerder/events.html:40
-#: Foerder/templates/Foerder/impressum.html:40
-#: Foerder/templates/Foerder/index.html:43
-#: Foerder/templates/Foerder/partner.html:39
-#: Foerder/templates/Foerder/support_us.html:39
+#: templates/Foerder/about_us.html:39 templates/Foerder/donate_fv_ghana.html:39
+#: templates/Foerder/event.html:39 templates/Foerder/events.html:40
+#: templates/Foerder/impressum.html:40 templates/Foerder/index.html:43
+#: templates/Foerder/partner.html:39 templates/Foerder/support_us.html:39
 msgid "Projects"
 msgstr "Projekte"
 
-#: Foerder/templates/Foerder/about_us.html:40
-#: Foerder/templates/Foerder/donate_fv_ghana.html:40
-#: Foerder/templates/Foerder/event.html:40
-#: Foerder/templates/Foerder/events.html:41
-#: Foerder/templates/Foerder/impressum.html:41
-#: Foerder/templates/Foerder/index.html:44
-#: Foerder/templates/Foerder/partner.html:40
-#: Foerder/templates/Foerder/support_us.html:40
+#: templates/Foerder/about_us.html:40 templates/Foerder/donate_fv_ghana.html:40
+#: templates/Foerder/event.html:40 templates/Foerder/events.html:41
+#: templates/Foerder/impressum.html:41 templates/Foerder/index.html:44
+#: templates/Foerder/partner.html:40 templates/Foerder/support_us.html:40
 msgid "Support_us"
 msgstr "Unterstützt uns"
 
-#: Foerder/templates/Foerder/about_us.html:41
-#: Foerder/templates/Foerder/donate_fv_ghana.html:41
-#: Foerder/templates/Foerder/event.html:41
-#: Foerder/templates/Foerder/events.html:42
-#: Foerder/templates/Foerder/impressum.html:42
-#: Foerder/templates/Foerder/index.html:45
-#: Foerder/templates/Foerder/partner.html:41
-#: Foerder/templates/Foerder/support_us.html:41
+#: templates/Foerder/about_us.html:41 templates/Foerder/donate_fv_ghana.html:41
+#: templates/Foerder/event.html:41 templates/Foerder/events.html:42
+#: templates/Foerder/impressum.html:42 templates/Foerder/index.html:45
+#: templates/Foerder/partner.html:41 templates/Foerder/support_us.html:41
 msgid "Partner "
 msgstr " Partner & Förderer"
 
-#: Foerder/templates/Foerder/about_us.html:54
+#: templates/Foerder/about_us.html:54
 msgid "about_us_content_01"
 msgstr ""
 "Umdenken: Warum also nicht den Menschen in ihren Heimatländern Vorort "
@@ -87,11 +67,11 @@ msgstr ""
 "hin zu einem Wir Gefühl ohne Ausgrenzungen und Hass. Wandel der Gesellschaft "
 "beginnt in den Köpfen einzelner."
 
-#: Foerder/templates/Foerder/about_us.html:65
+#: templates/Foerder/about_us.html:65
 msgid "about_us_headline_01"
 msgstr "Über uns"
 
-#: Foerder/templates/Foerder/about_us.html:68
+#: templates/Foerder/about_us.html:68
 msgid "about_us_content_02"
 msgstr ""
 "Freunde und Förderer HoPe Ghana e.V. ist ein im Dezember 2019 gegründeter "
@@ -100,40 +80,38 @@ msgstr ""
 "alle neben ihrem Job, Studium und Ausbildung sich um die Organisation dieses "
 "Vereins kümmern."
 
-#: Foerder/templates/Foerder/about_us.html:69
+#: templates/Foerder/about_us.html:69
 msgid "Unser Vorstand besteht aus vier Personen."
 msgstr "Unser Vorstand besteht aus vier Personen."
 
-#: Foerder/templates/Foerder/about_us.html:71
+#: templates/Foerder/about_us.html:71
 msgid "Vorstandsvorsitzende: Jolina Oelsner"
 msgstr "Vorstandsvorsitzende: Jolina Oelsner"
 
-#: Foerder/templates/Foerder/about_us.html:72
+#: templates/Foerder/about_us.html:72
 msgid "stellvertretender Vorsitzender: Florian Oelsner"
 msgstr "stellvertretender Vorsitzender: Florian Oelsner"
 
-#: Foerder/templates/Foerder/about_us.html:73
+#: templates/Foerder/about_us.html:73
 msgid "Öffentlichkeitsarbeit: Richard Lüdtke"
 msgstr "Öffentlichkeitsarbeit: Richard Lüdtke"
 
-#: Foerder/templates/Foerder/about_us.html:74
+#: templates/Foerder/about_us.html:74
 msgid "Schatzmeisterin: Ines Oelsner"
 msgstr "Schatzmeisterin: Ines Oelsner"
 
-#: Foerder/templates/Foerder/about_us.html:85
-#: Foerder/templates/Foerder/donate_fv_ghana.html:183
-#: Foerder/templates/Foerder/event.html:99
-#: Foerder/templates/Foerder/events.html:129
-#: Foerder/templates/Foerder/partner.html:99
-#: Foerder/templates/Foerder/support_us.html:117
+#: templates/Foerder/about_us.html:85
+#: templates/Foerder/donate_fv_ghana.html:186 templates/Foerder/event.html:99
+#: templates/Foerder/events.html:129 templates/Foerder/partner.html:99
+#: templates/Foerder/support_us.html:117
 msgid "Impressum"
 msgstr "Impressum"
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:53
+#: templates/Foerder/donate_fv_ghana.html:53
 msgid "donate_fv_ghana_headline_01"
 msgstr "Unsere Partnerorganisation in Ghana: House of Perspektives"
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:56
+#: templates/Foerder/donate_fv_ghana.html:56
 msgid "donate_fv_ghana_content_01_01"
 msgstr ""
 "„House of Perspectives“ (HoPe), es ist eine noch sehr junge Organisation in "
@@ -145,18 +123,18 @@ msgstr ""
 "die Erwachsenen werden verschiedene Projekte und Workshops angeboten, die "
 "zur Allgemeinbildung beitragen."
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:58
+#: templates/Foerder/donate_fv_ghana.html:58
 msgid "donate_fv_ghana_content_01_02"
 msgstr ""
 "Am besten können wir uns bei allen Spendern und Spenderinnen für die "
 "Unterstützung bedanken, indem wir konkret aufzählen, was wir bereits mit all "
 "euren/Ihren Spenden erreichen konnten:"
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:62
+#: templates/Foerder/donate_fv_ghana.html:62
 msgid "donate_fv_ghana_headline_02"
 msgstr "Der Beginn"
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:65
+#: templates/Foerder/donate_fv_ghana.html:65
 msgid "donate_fv_ghana_content_02_01"
 msgstr ""
 "Im Dezember 2018 wurde die NGO gegründet und bereits zu Beginn konnten wir "
@@ -166,7 +144,7 @@ msgstr ""
 "Spenden floss in den Bau und auch in Werbung, um besonders in Tokokoe die "
 "Aufmerksamkeit der Leute vor Ort zu bekommen"
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:69
+#: templates/Foerder/donate_fv_ghana.html:69
 msgid "donate_fv_ghana_content_02_02"
 msgstr ""
 "So wurde nach und nach mit weiteren Spenden das Büro eingerichtet. Von "
@@ -176,7 +154,7 @@ msgstr ""
 "hin zu Büromaterialien und erste Sport- und Freizeitausrüstungen wurden "
 "durch Spenden finanziert."
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:84
+#: templates/Foerder/donate_fv_ghana.html:84
 msgid "donate_fv_ghana_content_02_03"
 msgstr ""
 "HoPe wuchs im Laufe des Jahres 2019 immer weiter und benötigte so auch nun "
@@ -204,11 +182,11 @@ msgstr ""
 "Schüler direkt nach der Schule vorbeikommen können, um Hausaufgaben zu "
 "machen oder um zu lesen."
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:95
+#: templates/Foerder/donate_fv_ghana.html:95
 msgid "donate_fv_ghana_headline_03"
 msgstr "Kooperationen mit Schulen"
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:98
+#: templates/Foerder/donate_fv_ghana.html:98
 msgid "donate_fv_ghana_content_03_01"
 msgstr ""
 "HoPe möchte aber nicht nur nach der Schule die Kinder unterstützen und "
@@ -220,11 +198,11 @@ msgstr ""
 "geschenkt. Und an dieser Stelle kommen nun auch hier wieder die Spenden ins "
 "Spiel, denn ohne die finanzielle Unterstützung wäre dies nicht möglich."
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:103
+#: templates/Foerder/donate_fv_ghana.html:103
 msgid "donate_fv_ghana_headline_04"
 msgstr "Erwachsenen Bildung"
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:114
+#: templates/Foerder/donate_fv_ghana.html:114
 msgid "donate_fv_ghana_content_04_01"
 msgstr ""
 "Anfang 2020 startete HoPe mit der Erwachsenen Implementierung der "
@@ -244,11 +222,11 @@ msgstr ""
 "weiteren Spenden kaufte HoPe unterandere Mikrofone und Lautsprecher, um so "
 "auch für die Letzten verständlich zu bleiben."
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:122
+#: templates/Foerder/donate_fv_ghana.html:122
 msgid "donate_fv_ghana_headline_05"
 msgstr " Aktivitäten während Corona"
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:125
+#: templates/Foerder/donate_fv_ghana.html:125
 msgid "donate_fv_ghana_content_05_01"
 msgstr ""
 "Covid-19 hat leider auch in Ghana zunächst konkrete Veränderungen erfordert. "
@@ -267,11 +245,11 @@ msgstr ""
 "trotzdem sich selbst weiterbilden können, und da kommen eure/Ihre Spenden "
 "wieder ins Spiel."
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:129
+#: templates/Foerder/donate_fv_ghana.html:129
 msgid "donate_fv_ghana_headline_06"
 msgstr "Unterrichtsmaterialien"
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:131
+#: templates/Foerder/donate_fv_ghana.html:131
 msgid "donate_fv_ghana_content_06_01"
 msgstr ""
 "HoPe konnte mit eurer/Ihrer Hilfe einen Farbdrucker besorgen, der das "
@@ -280,11 +258,11 @@ msgstr ""
 "eurer/Ihrer Unterstützung neue Fachbücher besorgt werden konnten, in denen "
 "die Kinder so selbstständig lesen und recherchieren können."
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:135
+#: templates/Foerder/donate_fv_ghana.html:135
 msgid "donate_fv_ghana_headline_07"
 msgstr "Aufklärung und Prävention vom Coronavirus"
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:136
+#: templates/Foerder/donate_fv_ghana.html:136
 msgid "donate_fv_ghana_content_07_01"
 msgstr ""
 "Als auch in Ghana das soziale Leben auf null gefahren wurde und auf dem Dorf "
@@ -298,7 +276,7 @@ msgstr ""
 "Informationen verstehen kann. Auf diesen insgesamt knapp 30 Plakaten gab es "
 "viele positive Rückmeldungen aus den Dörfern."
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:137
+#: templates/Foerder/donate_fv_ghana.html:137
 msgid "donate_fv_ghana_content_07_02"
 msgstr ""
 "Ein Punkt, den wir vor Covid-19 noch nicht auf dem Plan hatten, ist auch "
@@ -308,7 +286,7 @@ msgstr ""
 "eigene Nähmaschine zu kaufen. So können auch Jugendliche und Erwachsene, die "
 "gerade keine Arbeit finden, gegen eine Entlohnung neue Masken nähen."
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:138
+#: templates/Foerder/donate_fv_ghana.html:138
 msgid "donate_fv_ghana_content_07_03"
 msgstr ""
 "Mit den Nähmaschinen war es HoPe jedoch nicht nur möglich Masken zu nähen, "
@@ -319,7 +297,7 @@ msgstr ""
 "Aufklärung und mehr Verständnis bei den Bewohnern entwickeln, um die eigene "
 "Stadt / das eigene Dorf sauber und reinzuhalten."
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:145
+#: templates/Foerder/donate_fv_ghana.html:145
 msgid "donate_fv_ghana_content_07_04"
 msgstr ""
 "Ebenfalls im Zuge der Aktion Umweltschutz, wurden Müllsäcke aus den bereits "
@@ -329,11 +307,11 @@ msgstr ""
 "konnten so die Mülleimergerüste gebaut werden und sowohl in Tokokoe als auch "
 "in den umliegenden Dörfern verteilt werden."
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:155
+#: templates/Foerder/donate_fv_ghana.html:154
 msgid "donate_fv_ghana_headline_08"
 msgstr "Bau von neuen Brunnen:"
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:157
+#: templates/Foerder/donate_fv_ghana.html:156
 msgid "donate_fv_ghana_content_08_01"
 msgstr ""
 "Ein vorerst einmaliges Projekt, welches HoPe Dank eurer/Ihrer Spenden "
@@ -341,17 +319,17 @@ msgstr ""
 "Organisation. So konnten mehrere Brunnen in den umliegenden Dörfern Tokokoes "
 "errichtet werden."
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:162
+#: templates/Foerder/donate_fv_ghana.html:160
 msgid "donate_fv_ghana_headline_09"
 msgstr "Die Farm:"
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:163
+#: templates/Foerder/donate_fv_ghana.html:161
 msgid "donate_fv_ghana_content_09_01"
 msgstr ""
 "Parallel zu all den bereits genannten Projekten läuft seit Ende 2019 eine "
 "ganz andere Aktion: Die Farm."
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:164
+#: templates/Foerder/donate_fv_ghana.html:165
 msgid "donate_fv_ghana_content_09_02"
 msgstr ""
 "HoPe hat mit finanzieller Unterstützung einen Hektar Land zur Verfügung "
@@ -364,86 +342,102 @@ msgstr ""
 "der Mais und die Kochbananen aber immerhin kleine Erträge, die dann zum "
 "weiteren Ausbau von „House of Perspectives“ genutzt werden."
 
-#: Foerder/templates/Foerder/donate_fv_ghana.html:167
+#: templates/Foerder/donate_fv_ghana.html:169
 msgid "donate_fv_ghana_content_09_03"
-msgstr "Dabei werden Teile der Erträge an besonders ältere Bewohner der Dörfer kostenlos verteilt und die Resterträge werden dann verkauft und gehen in weitere Projekte oder zurück in den Anbau von neuen 6 Pflanzen. Denn das Ziel von House Of Perspectives ist es in ein paar Jahren, eine finanziell unabhängige NGO zu werden und somit nicht mehr auf Spenden oder finanzieller Unterstützung anderer angewiesen zu sein."
-
-#: Foerder/templates/Foerder/donate_fv_ghana.html:169
-msgid "donate_fv_ghana_content_09_04"
-msgstr "In den nächsten Jahren wollen wir die angefangen Aktionen und Projekte weiterführen und noch weiter ausbauen. Wir hoffen, dass wir in einigen Wochen wieder jeden Tag Bildungsangebote für die Kinder anbieten können und für die Erwachsenen Themenabende mit Referenten regelmäßig stattfinden können."
-
-#: Foerder/templates/Foerder/donate_fv_ghana.html:170
-msgid "donate_fv_ghana_content_09_05"
-msgstr "Die Menschen in Tokokoe, haben jetzt schon so viel durch die Aktionen von House of Perspectives gelernt und werden in Zukunft hoffentlich noch viel mehr von dieser NGO profitieren können."
-
-#: Foerder/templates/Foerder/donate_fv_ghana.html:171
-msgid "donate_fv_ghana_content_09_06"
-msgstr "Nun könnt ihr/Sie vielleicht ein bisschen besser nachvollziehen, was alles schon mit euren/Ihren großartigen Spenden unterstützt wurde. Wir versichern euch/Ihnen, dass wir an allen Projekten dranbleiben und es mit bestem Wissen und Gewissen weiterführen werden."
-
-#: Foerder/templates/Foerder/donate_fv_ghana.html:177
-msgid "donate_fv_ghana_content_10_01"
-msgstr "An dieser Stelle wollen wir uns noch einmal bei allen Spendern und Spenderinnen ganz herzlich bedanken – Ihr macht den Unterschied!"
-
-#: Foerder/templates/Foerder/events.html:54
-#, fuzzy
-#| msgid "Projects"
-msgid "projects"
-msgstr "Projekte"
-
-#: Foerder/templates/Foerder/events.html:61
-msgid "Partnerorganisation_HouseOfPerspective"
 msgstr ""
+"Dabei werden Teile der Erträge an besonders ältere Bewohner der Dörfer "
+"kostenlos verteilt und die Resterträge werden dann verkauft und gehen in "
+"weitere Projekte oder zurück in den Anbau von neuen 6 Pflanzen. Denn das "
+"Ziel von House Of Perspectives ist es in ein paar Jahren, eine finanziell "
+"unabhängige NGO zu werden und somit nicht mehr auf Spenden oder finanzieller "
+"Unterstützung anderer angewiesen zu sein."
 
-#: Foerder/templates/Foerder/events.html:72
+#: templates/Foerder/donate_fv_ghana.html:171
+msgid "donate_fv_ghana_content_09_04"
+msgstr ""
+"In den nächsten Jahren wollen wir die angefangen Aktionen und Projekte "
+"weiterführen und noch weiter ausbauen. Wir hoffen, dass wir in einigen "
+"Wochen wieder jeden Tag Bildungsangebote für die Kinder anbieten können und "
+"für die Erwachsenen Themenabende mit Referenten regelmäßig stattfinden "
+"können."
+
+#: templates/Foerder/donate_fv_ghana.html:172
+msgid "donate_fv_ghana_content_09_05"
+msgstr ""
+"Die Menschen in Tokokoe, haben jetzt schon so viel durch die Aktionen von "
+"House of Perspectives gelernt und werden in Zukunft hoffentlich noch viel "
+"mehr von dieser NGO profitieren können."
+
+#: templates/Foerder/donate_fv_ghana.html:173
+msgid "donate_fv_ghana_content_09_06"
+msgstr ""
+"Nun könnt ihr/Sie vielleicht ein bisschen besser nachvollziehen, was alles "
+"schon mit euren/Ihren großartigen Spenden unterstützt wurde. Wir versichern "
+"euch/Ihnen, dass wir an allen Projekten dranbleiben und es mit bestem Wissen "
+"und Gewissen weiterführen werden."
+
+#: templates/Foerder/donate_fv_ghana.html:179
+msgid "donate_fv_ghana_content_10_01"
+msgstr ""
+"An dieser Stelle wollen wir uns noch einmal bei allen Spendern und "
+"Spenderinnen ganz herzlich bedanken – Ihr macht den Unterschied!"
+
+#: templates/Foerder/events.html:54
+msgid "projects"
+msgstr "Projektübersicht"
+
+#: templates/Foerder/events.html:61
+msgid "House_of_Perspectivs_2020"
+msgstr "House of Perspectives 2020"
+
+#: templates/Foerder/events.html:72
 msgid "events_plant"
 msgstr "geplante Events"
 
-#: Foerder/templates/Foerder/events.html:91
-#: Foerder/templates/Foerder/events.html:117
+#: templates/Foerder/events.html:91 templates/Foerder/events.html:117
 msgid "events_Not_avaiable"
 msgstr "Keine Events verfügbar"
 
-#: Foerder/templates/Foerder/events.html:99
+#: templates/Foerder/events.html:99
 msgid "events_finished"
 msgstr "abgeschlossene Events"
 
-#: Foerder/templates/Foerder/impressum.html:56
+#: templates/Foerder/impressum.html:56
 msgid "impressum_reason"
 msgstr "Angaben gemäß § 5 TMG"
 
-#: Foerder/templates/Foerder/impressum.html:68
-#: Foerder/templates/Foerder/impressum.html:85
-#: Foerder/templates/Foerder/impressum.html:105
+#: templates/Foerder/impressum.html:68 templates/Foerder/impressum.html:85
+#: templates/Foerder/impressum.html:105
 msgid "germany"
 msgstr "Deutschland"
 
-#: Foerder/templates/Foerder/impressum.html:73
+#: templates/Foerder/impressum.html:73
 msgid "represented_by"
 msgstr "Vertreten durch"
 
-#: Foerder/templates/Foerder/impressum.html:93
+#: templates/Foerder/impressum.html:93
 msgid "technicale_contact"
 msgstr "Technischer Ansprechpartner"
 
-#: Foerder/templates/Foerder/index.html:32
+#: templates/Foerder/index.html:32
 msgid "splash-text"
 msgstr ""
 "Übersetzt von Ewe nach Deutsch heißt das, dass Sie als Besucher unserer "
 "Website herzlich willkommen sind!"
 
-#: Foerder/templates/Foerder/partner.html:52
+#: templates/Foerder/partner.html:52
 msgid "Unsere Partner"
 msgstr "Unsere Partner"
 
-#: Foerder/templates/Foerder/partner.html:69
+#: templates/Foerder/partner.html:69
 msgid "Unsere Foerderer"
 msgstr "Unsere Foerderer"
 
-#: Foerder/templates/Foerder/partner.html:86
+#: templates/Foerder/partner.html:86
 msgid "Kooperationen"
 msgstr "Kooperationen"
 
-#: Foerder/templates/Foerder/partner.html:89
+#: templates/Foerder/partner.html:89
 msgid "Sie sind Chef oder Angestelltes einer Firma,"
 msgstr ""
 "Sie sind Chef oder Angestellter einer Firma, Unternehmens, Gemeinschaft oder "
@@ -452,11 +446,11 @@ msgstr ""
 "Events, Projekte oder auch Aktionsprogramme, die Wir gemeinsam anpacken "
 "könnten? Dann melden Sie sich bei uns und wir nehmen gerne Kontakt auf!"
 
-#: Foerder/templates/Foerder/support_us.html:53
+#: templates/Foerder/support_us.html:53
 msgid "support_us_headline_01"
 msgstr "Unterstützen Sie uns!"
 
-#: Foerder/templates/Foerder/support_us.html:55
+#: templates/Foerder/support_us.html:55
 msgid "support_us_content_01"
 msgstr ""
 "Unterstützung bedeutet nicht immer gleich Geld zu spenden, natürlich sind "
@@ -466,11 +460,11 @@ msgstr ""
 "unterstütz uns aktiv mit Projekten, Ideen und ehrenamtlichen Tätigkeiten "
 "rund um unseren Verein. "
 
-#: Foerder/templates/Foerder/support_us.html:59
+#: templates/Foerder/support_us.html:59
 msgid "support_us_headline_02"
 msgstr "Mitgliederanmeldung"
 
-#: Foerder/templates/Foerder/support_us.html:60
+#: templates/Foerder/support_us.html:60
 msgid "support_us_content_02"
 msgstr ""
 "Reicht es dir nicht mehr aus nur ein passiver Spender zu sein? Du hast Lust "
@@ -480,19 +474,19 @@ msgstr ""
 "trage dich in das Mitgliederformular ein. Und wir werden dich ganz herzlich "
 "bei uns begrüßen!"
 
-#: Foerder/templates/Foerder/support_us.html:65
+#: templates/Foerder/support_us.html:65
 msgid "Satzung DE"
 msgstr "Satzung DE"
 
-#: Foerder/templates/Foerder/support_us.html:73
+#: templates/Foerder/support_us.html:73
 msgid "Membership application DE"
 msgstr "Mitgliedsantrag"
 
-#: Foerder/templates/Foerder/support_us.html:80
+#: templates/Foerder/support_us.html:80
 msgid "support_us_headline_03"
 msgstr "Spenden"
 
-#: Foerder/templates/Foerder/support_us.html:81
+#: templates/Foerder/support_us.html:81
 msgid "support_us_content_03"
 msgstr ""
 "Ist dir jedoch eine Mitgliedschaft oder aktive Beteiligung an Projekten zu "
@@ -500,7 +494,7 @@ msgstr ""
 "ist natürlich nichts gegen eine herkömmliche Geldspende einzuwenden und ist "
 "natürlich mehr als nur gerne gesehen!"
 
-#: Foerder/templates/Foerder/support_us.html:82
+#: templates/Foerder/support_us.html:82
 msgid "support_us_content_04"
 msgstr ""
 "Wir sind der Meinung, dass die Menschen in Ghana selber am besten Wissen, "
@@ -523,6 +517,6 @@ msgstr ""
 "welches benötigt wird. Denn die Leute vor Ort wissen einfach am besten, was "
 "auch gebraucht wird und was nicht."
 
-#: Foerder/templates/Foerder/support_us.html:87
+#: templates/Foerder/support_us.html:87
 msgid "Spendenformular"
 msgstr "Spendenformular"
