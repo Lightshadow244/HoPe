@@ -17,7 +17,7 @@ uswgi setup
 https://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html  
 Start uwsgi server  
 `cd directory/to/HoPe`
-`uwsgi --socket HoPe.sock --module HoPe.wsgi --chmod-socket=666 --logto ~/logs/HoPe_$(date +%m-%y).log &`
+`uwsgi --socket HoPe.sock --module HoPe.wsgi --chmod-socket=666 --logto ~/logs/HoPe_$(date +%y-%m).log &`
 ## Useful comments
 inital DB  
 `python manage.py makemigrations Foerder`  
